@@ -10,7 +10,7 @@ export function AppHeader() {
                         <h1>myteam</h1>
                     </section>
                     <nav>
-                        <Link to={`/home`}><span className="dropdown-option">home</span></Link>
+                        <Link to={`/`}><span className="dropdown-option">home</span></Link>
                         <Link to={`/about`}><span className="dropdown-option">about</span></Link>
                     </nav>
                 </section>
