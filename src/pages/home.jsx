@@ -5,6 +5,7 @@ import imgChart from "../assets/images/icon-chart.svg"
 import avatarKady from "../assets/images/avatar-kady.jpg"
 import avatarAiysha from "../assets/images/avatar-aiysha.jpg"
 import avatarArthur from "../assets/images/avatar-arthur.jpg"
+import { GetStarted } from "../cmps/app-get-started"
 
 export function Home() {
 
@@ -95,6 +96,9 @@ export function Home() {
                         </section>
                     </section>
                 </section>
+
+                <GetStarted/>
+                
             </section>
         </section>
     )
