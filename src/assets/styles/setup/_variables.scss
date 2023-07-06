@@ -1,0 +1,42 @@
+// ======================== COLORS ========================:
+// ******* Main Colors ******* 
+$main-clr0: rgb(255, 56, 92);
+$main-clr1: rgb(224, 11, 65);
+
+
+// ******* Gray Colors ******* 
+$gray-clr-1: rgb(255, 255, 255); //pure white
+$gray-clr0: rgb(113, 113, 113);
+$gray-clr1: rgb(138, 138, 138);
+$gray-clr2: rgb(176, 176, 176);
+$gray-clr3: rgb(221, 221, 221);
+$gray-clr4: rgb(235, 235, 235);
+$gray-clr5: rgb(247, 247, 247);
+
+
+// ******* Black Colors *******
+$black-clr0: rgb(0, 0, 0); //pure black
+$black-clr1: rgb(34, 34, 34);
+
+
+// ******* Colors With Transparency *******
+$transparent-clr0: rgba(128, 128, 128, .3);
+$transparent-clr1: rgba(255, 255, 255, 0.9);
+
+
+// ======================== Box Shadows ========================:
+
+// Breakpoints
+$mobile-breakpoint: 750px;
+$narrow-breakpoint: 1450px;
+// $normal-breakpoint: 960px;
+
+// Paddings
+$padding-large: 20px;
+$padding-small: 5px;
+
+// Heights
+$height-header: 80px;
+
+// Other
+$border-bottom: 1px solid $transparent-clr0;
