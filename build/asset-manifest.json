@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proj-my-team-design-challenge/static/css/main.5372f8f8.css",
-    "main.js": "/proj-my-team-design-challenge/static/js/main.356681d3.js",
+    "main.css": "/proj-my-team-design-challenge/static/css/main.2e34ad8d.css",
+    "main.js": "/proj-my-team-design-challenge/static/js/main.b515664c.js",
     "static/media/Livvic-Bold.ttf": "/proj-my-team-design-challenge/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
     "static/media/Livvic-SemiBold.ttf": "/proj-my-team-design-challenge/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
     "static/media/avatar-kady.jpg": "/proj-my-team-design-challenge/static/media/avatar-kady.78fc482c1b331d912ca1.jpg",
@@ -10,12 +10,15 @@
     "static/media/icon-person.svg": "/proj-my-team-design-challenge/static/media/icon-person.0a313a85e4148d7ea17f5657dbbffa33.svg",
     "static/media/icon-cog.svg": "/proj-my-team-design-challenge/static/media/icon-cog.c5d2403fc5d7754badaf2da8c88d8b35.svg",
     "static/media/icon-chart.svg": "/proj-my-team-design-challenge/static/media/icon-chart.8de3d4d2ce95686ba9409a82599a8de1.svg",
+    "static/media/icon-pinterest.svg": "/proj-my-team-design-challenge/static/media/icon-pinterest.a2d25ab4c70b78c4028f25323009cc58.svg",
     "index.html": "/proj-my-team-design-challenge/index.html",
-    "main.5372f8f8.css.map": "/proj-my-team-design-challenge/static/css/main.5372f8f8.css.map",
-    "main.356681d3.js.map": "/proj-my-team-design-challenge/static/js/main.356681d3.js.map"
+    "static/media/icon-twitter.svg": "/proj-my-team-design-challenge/static/media/icon-twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
+    "static/media/icon-facebook.svg": "/proj-my-team-design-challenge/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
+    "main.2e34ad8d.css.map": "/proj-my-team-design-challenge/static/css/main.2e34ad8d.css.map",
+    "main.b515664c.js.map": "/proj-my-team-design-challenge/static/js/main.b515664c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5372f8f8.css",
-    "static/js/main.356681d3.js"
+    "static/css/main.2e34ad8d.css",
+    "static/js/main.b515664c.js"
   ]
 }

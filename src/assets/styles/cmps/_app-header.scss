@@ -1,6 +1,6 @@
 header {
     height: 200px;
-    background-color: #014E56;
+    background-color: #014e56;
     color: rgb(255, 255, 255);
 
     & .app-header-container {
@@ -16,7 +16,9 @@ header {
             align-items: center;
 
             & .logo {
-                font-size: 40px;
+                & h1 {
+                    font-size: 32px;
+                }
             }
 
             & nav {

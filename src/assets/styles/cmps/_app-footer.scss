@@ -1,33 +1,65 @@
-.app-footer {
-    color: $transparent-clr0;
-    background-color: $gray-clr-1;
-    height: 50px;
-    // padding-top: 13px;
-    // padding-bottom: 14px;
-    position: sticky;
-    bottom: 0;
-    text-align: center;
-    border-top: 1px solid $gray-clr3;
+footer {
+    background-color: #002529;
+    color: white;
+    padding-block:48px;
+    & .app-footer-container {
+        padding-inline: 165px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
 
+        & .nav-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & .logo {
+                & h1 {
+                    margin-block: 0;
+                    margin-inline: 0;
+                    font-size: 32px;
+                }
+            }
+            & nav {
+                display: flex;
+                gap: 41px;
 
-    & p {
-        letter-spacing: 0;
-        margin: 0;
-        padding-block-start: calc($padding-large - 7px);
-        padding-block-end: calc($padding-large - 6px);
-
-        span {
-            margin: 0 rem(8px);
+                & a {
+                    font-size: 18px;
+                    line-height: 28px;
+                    font-family: Livvic-SemiBold;
+                }
+            }
         }
 
-        svg {
-            margin: 0 rem(7px);
+        & .contact-container {
+            & pre{
+                font-size: 15px;
+                line-height: 25px;
+            }
         }
-    }
 
-
-    &.details-layout {
-        background-color: $gray-clr5;
-        position: relative;
+        & .share-copyright-container {
+            display: grid;
+            grid-template-rows: auto 1fr;
+            & nav {
+                display: flex;
+                justify-content: end;
+                gap: 16px;
+                & a {
+                    & img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+            & .copyright {
+                display: flex;
+                justify-content: end;
+                align-items: end;
+                & p {
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+        }
     }
 }
