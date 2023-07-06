@@ -11,7 +11,7 @@ import { AppFooter } from './cmps/app-footer'
 
 export function RootCmp() {
     return (
-        <>
+        < >
             <section className={`app`}>
                 <AppHeader />
                 <main className="app-main">
