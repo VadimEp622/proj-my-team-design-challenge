@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/proj-my-team-design-challenge/static/css/main.87e9eed0.css",
-    "main.js": "/proj-my-team-design-challenge/static/js/main.3f678b12.js",
+    "main.css": "/proj-my-team-design-challenge/static/css/main.a32902cb.css",
+    "main.js": "/proj-my-team-design-challenge/static/js/main.0dc75fb2.js",
     "static/media/Livvic-Bold.ttf": "/proj-my-team-design-challenge/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
     "static/media/Livvic-SemiBold.ttf": "/proj-my-team-design-challenge/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
+    "static/media/icon-person.svg": "/proj-my-team-design-challenge/static/media/icon-person.0a313a85e4148d7ea17f5657dbbffa33.svg",
+    "static/media/icon-cog.svg": "/proj-my-team-design-challenge/static/media/icon-cog.c5d2403fc5d7754badaf2da8c88d8b35.svg",
+    "static/media/icon-chart.svg": "/proj-my-team-design-challenge/static/media/icon-chart.8de3d4d2ce95686ba9409a82599a8de1.svg",
     "index.html": "/proj-my-team-design-challenge/index.html",
-    "main.87e9eed0.css.map": "/proj-my-team-design-challenge/static/css/main.87e9eed0.css.map",
-    "main.3f678b12.js.map": "/proj-my-team-design-challenge/static/js/main.3f678b12.js.map"
+    "main.a32902cb.css.map": "/proj-my-team-design-challenge/static/css/main.a32902cb.css.map",
+    "main.0dc75fb2.js.map": "/proj-my-team-design-challenge/static/js/main.0dc75fb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.87e9eed0.css",
-    "static/js/main.3f678b12.js"
+    "static/css/main.a32902cb.css",
+    "static/js/main.0dc75fb2.js"
   ]
 }
