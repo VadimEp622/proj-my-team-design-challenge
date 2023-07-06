@@ -5,6 +5,11 @@ import imgChart from "../assets/images/icon-chart.svg"
 import avatarKady from "../assets/images/avatar-kady.jpg"
 import avatarAiysha from "../assets/images/avatar-aiysha.jpg"
 import avatarArthur from "../assets/images/avatar-arthur.jpg"
+
+import bgPatternHome1 from "../assets/images/bg-pattern-home-1.svg"
+import bgPatternHome2 from "../assets/images/bg-pattern-home-2.svg"
+
+
 import { GetStarted } from "../cmps/app-get-started"
 
 export function Home() {
@@ -14,6 +19,7 @@ export function Home() {
             <section className="home-page">
 
                 <section className="header-extension-container">
+                    <img className="bg-img bgPatternHome1" src={bgPatternHome1} alt="bgPatternHome1" />
                     <section className="header-extension">
                         <article className="left">
                             <h1>Find the best <span>talent</span></h1>
@@ -22,6 +28,7 @@ export function Home() {
                             <p>Finding the right people and building high performing teams can be hard. Most companies aren't tapping into the abundance of global talent. We're about to change that.</p>
                         </article>
                     </section>
+                    <img className="bg-img bgPatternHome2" src={bgPatternHome2} alt="bgPatternHome2" />
                 </section>
 
                 <section className="info-container">

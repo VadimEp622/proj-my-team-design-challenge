@@ -3,9 +3,27 @@
 
     & .home-page {
         & .header-extension-container {
+            padding-inline: 165px;
             background-color: #014e56;
+            position: relative;
+
+            & img.bg-img {
+                position: absolute;
+                height: 200px;
+
+                &.bgPatternHome1{
+                    width: 200px;
+                    left: -100px;
+                }
+
+                &.bgPatternHome2{
+                    width: 400px;
+                    right: 165px;
+                    bottom: 0;
+                }
+            }
+
             & .header-extension {
-                padding-inline: 165px;
                 padding-block-start: 45px;
                 padding-block-end: 250px;
                 display: grid;
@@ -86,17 +104,17 @@
 
             & .example {
                 padding-inline: 165px;
-                padding-block:140px;
+                padding-block: 140px;
                 text-align: center;
                 & .title {
-                    padding-block-end:56px;
-                    & h2{
+                    padding-block-end: 56px;
+                    & h2 {
                         font-size: 48px;
                         line-height: 48px;
                         font-family: Livvic-Bold;
 
-                        & span{
-                            color: #79C8C7;
+                        & span {
+                            color: #79c8c7;
                         }
                     }
                 }
@@ -108,27 +126,27 @@
                             grid-template-columns: 1fr 1fr 1fr;
                             gap: 30px;
                             & .item {
-                                & p{
+                                & p {
                                     font-size: 15px;
                                     line-height: 25px;
-                                    padding-block-end:24px;
+                                    padding-block-end: 24px;
                                 }
-                                & h3{
+                                & h3 {
                                     font-size: 18px;
                                     line-height: 28px;
-                                    color: #79C8C7;
+                                    color: #79c8c7;
                                 }
-                                & h4{
+                                & h4 {
                                     font-size: 13px;
                                     line-height: 18px;
                                     font-style: italic;
-                                    padding-block-end:32px;
+                                    padding-block-end: 32px;
                                 }
 
                                 & img {
                                     height: 62px;
                                     width: 62px;
-                                    border: 2px solid #C4FFFE;
+                                    border: 2px solid #c4fffe;
                                     border-radius: 32px;
                                 }
                             }
