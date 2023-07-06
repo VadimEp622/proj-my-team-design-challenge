@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/proj-my-team-design-challenge/static/css/main.be9a3001.css",
+    "main.js": "/proj-my-team-design-challenge/static/js/main.8adc0644.js",
+    "static/media/Livvic-Bold.ttf": "/proj-my-team-design-challenge/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
+    "static/media/Livvic-SemiBold.ttf": "/proj-my-team-design-challenge/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
+    "index.html": "/proj-my-team-design-challenge/index.html",
+    "main.be9a3001.css.map": "/proj-my-team-design-challenge/static/css/main.be9a3001.css.map",
+    "main.8adc0644.js.map": "/proj-my-team-design-challenge/static/js/main.8adc0644.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be9a3001.css",
+    "static/js/main.8adc0644.js"
+  ]
+}
