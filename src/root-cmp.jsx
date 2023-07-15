@@ -11,6 +11,9 @@ import { AppFooter } from './cmps/app-footer'
 
 export function RootCmp() {
     // TODO: Responsiveness (mobile/tablet/desktop) 
+    // TODO: use rem()/em() function in scss for sizes
+    // TODO: use variables for: size values & colors
+    // TODO: consider using helpers.scss!!!
     return (
         < >
             <section className={`app app-layout`}>
@@ -25,5 +28,4 @@ export function RootCmp() {
             </section>
         </>
     )
-
 }
