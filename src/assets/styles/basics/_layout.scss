@@ -1,8 +1,9 @@
 .main-layout {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    // grid-template-rows: auto 1fr auto;
 
-    >* {
+    grid-template-columns: 165px 1fr 165px;
+    > * {
         grid-column: 2;
 
         &.full {
@@ -10,67 +11,53 @@
         }
     }
 
-    .line-header {
-        opacity: 0.3;
-        margin: 0;
-        padding: 0;
-    }
 
     // less than 760px
     // @include for-mobile-layout {
-    @media (max-width: calc($mobile-breakpoint  + 40px)) {
-        grid-template-columns: 0 auto 0;
+    // @media (max-width: calc($mobile-breakpoint  + 40px)) {
+    //     grid-template-columns: 0 auto 0;
 
-        & .app-main {
-            padding:0 10px;
-        }
-    }
+    //     & .app-main {
+    //         padding: 0 10px;
+    //     }
+    // }
+    
     // less than 750px
     // @include for-mobile-layout {
-    @media (min-width: calc($mobile-breakpoint + 40px)) {
-        grid-template-columns: 0 1fr 0;
+        // @media (min-width: calc($mobile-breakpoint + 40px)) {
+            // grid-template-columns: 0 1fr 0;
 
-        & .app-main {
-            // padding-inline: 40px;
-
-            .filter-container {
-
-                & .search-navbar {
-                    // width: 1000px;
-                    background-color: blue;
-                }
-            }
-        }
-    }
+            // & .app-main {
+            // }
+        // }
+    // }
 
     // more than 750px
-    @include for-normal-layout {
-        grid-template-columns: 40px 1fr 40px;
+    // @include for-normal-layout {
+        // grid-template-columns: 40px 1fr 40px;
 
-        & .app-main {
-
-        }
-    }
+        // & .app-main {
+        // }
+    // }
 
     // more than 1450px
-    @include for-wide-layout {
-        grid-template-columns: 80px 1fr 80px;
+    // @include for-wide-layout {
+        // grid-template-columns: 165px 1fr 165px;
 
-        & .app-main {
-
-        }
-    }
+        // & .app-main {
+        // }
+    // }
 }
 
-.details-layout {
-    display: grid;
-    grid-template-columns: 1fr minmax(600px, 1120px) 1fr;
+// .details-layout {
+//     display: grid;
+//     grid-template-columns: 1fr minmax(600px, 1120px) 1fr;
 
-    >* {
-        grid-column: 2;
+//     > * {
+//         grid-column: 2;
 
-        &.full {
-            grid-column: 1 /-1;
-        }
-    }
-}
+//         &.full {
+//             grid-column: 1 /-1;
+//         }
+//     }
+// }

@@ -15,7 +15,7 @@ export function AppHeader() {
                     </nav>
                 </section>
                 <section className="contact-btn-container">
-                    <button>contact us</button>
+                    <button><span>contact us</span></button>
                 </section>
             </section>
         </header>

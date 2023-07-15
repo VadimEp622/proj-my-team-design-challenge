@@ -23,20 +23,35 @@ header {
 
             & nav {
                 display: flex;
-                gap: 40px;
+                gap: 41px;
+
+                & span{
+                    font-size: 18px;
+                    line-height: 28px;
+                    font-family: Livvic-SemiBold;
+                    display: block;
+                    // width: 50px;
+                }
             }
         }
 
         & .contact-btn-container {
             & button {
-                font-size: 18px;
                 color: inherit;
                 background-color: inherit;
                 border: 2px solid white;
                 border-radius: 24px;
-                padding-block: 10px;
-                padding-inline: 32px;
+                padding-block: 8px;
+                padding-inline: 30.5px;
                 transition: all 0.2s ease-in-out;
+                
+                & span{
+                    font-size: 18px;
+                    line-height: 28px;
+                    display: block;
+                    width: 88px;
+                    font-family: Livvic-SemiBold;
+                }
 
                 &:hover{
                     background-color: white;

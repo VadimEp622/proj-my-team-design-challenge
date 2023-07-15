@@ -4,8 +4,9 @@
     & .info {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-inline: 165px;
+        // padding-inline: 165px;
         padding-block-start: 26px;
+        gap:125px;
         & .left {
             padding-block-start: 16px;
             & h2 {

@@ -4,8 +4,8 @@ import bgPatternHome2 from "../../assets/images/bg-pattern-home-2.svg"
 export function HomeHeaderExtension() {
 
     return (
-        <section className="header-extension-container">
-            <img className="bg-img bgPatternHome1" src={bgPatternHome1} alt="bgPatternHome1" />
+        <section className="header-extension-container full main-layout">
+            <img className="bg-img bgPatternHome1 full" src={bgPatternHome1} alt="bgPatternHome1" />
             <section className="header-extension">
                 <article className="left">
                     <h1>Find the best <span>talent</span></h1>

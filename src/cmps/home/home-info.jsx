@@ -5,7 +5,7 @@ import imgChart from "../../assets/images/icon-chart.svg"
 export function HomeInfo() {
 
     return (
-        <section className="info-container">
+        <section className="info-container full main-layout">
             <section className="info">
                 <article className="left">
                     <h2>Build & manage distributed teams like no one else.</h2>

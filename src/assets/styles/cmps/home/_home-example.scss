@@ -2,11 +2,12 @@
     background-color: #004047;
 
     & .example {
-        padding-inline: 165px;
+        // padding-inline: 165px;
         padding-block: 140px;
         text-align: center;
         & .title {
             padding-block-end: 56px;
+            padding-inline:89px;
             & h2 {
                 font-size: 48px;
                 line-height: 48px;
@@ -24,29 +25,39 @@
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
                     gap: 30px;
+                    padding-block-start: 36px;
+                    padding-block-end: 9px;
                     & .item {
                         & p {
                             font-size: 15px;
                             line-height: 25px;
-                            padding-block-end: 24px;
+                            // padding-block-end: 24px;
+                            margin-block-end: 24px;
                         }
                         & h3 {
                             font-size: 18px;
                             line-height: 28px;
+                            font-family: Livvic-Bold;
                             color: #79c8c7;
+                            margin-block-end: 2px;
                         }
                         & h4 {
                             font-size: 13px;
                             line-height: 18px;
-                            font-style: italic;
-                            padding-block-end: 32px;
+                            // font-style: italic;
+                            font-family: Livvic-MediumItalic;
+                            // padding-block-start: 1.5px;
+                            margin-block-end: 30px;
                         }
 
                         & img {
+                            box-sizing: content-box;
                             height: 62px;
                             width: 62px;
                             border: 2px solid #c4fffe;
                             border-radius: 32px;
+                            display: block;
+                            margin-inline:auto;
                         }
                     }
                 }

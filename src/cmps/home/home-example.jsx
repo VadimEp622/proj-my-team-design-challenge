@@ -5,7 +5,7 @@ import avatarArthur from "../../assets/images/avatar-arthur.jpg"
 export function HomeExample() {
 
     return (
-        <section className="example-container">
+        <section className="example-container full main-layout">
             <section className="example">
                 <section className="title">
                     <h2>Delivering real results for top companies. Some of our <span>success stories.</span></h2>
