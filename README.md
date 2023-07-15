@@ -4,9 +4,9 @@ This project is built using React.js.
 
 The task at hand was to make a new website from the ground up, following the instructions in the given canvas file.
 
-Requirements:
+# Requirements:
 
-*Emphasis on correct/best practices
+*Emphasis on best practices
 
 *Pixel-perfect
 
