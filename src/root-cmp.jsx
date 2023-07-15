@@ -10,11 +10,12 @@ import { AppFooter } from './cmps/app-footer'
 
 
 export function RootCmp() {
+    // TODO: Responsiveness (mobile/tablet/desktop) 
     return (
         < >
-            <section className={`app`}>
+            <section className={`app app-layout`}>
                 <AppHeader />
-                <main className="app-main">
+                <main className="app-main main-layout">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />

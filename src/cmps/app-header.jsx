@@ -3,7 +3,7 @@ import { Link } from "react-router-dom/dist"
 export function AppHeader() {
 
     return (
-        <header>
+        <header className="main-layout">
             <section className="app-header-container">
                 <section className="header-logo-container">
                     <section className="logo">

@@ -6,13 +6,11 @@ import { HomeInfo } from "../cmps/home/home-info"
 export function Home() {
 
     return (
-        <section className="home-page-container">
-            <section className="home-page main-layout">
-                <HomeHeaderExtension />
-                <HomeInfo />
-                <HomeExample />
-                <GetStarted />
-            </section>
+        <section className="home-page full main-layout">
+            <HomeHeaderExtension />
+            <HomeInfo />
+            <HomeExample />
+            <GetStarted />
         </section>
     )
 }
