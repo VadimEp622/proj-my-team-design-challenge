@@ -1,0 +1,56 @@
+.home-page .example-container {
+    background-color: #004047;
+
+    & .example {
+        padding-inline: 165px;
+        padding-block: 140px;
+        text-align: center;
+        & .title {
+            padding-block-end: 56px;
+            & h2 {
+                font-size: 48px;
+                line-height: 48px;
+                font-family: Livvic-Bold;
+
+                & span {
+                    color: #79c8c7;
+                }
+            }
+        }
+
+        & .list {
+            & ul {
+                & li {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 30px;
+                    & .item {
+                        & p {
+                            font-size: 15px;
+                            line-height: 25px;
+                            padding-block-end: 24px;
+                        }
+                        & h3 {
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #79c8c7;
+                        }
+                        & h4 {
+                            font-size: 13px;
+                            line-height: 18px;
+                            font-style: italic;
+                            padding-block-end: 32px;
+                        }
+
+                        & img {
+                            height: 62px;
+                            width: 62px;
+                            border: 2px solid #c4fffe;
+                            border-radius: 32px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

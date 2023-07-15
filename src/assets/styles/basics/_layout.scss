@@ -49,14 +49,6 @@
 
         & .app-main {
 
-            // & .filter-container {
-            // display: flex;
-            // justify-content: center;
-
-            // & .search-navbar {
-            //     width: 350px;
-            // }
-            // }
         }
     }
 
@@ -66,21 +58,11 @@
 
         & .app-main {
 
-            // & .filter-container {
-            // display: flex;
-            // justify-content: center;
-
-            // & .search-navbar {
-            //     width: 350px;
-
-            // }
-            // }
         }
     }
 }
 
 .details-layout {
-    // background-color: bisque;
     display: grid;
     grid-template-columns: 1fr minmax(600px, 1120px) 1fr;
 
@@ -92,9 +74,3 @@
         }
     }
 }
-
-// .card-grid {
-//     display: grid;
-//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-//     grid-gap: 20px;
-// }

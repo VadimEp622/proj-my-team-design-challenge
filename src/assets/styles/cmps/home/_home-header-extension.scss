@@ -1,0 +1,43 @@
+.home-page .header-extension-container {
+    padding-inline: 165px;
+    background-color: #014e56;
+    position: relative;
+
+    & img.bg-img {
+        position: absolute;
+        height: 200px;
+
+        &.bgPatternHome1 {
+            width: 200px;
+            left: -100px;
+        }
+
+        &.bgPatternHome2 {
+            width: 400px;
+            right: 165px;
+            bottom: 0;
+        }
+    }
+
+    & .header-extension {
+        padding-block-start: 45px;
+        padding-block-end: 250px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        & .left {
+            font-size: 100px;
+            & span {
+                color: #f67e7e;
+            }
+        }
+        & .right {
+            display: flex;
+            align-items: end;
+
+            & p {
+                height: fit-content;
+                line-height: 28px;
+            }
+        }
+    }
+}

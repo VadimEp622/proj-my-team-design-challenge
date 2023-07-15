@@ -14,9 +14,15 @@
 
 
 // ************** Components **************
+// Home Page
+@import "cmps/home/home-header-extension";
+@import "cmps/home/home-info";
+@import "cmps/home/home-example";
+
+// Root
 @import "cmps/app-header";
 @import "cmps/app-footer";
-@import "cmps/app-get-started";
+@import "cmps/app-get-started";//reusable?
 
 
 // ************** Pages **************
