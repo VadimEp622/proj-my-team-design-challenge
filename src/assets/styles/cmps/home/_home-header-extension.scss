@@ -1,5 +1,4 @@
 .home-page .header-extension-container {
-    // padding-inline: 165px;
     background-color: #014e56;
     position: relative;
 
@@ -24,20 +23,10 @@
         padding-block-end: 250px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        // grid-template-columns: minmax(auto,618px) minmax(auto,445px);
-        // grid-template-columns: 618px minmax(auto,445px);
-        // justify-content: center;
         gap: 30px;
 
-        & .left {
-            & h1 {
-                font-family: Livvic-Bold;
-                font-size: 100px;
-                line-height: 100px;
-                & span {
-                    color: #f67e7e;
-                }
-            }
+        & .left h1 span {
+            color: #f67e7e;
         }
 
         & .right {
@@ -46,8 +35,6 @@
 
             & p {
                 height: fit-content;
-                line-height: 28px;
-                font-size: 18px;
             }
         }
     }

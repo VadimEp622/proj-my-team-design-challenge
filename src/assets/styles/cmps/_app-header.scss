@@ -4,7 +4,6 @@ header {
     color: rgb(255, 255, 255);
 
     & .app-header-container {
-        // padding-inline: 165px;
         padding-block: 73px;
         display: flex;
         align-items: center;
@@ -24,14 +23,6 @@ header {
             & nav {
                 display: flex;
                 gap: 41px;
-
-                & span{
-                    font-size: 18px;
-                    line-height: 28px;
-                    font-family: Livvic-SemiBold;
-                    display: block;
-                    // width: 50px;
-                }
             }
         }
 
@@ -44,16 +35,8 @@ header {
                 padding-block: 8px;
                 padding-inline: 30.5px;
                 transition: all 0.2s ease-in-out;
-                
-                & span{
-                    font-size: 18px;
-                    line-height: 28px;
-                    display: block;
-                    width: 88px;
-                    font-family: Livvic-SemiBold;
-                }
 
-                &:hover{
+                &:hover {
                     background-color: white;
                     color: #014e56;
                     cursor: pointer;

@@ -8,10 +8,10 @@ export function HomeHeaderExtension() {
             <img className="bg-img bgPatternHome1 full" src={bgPatternHome1} alt="bgPatternHome1" />
             <section className="header-extension">
                 <article className="left">
-                    <h1>Find the best <span>talent</span></h1>
+                    <h1 className="large">Find the best <span>talent</span></h1>
                 </article>
                 <article className="right">
-                    <p>Finding the right people and building high performing teams can be hard. Most companies aren't tapping into the abundance of global talent. We're about to change that.</p>
+                    <p className="large">Finding the right people and building high performing teams can be hard. Most companies aren't tapping into the abundance of global talent. We're about to change that.</p>
                 </article>
             </section>
             <img className="bg-img bgPatternHome2" src={bgPatternHome2} alt="bgPatternHome2" />

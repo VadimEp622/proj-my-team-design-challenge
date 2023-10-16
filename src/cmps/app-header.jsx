@@ -10,12 +10,12 @@ export function AppHeader() {
                         <h1>myteam</h1>
                     </section>
                     <nav>
-                        <Link to={`/`}><span className="dropdown-option">home</span></Link>
-                        <Link to={`/about`}><span className="dropdown-option">about</span></Link>
+                        <Link to={`/`}><p className="large dropdown-option">home</p></Link>
+                        <Link to={`/about`}><p className="large dropdown-option">about</p></Link>
                     </nav>
                 </section>
                 <section className="contact-btn-container">
-                    <button><span>contact us</span></button>
+                    <button><p className="large">contact us</p></button>
                 </section>
             </section>
         </header>

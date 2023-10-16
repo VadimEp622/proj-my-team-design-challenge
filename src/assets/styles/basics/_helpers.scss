@@ -1,4 +1,4 @@
-// Font Sizes
+// ============ Font Sizes ============
 .fs12 {
     font-size: rem(12px);
 }
@@ -27,6 +27,10 @@
     font-size: rem(24px);
 }
 
+.fs26 {
+    font-size: rem(26px);
+}
+
 .fs28 {
     font-size: rem(28px);
 }
@@ -35,21 +39,11 @@
     font-size: rem(30px);
 }
 
-// flex helpers
-
-.min-width-56px {
-    min-width: 56px;
-}
-
-.width-100-percent {
-    width: 100%;
-}
-
+// ============ Flex ============
 .flex {
-
     display: flex;
 
-    >*.full {
+    > *.full {
         flex: 1;
     }
 
@@ -78,8 +72,16 @@
     }
 }
 
-// Media helpers
+// ============ Sizing & Spacing ============
+.min-width-56px {
+    min-width: 56px;
+}
 
+.width-100-percent {
+    width: 100%;
+}
+
+// ============ Media Ratio ============
 .square-ratio {
     @include aspect-ratio(1, 1);
 }
@@ -92,10 +94,11 @@
     @include aspect-ratio(9, 16);
 }
 
+// ============ Text Transformation ============
 .underline {
     text-decoration: underline;
 }
 
-.uppertext {
+.uppercase {
     text-transform: uppercase;
 }

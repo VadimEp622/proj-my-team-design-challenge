@@ -2,25 +2,18 @@
     background-color: #f67e7e;
     color: #012f34;
     padding-block: 76px;
+
     & .get-started {
-        // padding-inline: 260px;
-        padding-inline-start:98px;
-        padding-inline-end:95px;
+        padding-inline-start: 98px;
+        padding-inline-end: 95px;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        & .title {
-            & h1 {
-                font-family: Livvic-Bold;
-                font-size: 48px;
-                line-height: 48px;
-            }
-        }
-
         & .contact-btn-container {
             display: flex;
             justify-content: flex-end;
+
             & button {
                 color: inherit;
                 background-color: inherit;
@@ -30,14 +23,7 @@
                 padding-inline: 30.5px;
                 transition: all 0.2s ease-in-out;
 
-                & p {
-                    font-family: Livvic-SemiBold;
-                    font-size: 18px;
-                    line-height: 28px;
-                    width: 88px;
-                }
-
-                &:hover{
+                &:hover {
                     background-color: white;
                     border-color: white;
                     color: #014e56;

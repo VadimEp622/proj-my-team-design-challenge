@@ -1,9 +1,9 @@
 footer {
     background-color: #002529;
     color: white;
-    padding-block:48px;
+    padding-block: 48px;
+
     & .app-footer-container {
-        // padding-inline: 165px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
 
@@ -11,6 +11,7 @@ footer {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+
             & .logo {
                 & h1 {
                     margin-block: 0;
@@ -21,29 +22,18 @@ footer {
             & nav {
                 display: flex;
                 gap: 41px;
-
-                & a {
-                    font-size: 18px;
-                    line-height: 28px;
-                    font-family: Livvic-SemiBold;
-                }
-            }
-        }
-
-        & .contact-container {
-            & pre{
-                font-size: 15px;
-                line-height: 25px;
             }
         }
 
         & .share-copyright-container {
             display: grid;
             grid-template-rows: auto 1fr;
+
             & nav {
                 display: flex;
                 justify-content: flex-end;
                 gap: 16px;
+
                 & a {
                     & img {
                         width: 24px;
@@ -55,10 +45,6 @@ footer {
                 display: flex;
                 justify-content: flex-end;
                 align-items: flex-end;
-                & p {
-                    font-size: 15px;
-                    line-height: 25px;
-                }
             }
         }
     }
