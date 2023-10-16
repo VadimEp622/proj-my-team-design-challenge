@@ -42,7 +42,7 @@ footer {
             grid-template-rows: auto 1fr;
             & nav {
                 display: flex;
-                justify-content: end;
+                justify-content: flex-end;
                 gap: 16px;
                 & a {
                     & img {
@@ -53,8 +53,8 @@ footer {
             }
             & .copyright {
                 display: flex;
-                justify-content: end;
-                align-items: end;
+                justify-content: flex-end;
+                align-items: flex-end;
                 & p {
                     font-size: 15px;
                     line-height: 25px;
