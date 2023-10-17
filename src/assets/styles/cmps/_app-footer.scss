@@ -13,11 +13,8 @@ footer {
             justify-content: space-between;
 
             & .logo {
-                & h1 {
-                    margin-block: 0;
-                    margin-inline: 0;
-                    font-size: 32px;
-                }
+                width: 160px;
+                height: 40px;
             }
 
             & nav {

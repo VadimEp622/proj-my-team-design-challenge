@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom/dist"
 
+import logo from "../assets/images/logo.svg"
+
+
 export function AppHeader() {
 
     return (
@@ -7,7 +10,8 @@ export function AppHeader() {
             <section className="app-header-container">
                 <section className="header-logo-container">
                     <section className="logo">
-                        <h1>myteam</h1>
+                        {/* <h1>myteam</h1> */}
+                        <img src={logo} alt="logo" />
                     </section>
                     <nav>
                         <Link to={`/`}><p className="large dropdown-option">home</p></Link>

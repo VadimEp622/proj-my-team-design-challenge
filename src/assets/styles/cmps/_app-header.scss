@@ -4,10 +4,11 @@ header {
     color: $white-clr;
 
     & .app-header-container {
-        padding-block: 73px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        height: fit-content;
+        padding-block: 73px;
 
         & .header-logo-container {
             display: flex;
@@ -15,9 +16,8 @@ header {
             align-items: center;
 
             & .logo {
-                & h1 {
-                    font-size: 32px;
-                }
+                width: 160px;
+                height: 40px;
             }
 
             & nav {
