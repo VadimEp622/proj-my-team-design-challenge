@@ -1,6 +1,6 @@
 footer {
-    background-color: #002529;
-    color: white;
+    background-color: $main-teal-clr1;
+    color: $white-clr;
     padding-block: 48px;
 
     & .app-footer-container {
@@ -19,6 +19,7 @@ footer {
                     font-size: 32px;
                 }
             }
+
             & nav {
                 display: flex;
                 gap: 41px;
@@ -41,6 +42,7 @@ footer {
                     }
                 }
             }
+
             & .copyright {
                 display: flex;
                 justify-content: flex-end;

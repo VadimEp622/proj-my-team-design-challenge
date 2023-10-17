@@ -1,7 +1,7 @@
 header {
     height: 200px;
-    background-color: #014e56;
-    color: rgb(255, 255, 255);
+    background-color: $main-teal-clr0;
+    color: $white-clr;
 
     & .app-header-container {
         padding-block: 73px;
@@ -30,15 +30,15 @@ header {
             & button {
                 color: inherit;
                 background-color: inherit;
-                border: 2px solid white;
+                border: 2px solid $white-clr;
                 border-radius: 24px;
                 padding-block: 8px;
                 padding-inline: 30.5px;
                 transition: all 0.2s ease-in-out;
 
                 &:hover {
-                    background-color: white;
-                    color: #014e56;
+                    background-color: $white-clr;
+                    color: $main-teal-clr0;
                     cursor: pointer;
                 }
             }

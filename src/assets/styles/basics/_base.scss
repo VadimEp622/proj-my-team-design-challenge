@@ -10,13 +10,13 @@ html {
 
 body {
     font-size: rem(14px);
-    color: $black-clr1;
+    color: lighten($black-clr, 15%);
     margin: 0;
 }
 
 .app {
     min-height: 100vh;
-    background-color: $gray-clr-1;
+    background-color: $white-clr;
     position: relative;
 }
 

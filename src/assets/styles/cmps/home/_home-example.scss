@@ -1,5 +1,5 @@
 .home-page .example-container {
-    background-color: #004047;
+    background-color: $main-teal-clr3;
 
     & .example {
         padding-block: 140px;
@@ -10,7 +10,7 @@
             padding-inline: 89px;
 
             & h2 span {
-                color: #79c8c7;
+                color: $main-teal-clr4;
             }
         }
 
@@ -29,7 +29,7 @@
                         }
 
                         & h3 {
-                            color: #79c8c7;
+                            color: $main-teal-clr4;
                             margin-block-end: 2px;
                         }
 
@@ -45,7 +45,7 @@
                             box-sizing: content-box;
                             height: 62px;
                             width: 62px;
-                            border: 2px solid #c4fffe;
+                            border: 2px solid $main-teal-clr5;
                             border-radius: 32px;
                             display: block;
                             margin-inline: auto;
