@@ -7,7 +7,7 @@
                     display: none;
                 }
 
-                &.bgPatternHome2 img {
+                &.bgPatternHome2 {
                     inset-inline: 50%;
                     transform: translateX(-50%);
                 }
@@ -64,9 +64,10 @@
 @include for-narrow-layout {
     .home-page {
         & .header-extension-container {
-            & .bg-img.bgPatternHome2 img {
-                width: 100vw;
+            & .bg-img.bgPatternHome2 {
+                width: 100%;
                 height: auto;
+                display: flex;
             }
 
             & .header-extension .title {
@@ -80,7 +81,7 @@
 @include for-mobile-layout {
     .home-page {
         & .header-extension-container {
-            & .bg-img.bgPatternHome2 img {
+            & .bg-img.bgPatternHome2 {
                 height: 100px;
                 width: 358px;
             }
@@ -110,13 +111,13 @@
     .home-page {
         & .header-extension-container {
             & .bg-img {
-                &.bgPatternHome1 img {
+                &.bgPatternHome1 {
                     height: 200px;
                     width: 200px;
                     left: -100px;
                 }
 
-                &.bgPatternHome2 img {
+                &.bgPatternHome2 {
                     right: 165px;
                 }
             }

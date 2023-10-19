@@ -3,14 +3,9 @@
     background-color: $main-teal-clr0;
 
     & .bg-img {
-        height: 100%;
-        width: 100%;
+        position: absolute;
 
-        & img {
-            position: absolute;
-        }
-
-        &.bgPatternHome2 img {
+        &.bgPatternHome2 {
             bottom: 0;
         }
     }
