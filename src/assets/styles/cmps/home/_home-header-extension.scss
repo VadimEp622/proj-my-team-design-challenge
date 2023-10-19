@@ -2,46 +2,24 @@
     position: relative;
     background-color: $main-teal-clr0;
 
-    & .header-extension {
-        & .left h1 {
-            @include typography-1;
+    & .bg-img {
+        height: 100%;
+        width: 100%;
+
+        & img {
+            position: absolute;
         }
 
-        & .right p {
-            @include typography-4;
-        }
-    }
-
-    & img.bg-img {
-        position: absolute;
-
-        &.bgPatternHome1 {
-            height: 200px;
-            width: 200px;
-            left: -100px;
-        }
-
-        &.bgPatternHome2 {
+        &.bgPatternHome2 img {
             bottom: 0;
         }
     }
 
     & .header-extension {
-        display: grid;
         position: relative;
-        padding-block-start: 50px;
 
-        & .left h1 span {
+        & .title h1 span {
             color: $main-orange-clr0;
-        }
-
-        & .right {
-            display: flex;
-            align-items: flex-end;
-
-            & p {
-                height: fit-content;
-            }
         }
     }
 }

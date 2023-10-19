@@ -2,38 +2,33 @@
 @include for-wide-layout {
     .home-page {
         & .header-extension-container {
-            & .bgPatternHome1 {
-                display: none;
-            }
+            & .bg-img {
+                &.bgPatternHome1 {
+                    display: none;
+                }
 
-            & .bgPatternHome2 {
-                inset-inline: 50%;
-                transform: translateX(-50%);
+                &.bgPatternHome2 img {
+                    inset-inline: 50%;
+                    transform: translateX(-50%);
+                }
             }
 
             & .header-extension {
-                gap: 24px;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
+                padding-block-start: 48px;
                 padding-block-end: 256px;
+                text-align: center;
 
-                & .left {
+                & .title {
+                    padding-block-end: 24px;
                     padding-inline: 25%;
 
                     & h1 {
-                        font-size: rem(64px);
-                        line-height: rem(56px);
+                        @include typography-2;
                     }
                 }
 
-                & .right {
-                    padding-inline: 15%;
-
-                    & p.large {
-                        font-size: rem(15px);
-                        line-height: rem(28px);
-                    }
+                & .content p {
+                    @include typography-8;
                 }
             }
         }
@@ -49,17 +44,16 @@
     .home-page {
         & .header-extension-container {
             & .header-extension {
-                & .left {
+                padding-block-start: 32px;
+                padding-block-end: 197px;
+
+                & .title {
+                    padding-block-end: 18px;
                     padding-inline: 15%;
 
                     & h1 {
-                        font-size: rem(40px);
-                        line-height: rem(40px);
+                        @include typography-7;
                     }
-                }
-
-                & .right {
-                    padding-inline: 0px;
                 }
             }
         }
@@ -70,9 +64,13 @@
 @include for-narrow-layout {
     .home-page {
         & .header-extension-container {
-            & .bgPatternHome2 {
+            & .bg-img.bgPatternHome2 img {
                 width: 100vw;
                 height: auto;
+            }
+
+            & .header-extension .title {
+                padding-inline: unset;
             }
         }
     }
@@ -82,9 +80,15 @@
 @include for-mobile-layout {
     .home-page {
         & .header-extension-container {
-            & .bgPatternHome2 {
+            & .bg-img.bgPatternHome2 img {
                 height: 100px;
                 width: 358px;
+            }
+
+            & .header-extension {
+                & .content {
+                    padding-inline: 15%;
+                }
             }
         }
     }
@@ -105,14 +109,38 @@
 
     .home-page {
         & .header-extension-container {
-            & .header-extension {
-                grid-template-columns: 1fr 1fr;
-                gap: 30px;
-                padding-block-end: 250px;
+            & .bg-img {
+                &.bgPatternHome1 img {
+                    height: 200px;
+                    width: 200px;
+                    left: -100px;
+                }
+
+                &.bgPatternHome2 img {
+                    right: 165px;
+                }
             }
 
-            & .bgPatternHome2 {
-                right: 165px;
+            & .header-extension {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+                padding-block-start: 56px;
+                padding-block-end: 250px;
+
+                & .title h1 {
+                    @include typography-1;
+                }
+
+                & .content {
+                    display: flex;
+                    align-items: flex-end;
+                    padding-inline: unset;
+
+                    & p {
+                        @include typography-4;
+                    }
+                }
             }
         }
     }

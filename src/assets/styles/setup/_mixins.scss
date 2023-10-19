@@ -98,6 +98,16 @@
     line-height: rem(18px);
 }
 
+@mixin typography-7 {
+    font-size: rem(40px);
+    line-height: rem(40px);
+}
+
+@mixin typography-8 {
+    font-size: rem(15px);
+    line-height: rem(28px);
+}
+
 /* =================== Reset =================== */
 @mixin clean-list {
     list-style: none;
