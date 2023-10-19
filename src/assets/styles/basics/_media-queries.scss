@@ -1,12 +1,93 @@
+// less than 1440px
+@include for-wide-layout {
+    .home-page {
+        & .header-extension-container {
+            & .bgPatternHome1 {
+                display: none;
+            }
+
+            & .bgPatternHome2 {
+                inset-inline: 50%;
+                transform: translateX(-50%);
+            }
+
+            & .header-extension {
+                gap: 24px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding-block-end: 256px;
+
+                & .left {
+                    padding-inline: 25%;
+
+                    & h1 {
+                        font-size: rem(64px);
+                        line-height: rem(56px);
+                    }
+                }
+
+                & .right {
+                    padding-inline: 15%;
+
+                    & p.large {
+                        font-size: rem(15px);
+                        line-height: rem(28px);
+                    }
+                }
+            }
+        }
+    }
+}
+
 // less than 768px
 @include for-normal-layout {
     .main-layout {
         grid-template-columns: 24px 1fr 24px;
     }
+
+    .home-page {
+        & .header-extension-container {
+            & .header-extension {
+                & .left {
+                    padding-inline: 15%;
+
+                    & h1 {
+                        font-size: rem(40px);
+                        line-height: rem(40px);
+                    }
+                }
+
+                & .right {
+                    padding-inline: 0px;
+                }
+            }
+        }
+    }
+}
+
+// less than 375px
+@include for-narrow-layout {
+    .home-page {
+        & .header-extension-container {
+            & .bgPatternHome2 {
+                width: 100vw;
+                height: auto;
+            }
+        }
+    }
 }
 
 // more than 375px
 @include for-mobile-layout {
+    .home-page {
+        & .header-extension-container {
+            & .bgPatternHome2 {
+                height: 100px;
+                width: 358px;
+            }
+        }
+    }
 }
 
 // more than 768px
@@ -20,5 +101,19 @@
 @include for-desktop-layout {
     .main-layout {
         grid-template-columns: 165px 1fr 165px;
+    }
+
+    .home-page {
+        & .header-extension-container {
+            & .header-extension {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+                padding-block-end: 250px;
+            }
+
+            & .bgPatternHome2 {
+                right: 165px;
+            }
+        }
     }
 }
