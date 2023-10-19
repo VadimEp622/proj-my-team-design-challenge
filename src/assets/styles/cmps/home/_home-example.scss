@@ -2,6 +2,17 @@
     background-color: $main-teal-clr3;
 
     & .example {
+        & .title {
+            @include typography-h2;
+        }
+
+        & .list .item {
+            @include typography-p-small;
+            @include typography-h3;
+        }
+    }
+
+    & .example {
         padding-block: 140px;
         text-align: center;
 

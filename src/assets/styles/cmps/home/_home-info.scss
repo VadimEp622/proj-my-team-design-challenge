@@ -3,6 +3,17 @@
     padding-block: 140px;
 
     & .info {
+        & .left {
+            @include typography-h2;
+        }
+
+        & .right .item .content-container {
+            @include typography-h3;
+            @include typography-p-small;
+        }
+    }
+
+    & .info {
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding-block-start: 26px;

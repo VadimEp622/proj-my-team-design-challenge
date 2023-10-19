@@ -4,6 +4,16 @@
     padding-block: 76px;
 
     & .get-started {
+        & .title {
+            @include typography-h2;
+        }
+
+        & .contact-btn-container {
+            @include typography-p-large;
+        }
+    }
+
+    & .get-started {
         padding-inline-start: 98px;
         padding-inline-end: 95px;
         display: flex;

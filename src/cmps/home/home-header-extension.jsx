@@ -10,10 +10,10 @@ export function HomeHeaderExtension() {
             </section>
             <section className="header-extension">
                 <article className="left">
-                    <h1 className="large">Find the best <span>talent</span></h1>
+                    <h1>Find the best <span>talent</span></h1>
                 </article>
                 <article className="right">
-                    <p className="large">Finding the right people and building high performing teams can be hard. Most companies aren't tapping into the abundance of global talent. We're about to change that.</p>
+                    <p>Finding the right people and building high performing teams can be hard. Most companies aren't tapping into the abundance of global talent. We're about to change that.</p>
                 </article>
             </section>
             <section className="full">

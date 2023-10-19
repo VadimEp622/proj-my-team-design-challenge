@@ -13,12 +13,12 @@ export function AppHeader() {
                         <img src={logo} alt="logo" />
                     </section>
                     <nav>
-                        <Link to={`/`}><p className="large dropdown-option">home</p></Link>
-                        <Link to={`/about`}><p className="large dropdown-option">about</p></Link>
+                        <Link to={`/`}><p className="dropdown-option">home</p></Link>
+                        <Link to={`/about`}><p className="dropdown-option">about</p></Link>
                     </nav>
                 </section>
                 <section className="contact-btn-container">
-                    <button><p className="large">contact us</p></button>
+                    <button><p>contact us</p></button>
                 </section>
             </section>
         </header>

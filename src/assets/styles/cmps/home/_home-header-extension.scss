@@ -2,6 +2,16 @@
     position: relative;
     background-color: $main-teal-clr0;
 
+    & .header-extension {
+        & .left {
+            @include typography-h1-large;
+        }
+
+        & .right {
+            @include typography-p-large;
+        }
+    }
+
     & img.bg-img {
         position: absolute;
 

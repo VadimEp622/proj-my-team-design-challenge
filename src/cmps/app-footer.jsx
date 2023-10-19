@@ -16,15 +16,15 @@ export function AppFooter() {
                         <img src={logo} alt="logo" />
                     </section>
                     <nav>
-                        <Link to={`/`}><p className="large">home</p></Link>
-                        <Link to={`/about`}><p className="large">about</p></Link>
+                        <Link to={`/`}><p>home</p></Link>
+                        <Link to={`/about`}><p>about</p></Link>
                     </nav>
                 </section>
                 <section className="contact-container">
-                    <pre className="small">987  Hillcrest Lane</pre>
-                    <pre className="small">Irvine,CA</pre>
-                    <pre className="small">California 92714</pre>
-                    <pre className="small">Call Us : 949-833-7432</pre>
+                    <pre>987  Hillcrest Lane</pre>
+                    <pre>Irvine,CA</pre>
+                    <pre>California 92714</pre>
+                    <pre>Call Us : 949-833-7432</pre>
                 </section>
                 <section className="share-copyright-container">
                     <nav>
@@ -33,7 +33,7 @@ export function AppFooter() {
                         <a href="/#"><img src={twitterIcon} alt="twitterIcon" /></a>
                     </nav>
                     <section className="copyright">
-                        <p className="small">Copyright 2023. All Rights Reserved</p>
+                        <p>Copyright 2023. All Rights Reserved</p>
                     </section>
                 </section>
             </section>

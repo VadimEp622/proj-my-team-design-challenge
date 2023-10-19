@@ -19,7 +19,7 @@ export function HomeInfo() {
                                 </article>
                                 <article className="content-container">
                                     <h3>Experienced Individuals</h3>
-                                    <p className="small">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
+                                    <p>Our network is made up of highly experienced professionals who are passionate about what they do.</p>
                                 </article>
                             </section>
                             <section className="item">
@@ -28,7 +28,7 @@ export function HomeInfo() {
                                 </article>
                                 <article className="content-container">
                                     <h3>Easy to Implement</h3>
-                                    <p className="small">Our processes have been refined over years of implementation meaning our teams always deliver.</p>
+                                    <p>Our processes have been refined over years of implementation meaning our teams always deliver.</p>
                                 </article>
                             </section>
                             <section className="item">
@@ -37,7 +37,7 @@ export function HomeInfo() {
                                 </article>
                                 <article className="content-container">
                                     <h3>Enhanced Productivity</h3>
-                                    <p className="small">Our customized platform with in-built analytics helps you manage your distributed teams.</p>
+                                    <p>Our customized platform with in-built analytics helps you manage your distributed teams.</p>
                                 </article>
                             </section>
                         </li>

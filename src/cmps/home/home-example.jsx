@@ -14,19 +14,19 @@ export function HomeExample() {
                     <ul>
                         <li>
                             <article className="item">
-                                <p className="small"> “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p>
+                                <p> “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p>
                                 <h3>Kady Baker</h3>
                                 <h4>Product Manager at Bookmark</h4>
                                 <img src={avatarKady} alt="avatarKady" />
                             </article>
                             <article className="item">
-                                <p className="small">“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</p>
+                                <p>“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</p>
                                 <h3>Aiysha Reese</h3>
                                 <h4>Founder of Manage</h4>
                                 <img src={avatarAiysha} alt="avatarAiysha" />
                             </article>
                             <article className="item">
-                                <p className="small">“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</p>
+                                <p>“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</p>
                                 <h3>Arthur Clarke</h3>
                                 <h4>Co-founder of MyPhysio</h4>
                                 <img src={avatarArthur} alt="avatarArthur" />

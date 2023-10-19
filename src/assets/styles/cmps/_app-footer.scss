@@ -4,6 +4,20 @@ footer {
     padding-block: 48px;
 
     & .app-footer-container {
+        & .nav-container nav {
+            @include typography-p-large;
+        }
+
+        & .contact-container {
+            @include typography-pre-small;
+        }
+
+        & .share-copyright-container .copyright {
+            @include typography-p-small;
+        }
+    }
+
+    & .app-footer-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
 
