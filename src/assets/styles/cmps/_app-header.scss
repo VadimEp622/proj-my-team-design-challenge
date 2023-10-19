@@ -1,5 +1,5 @@
 header {
-    height: 200px;
+    // height: 200px;
     background-color: $main-teal-clr0;
     color: $white-clr;
 
@@ -12,17 +12,11 @@ header {
         align-items: center;
         justify-content: space-between;
         height: fit-content;
-        padding-block: 73px;
 
         & .header-logo-container {
             display: flex;
             gap: 80px;
             align-items: center;
-
-            & .logo {
-                width: 160px;
-                height: 40px;
-            }
 
             & nav {
                 display: flex;

@@ -33,6 +33,22 @@
             }
         }
     }
+
+    header {
+        & .app-header-container {
+            padding-block: 64px;
+
+            & .logo {
+                width: 128px;
+                height: 32px;
+            }
+        }
+    }
+
+    footer .logo {
+        width: 96px;
+        height: 24px;
+    }
 }
 
 // less than 768px
@@ -56,6 +72,12 @@
                     }
                 }
             }
+        }
+    }
+
+    header {
+        & .app-header-container {
+            padding-block: 48px;
         }
     }
 }
@@ -144,5 +166,16 @@
                 }
             }
         }
+    }
+
+    header {
+        & .app-header-container {
+            padding-block: 73px;
+        }
+    }
+
+    .logo {
+        width: 160px;
+        height: 40px;
     }
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import facebookIcon from "../assets/images/icon-facebook.svg"
 import pinterestIcon from "../assets/images/icon-pinterest.svg"
 import twitterIcon from "../assets/images/icon-twitter.svg"
-import logo from "../assets/images/logo.svg"
+import { Logo } from "./_reusable/logo"
 
 
 export function AppFooter() {
@@ -12,9 +12,7 @@ export function AppFooter() {
         <footer className="main-layout">
             <section className="app-footer-container">
                 <section className="nav-container">
-                    <section className="logo">
-                        <img src={logo} alt="logo" />
-                    </section>
+                    <Logo />
                     <nav>
                         <Link to={`/`}><p>home</p></Link>
                         <Link to={`/about`}><p>about</p></Link>
