@@ -4,16 +4,12 @@ footer {
     padding-block: 48px;
 
     & .app-footer-container {
-        & .nav-container nav {
-            @include typography-p-large;
+        & .nav-container nav p {
+            @include typography-4;
         }
 
-        & .contact-container {
-            @include typography-pre-small;
-        }
-
-        & .share-copyright-container .copyright {
-            @include typography-p-small;
+        & :is(.contact-container pre, .share-copyright-container .copyright p) {
+            @include typography-5;
         }
     }
 

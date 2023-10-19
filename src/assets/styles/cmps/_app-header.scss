@@ -3,8 +3,8 @@ header {
     background-color: $main-teal-clr0;
     color: $white-clr;
 
-    & .app-header-container :is(.header-logo-container nav, .contact-btn-container button) {
-        @include typography-p-large;
+    & .app-header-container :is(.header-logo-container nav, .contact-btn-container button) p {
+        @include typography-4;
     }
 
     & .app-header-container {

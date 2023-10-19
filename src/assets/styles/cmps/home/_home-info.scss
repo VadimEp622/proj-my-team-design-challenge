@@ -3,13 +3,18 @@
     padding-block: 140px;
 
     & .info {
-        & .left {
-            @include typography-h2;
+        & .left h2 {
+            @include typography-3;
         }
 
         & .right .item .content-container {
-            @include typography-h3;
-            @include typography-p-small;
+            & h3 {
+                @include typography-4;
+            }
+
+            & p {
+                @include typography-5;
+            }
         }
     }
 

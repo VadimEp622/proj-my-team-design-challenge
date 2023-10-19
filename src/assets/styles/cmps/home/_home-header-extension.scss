@@ -3,12 +3,12 @@
     background-color: $main-teal-clr0;
 
     & .header-extension {
-        & .left {
-            @include typography-h1-large;
+        & .left h1 {
+            @include typography-1;
         }
 
-        & .right {
-            @include typography-p-large;
+        & .right p {
+            @include typography-4;
         }
     }
 

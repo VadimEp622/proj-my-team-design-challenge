@@ -4,12 +4,12 @@
     padding-block: 76px;
 
     & .get-started {
-        & .title {
-            @include typography-h2;
+        & .title h2 {
+            @include typography-3;
         }
 
-        & .contact-btn-container {
-            @include typography-p-large;
+        & .contact-btn-container p {
+            @include typography-4;
         }
     }
 

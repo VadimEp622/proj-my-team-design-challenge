@@ -67,55 +67,35 @@
         }
     }
 }
-
-/* =================== Fonts =================== */
-@mixin typography-h1-large {
-    & h1 {
-        font-size: rem(100px);
-        line-height: rem(100px);
-    }
+/* =================== Fonts typography =================== */
+@mixin typography-1 {
+    font-size: rem(100px);
+    line-height: rem(100px);
 }
 
-@mixin typography-h1-small {
-    & h1 {
-        font-size: rem(64px);
-        line-height: rem(56px);
-    }
+@mixin typography-2 {
+    font-size: rem(64px);
+    line-height: rem(56px);
 }
 
-@mixin typography-h2 {
-    & h2 {
-        font-size: rem(48px);
-        line-height: rem(48px);
-    }
+@mixin typography-3 {
+    font-size: rem(48px);
+    line-height: rem(48px);
 }
 
-@mixin typography-h3 {
-    & h3 {
-        font-size: rem(18px);
-        line-height: rem(28px);
-    }
+@mixin typography-4 {
+    font-size: rem(18px);
+    line-height: rem(28px);
 }
 
-@mixin typography-p-large {
-    & p {
-        font-size: rem(18px);
-        line-height: rem(28px);
-    }
+@mixin typography-5 {
+    font-size: rem(15px);
+    line-height: rem(25px);
 }
 
-@mixin typography-p-small {
-    & p {
-        font-size: rem(15px);
-        line-height: rem(25px);
-    }
-}
-
-@mixin typography-pre-small {
-    & pre {
-        font-size: rem(15px);
-        line-height: rem(25px);
-    }
+@mixin typography-6 {
+    font-size: rem(13px);
+    line-height: rem(18px);
 }
 
 /* =================== Reset =================== */
