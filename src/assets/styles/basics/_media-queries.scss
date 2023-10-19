@@ -132,6 +132,9 @@
 
     .home-page {
         & .header-extension-container {
+            padding-block-start: 56px;
+            padding-block-end: 250px;
+
             & .bg-img {
                 &.bgPatternHome1 {
                     height: 200px;
@@ -148,8 +151,6 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 30px;
-                padding-block-start: 56px;
-                padding-block-end: 250px;
 
                 & .title h1 {
                     @include typography-1;
@@ -159,6 +160,16 @@
                     display: flex;
                     align-items: flex-end;
                     padding-inline: unset;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        height: 4px;
+                        width: 50px;
+                        background-color: $main-teal-clr4;
+                        position: absolute;
+                        top: 0;
+                    }
 
                     & p {
                         @include typography-4;
