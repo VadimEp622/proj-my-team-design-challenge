@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proj-my-team-design-challenge/static/css/main.551ef7d6.css",
-    "main.js": "/proj-my-team-design-challenge/static/js/main.c171baf1.js",
+    "main.css": "/proj-my-team-design-challenge/static/css/main.784d252f.css",
+    "main.js": "/proj-my-team-design-challenge/static/js/main.d080233d.js",
     "static/media/Livvic-BoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-BoldItalic.b9e334bcf82de36a5907.ttf",
     "static/media/Livvic-SemiBoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-SemiBoldItalic.3bfdd0e8025e9ed40b8f.ttf",
     "static/media/Livvic-MediumItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-MediumItalic.c388d554d36321255ab9.ttf",
@@ -13,6 +13,7 @@
     "static/media/avatar-aiysha.jpg": "/proj-my-team-design-challenge/static/media/avatar-aiysha.e119a0c1a5a4d6a6d0bb.jpg",
     "static/media/icon-person.svg": "/proj-my-team-design-challenge/static/media/icon-person.0a313a85e4148d7ea17f5657dbbffa33.svg",
     "static/media/icon-cog.svg": "/proj-my-team-design-challenge/static/media/icon-cog.c5d2403fc5d7754badaf2da8c88d8b35.svg",
+    "static/media/logo.svg": "/proj-my-team-design-challenge/static/media/logo.9e687f65b84bdaad178f8a42a249e298.svg",
     "static/media/icon-chart.svg": "/proj-my-team-design-challenge/static/media/icon-chart.8de3d4d2ce95686ba9409a82599a8de1.svg",
     "static/media/bg-pattern-home-1.svg": "/proj-my-team-design-challenge/static/media/bg-pattern-home-1.270440fb92b9ec53fe01270f9dd849bb.svg",
     "static/media/icon-pinterest.svg": "/proj-my-team-design-challenge/static/media/icon-pinterest.a2d25ab4c70b78c4028f25323009cc58.svg",
@@ -20,11 +21,11 @@
     "static/media/bg-pattern-home-2.svg": "/proj-my-team-design-challenge/static/media/bg-pattern-home-2.889d5d8c448ed043a71bd7e91e884388.svg",
     "static/media/icon-twitter.svg": "/proj-my-team-design-challenge/static/media/icon-twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
     "static/media/icon-facebook.svg": "/proj-my-team-design-challenge/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
-    "main.551ef7d6.css.map": "/proj-my-team-design-challenge/static/css/main.551ef7d6.css.map",
-    "main.c171baf1.js.map": "/proj-my-team-design-challenge/static/js/main.c171baf1.js.map"
+    "main.784d252f.css.map": "/proj-my-team-design-challenge/static/css/main.784d252f.css.map",
+    "main.d080233d.js.map": "/proj-my-team-design-challenge/static/js/main.d080233d.js.map"
   },
   "entrypoints": [
-    "static/css/main.551ef7d6.css",
-    "static/js/main.c171baf1.js"
+    "static/css/main.784d252f.css",
+    "static/js/main.d080233d.js"
   ]
 }
