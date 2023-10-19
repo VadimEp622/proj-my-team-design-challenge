@@ -5,38 +5,12 @@
 
 .main-layout {
     display: grid;
-    grid-template-columns: 165px 1fr 165px;
-    
+
     & > * {
         grid-column: 2;
 
         &.full {
             grid-column: 1 /-1;
         }
-    }
-
-    // less than 768px
-    @include for-mobile-layout {
-        // @media (max-width: calc($mobile-breakpoint  + 40px)) {
-        //     grid-template-columns: 0 auto 0;
-
-        //     & .app-main {
-        //     }
-    }
-
-    // more than 768px
-    @include for-normal-layout {
-        // grid-template-columns: 40px 1fr 40px;
-
-        // & .app-main {
-        // }
-    }
-
-    // more than 1440px
-    @include for-wide-layout {
-        // grid-template-columns: 165px 1fr 165px;
-
-        // & .app-main {
-        // }
     }
 }

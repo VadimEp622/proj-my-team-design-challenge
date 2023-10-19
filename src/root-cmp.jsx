@@ -14,9 +14,11 @@ export function RootCmp() {
     // TODO: use rem()/em() function in scss for sizes
     // TODO: use variables for: size values & colors
     // TODO: consider using helpers.scss!!!
+
+
     return (
         < >
-            <section className={`app app-layout`}>
+            <section className="app app-layout">
                 <AppHeader />
                 <main className="app-main main-layout">
                     <Routes>

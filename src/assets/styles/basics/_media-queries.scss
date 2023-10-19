@@ -1,0 +1,24 @@
+// less than 768px
+@include for-normal-layout {
+    .main-layout {
+        grid-template-columns: 24px 1fr 24px;
+    }
+}
+
+// more than 375px
+@include for-mobile-layout {
+}
+
+// more than 768px
+@include for-tablet-layout {
+    .main-layout {
+        grid-template-columns: 40px 1fr 40px;
+    }
+}
+
+// more than 1440px
+@include for-desktop-layout {
+    .main-layout {
+        grid-template-columns: 165px 1fr 165px;
+    }
+}

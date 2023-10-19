@@ -10,7 +10,6 @@ export function AppHeader() {
             <section className="app-header-container">
                 <section className="header-logo-container">
                     <section className="logo">
-                        {/* <h1>myteam</h1> */}
                         <img src={logo} alt="logo" />
                     </section>
                     <nav>

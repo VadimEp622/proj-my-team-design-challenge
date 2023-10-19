@@ -4,13 +4,12 @@
 @import "setup/functions";
 @import "setup/mixins";
 
-
 // ************** Basics **************
 @import "basics/base";
 @import "basics/helpers";
 @import "basics/layout";
 @import "basics/links";
-
+@import "basics/media-queries";
 
 // ************** Components **************
 // Home Page
@@ -21,8 +20,7 @@
 // Root
 @import "cmps/app-header";
 @import "cmps/app-footer";
-@import "cmps/app-get-started";//reusable?
-
+@import "cmps/app-get-started"; //reusable?
 
 // ************** Pages **************
 @import "pages/home";

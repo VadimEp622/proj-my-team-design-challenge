@@ -13,7 +13,6 @@ export function AppFooter() {
             <section className="app-footer-container">
                 <section className="nav-container">
                     <section className="logo">
-                        {/* <h1>myteam</h1> */}
                         <img src={logo} alt="logo" />
                     </section>
                     <nav>
