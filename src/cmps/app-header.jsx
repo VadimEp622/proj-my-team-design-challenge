@@ -1,10 +1,22 @@
+import { useContext } from "react"
 import { Link } from "react-router-dom/dist"
 
-import { Logo } from "./_reusable/logo"
+import { Context } from "../context"
+
 import iconHamburger from "../assets/images/icon-hamburger.svg"
+import { Logo } from "./_reusable/logo"
 
 
 export function AppHeader() {
+    const { setIsSideNavbar } = useContext(Context)
+
+    function onOpenSideNavbar(ev) {
+        ev.preventDefault()
+        ev.stopPropagation()
+        setIsSideNavbar(true)
+    }
+
+
 
     return (
         <header className="main-layout">
@@ -20,7 +32,7 @@ export function AppHeader() {
                     <button><p>contact us</p></button>
                 </section>
                 <section className="mobile-navbar-btn-container">
-                    <button className="btn-mobile-navbar">
+                    <button className="btn-mobile-navbar" onClick={(ev) => onOpenSideNavbar(ev)}>
                         <img src={iconHamburger} alt="Hamburger Icon" />
                     </button>
                 </section>

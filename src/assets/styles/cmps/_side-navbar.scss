@@ -1,0 +1,21 @@
+.side-navbar-container {
+    & :is(.black-transparent-bg-wrapper, .side-navbar) {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    & .black-transparent-bg-wrapper {
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    & .side-navbar {
+        width: 63%;
+        background-color: $main-teal-clr6;
+        color: white;
+    }
+}

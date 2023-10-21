@@ -6,6 +6,7 @@ import './assets/styles/main.scss'
 
 import { RootCmp } from './root-cmp'
 const root = ReactDOM.createRoot(document.getElementById('root'))
+
 root.render(
   <HashRouter>
     <RootCmp />
