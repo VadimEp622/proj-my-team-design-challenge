@@ -68,44 +68,41 @@
     }
 }
 /* =================== Fonts typography =================== */
+@mixin fs-lh($fs: 100px, $lh: 100px) {
+    font-size: rem($fs);
+    line-height: rem($lh);
+}
+
 @mixin typography-1 {
-    font-size: rem(100px);
-    line-height: rem(100px);
+    @include fs-lh(100px, 100px);
 }
 
 @mixin typography-2 {
-    font-size: rem(64px);
-    line-height: rem(56px);
+    @include fs-lh(64px, 56px);
 }
 
 @mixin typography-3 {
-    font-size: rem(48px);
-    line-height: rem(48px);
+    @include fs-lh(48px, 48px);
 }
 
 @mixin typography-4 {
-    font-size: rem(18px);
-    line-height: rem(28px);
+    @include fs-lh(18px, 28px);
 }
 
 @mixin typography-5 {
-    font-size: rem(15px);
-    line-height: rem(25px);
+    @include fs-lh(15px, 25px);
 }
 
 @mixin typography-6 {
-    font-size: rem(13px);
-    line-height: rem(18px);
+    @include fs-lh(13px, 18px);
 }
 
 @mixin typography-7 {
-    font-size: rem(40px);
-    line-height: rem(40px);
+    @include fs-lh(40px, 40px);
 }
 
 @mixin typography-8 {
-    font-size: rem(15px);
-    line-height: rem(28px);
+    @include fs-lh(15px, 28px);
 }
 
 /* =================== Reset =================== */
