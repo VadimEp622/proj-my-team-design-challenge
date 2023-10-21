@@ -31,9 +31,7 @@ export function RootCmp() {
                         </Routes>
                     </main>
                     <AppFooter />
-                    {isSideNavbar &&
-                        <SideNavbar />
-                    }
+                    {isSideNavbar && <SideNavbar />}
                 </section>
             </Context.Provider>
         </>
