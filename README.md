@@ -4,14 +4,16 @@
 
 # MyTeam - Design Challenge
 
-This project is built using React.js.
+- **Project Link** -> [**My Team**](https://vadimep622.github.io/proj-my-team-design-challenge/)
 
-The task at hand was to make a new website from the ground up, following the instructions in the given canvas file (myteam.sketch).
+- Built using **React.js** & **Sass**
 
-# Requirements:
+- Built from the ground up, using **Figma** & **Lunacy**, following the instructions in the given canvas file (myteam.sketch)
 
-*Emphasis on best practices
+# Used Skills:
 
-*Pixel-perfect
+ - Emphasis on **Best Practices**, **Readability** & **Performance**
 
-*Use of advanced techniques for cleaner code/better performance is recommended
+ - **Pixel-Perfect**
+
+ - **Mobile-First** design pattern, with additional closed media-query ranges styling
