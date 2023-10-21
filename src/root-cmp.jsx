@@ -2,13 +2,13 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router'
 
 import { Context } from './context'
-
-import { AppHeader } from './cmps/app-header'
+import useIsMobile from './hooks/useIsMobile'
 import { Home } from './pages/home'
 import { About } from './pages/about'
+import { Contact } from './pages/contact'
+import { AppHeader } from './cmps/app-header'
 import { AppFooter } from './cmps/app-footer'
 import { SideNavbar } from './cmps/side-navbar'
-import useIsMobile from './hooks/useIsMobile'
 
 
 
@@ -30,6 +30,7 @@ export function RootCmp() {
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/about" element={<About />} />
+                            <Route path="/contact" element={<Contact />} />
                         </Routes>
                     </main>
                     <AppFooter />

@@ -24,7 +24,7 @@
             display: flex;
             justify-content: flex-end;
 
-            & button {
+            & a {
                 color: inherit;
                 background-color: inherit;
                 border: 2px solid $main-teal-clr2;
@@ -32,6 +32,11 @@
                 padding-block: 8px;
                 padding-inline: 30.5px;
                 transition: all 0.2s ease-in-out;
+
+                & p {
+                    width: 88px;
+                    text-align: center;
+                }
 
                 &:hover {
                     background-color: $white-clr;

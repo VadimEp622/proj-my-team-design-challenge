@@ -1,10 +1,14 @@
+import { Link } from "react-router-dom";
+
 export function GetStarted() {
 
     return (
         <section className="get-started-container full main-layout">
             <section className="get-started">
-                <article className="title"><h2>Ready to get started?</h2></article>
-                <article className="contact-btn-container"><button><p>contact us</p></button></article>
+                <section className="title"><h2>Ready to get started?</h2></section>
+                <section className="contact-btn-container">
+                    <Link to={`/contact`}><p>contact us</p></Link>
+                </section>
             </section>
         </section>
     )
