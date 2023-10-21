@@ -158,6 +158,11 @@
                 & nav {
                     display: flex;
                     gap: 41px;
+
+                    & a:hover {
+                        cursor: pointer;
+                        color: $main-orange-clr0;
+                    }
                 }
             }
 
