@@ -1,19 +1,27 @@
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
 import { Link } from "react-router-dom"
 
 import { Context } from "../context"
 
 import iconClose from "../assets/images/icon-close.svg"
+import useIsMobile from "../hooks/useIsMobile"
 
 
 export function SideNavbar() {
     const { setIsSideNavbar } = useContext(Context)
+    const isMobile = useIsMobile()
+
 
     function onCloseSideNavbar(ev) {
         ev.preventDefault()
         ev.stopPropagation()
         setIsSideNavbar(false)
     }
+
+    useEffect(() => {
+        if (!isMobile) setIsSideNavbar(false)
+    }, [setIsSideNavbar, isMobile])
+
 
     return (
         <section className="side-navbar-wrapper">
