@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proj-my-team-design-challenge/static/css/main.1148f4f6.css",
-    "main.js": "/proj-my-team-design-challenge/static/js/main.7bddf106.js",
+    "main.css": "/proj-my-team-design-challenge/static/css/main.96efa4a0.css",
+    "main.js": "/proj-my-team-design-challenge/static/js/main.a9907380.js",
     "static/media/Livvic-BoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-BoldItalic.b9e334bcf82de36a5907.ttf",
     "static/media/Livvic-SemiBoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-SemiBoldItalic.3bfdd0e8025e9ed40b8f.ttf",
     "static/media/Livvic-MediumItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-MediumItalic.c388d554d36321255ab9.ttf",
@@ -21,11 +21,13 @@
     "static/media/bg-pattern-home-2.svg": "/proj-my-team-design-challenge/static/media/bg-pattern-home-2.889d5d8c448ed043a71bd7e91e884388.svg",
     "static/media/icon-twitter.svg": "/proj-my-team-design-challenge/static/media/icon-twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
     "static/media/icon-facebook.svg": "/proj-my-team-design-challenge/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
-    "main.1148f4f6.css.map": "/proj-my-team-design-challenge/static/css/main.1148f4f6.css.map",
-    "main.7bddf106.js.map": "/proj-my-team-design-challenge/static/js/main.7bddf106.js.map"
+    "static/media/icon-close.svg": "/proj-my-team-design-challenge/static/media/icon-close.7bb417a5beb45106e0df4f87af9026db.svg",
+    "static/media/icon-hamburger.svg": "/proj-my-team-design-challenge/static/media/icon-hamburger.fc176eb243d0591583eb436d00f4c10e.svg",
+    "main.96efa4a0.css.map": "/proj-my-team-design-challenge/static/css/main.96efa4a0.css.map",
+    "main.a9907380.js.map": "/proj-my-team-design-challenge/static/js/main.a9907380.js.map"
   },
   "entrypoints": [
-    "static/css/main.1148f4f6.css",
-    "static/js/main.7bddf106.js"
+    "static/css/main.96efa4a0.css",
+    "static/js/main.a9907380.js"
   ]
 }
