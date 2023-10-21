@@ -8,6 +8,7 @@ import { Home } from './pages/home'
 import { About } from './pages/about'
 import { AppFooter } from './cmps/app-footer'
 import { SideNavbar } from './cmps/side-navbar'
+import useIsMobile from './hooks/useIsMobile'
 
 
 
@@ -18,6 +19,7 @@ export function RootCmp() {
     // TODO: consider using helpers.scss!!!
 
     const [isSideNavbar, setIsSideNavbar] = useState(false)
+    const isMobile = useIsMobile()
 
     return (
         < >
@@ -31,7 +33,7 @@ export function RootCmp() {
                         </Routes>
                     </main>
                     <AppFooter />
-                    {isSideNavbar && <SideNavbar />}
+                    {isMobile && <SideNavbar isSideNavbar={isSideNavbar} />}
                 </section>
             </Context.Provider>
         </>

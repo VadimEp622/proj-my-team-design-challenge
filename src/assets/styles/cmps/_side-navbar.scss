@@ -1,20 +1,33 @@
 .side-navbar-wrapper {
-    & :is(.black-transparent-bg-wrapper, .side-navbar-container) {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        height: 100vh;
-    }
-
     & .side-navbar-container nav p {
         @include typography-4;
     }
 
+    & :is(.black-transparent-bg-wrapper, .side-navbar-container) {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -100%;
+        height: 100vh;
+        width: 0;
+        transition:
+            width 0.3s ease-out,
+            right 0.3s ease-out;
+    }
+
+    &.active {
+        & :is(.side-navbar-container, .black-transparent-bg-wrapper) {
+            right: 0;
+        }
+
+        & .black-transparent-bg-wrapper {
+            width: 100vw;
+        }
+    }
+
     & .black-transparent-bg-wrapper {
-        left: 0;
-        width: 100vw;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: $black-clr;
+        opacity: 0.5;
     }
 
     & .side-navbar-container {

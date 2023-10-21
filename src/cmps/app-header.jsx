@@ -17,15 +17,14 @@ export function AppHeader() {
     }
 
 
-
     return (
         <header className="main-layout">
             <section className="app-header-container">
                 <section className="header-logo-nav">
                     <Logo />
                     <nav>
-                        <Link to={`/`}><p className="dropdown-option">home</p></Link>
-                        <Link to={`/about`}><p className="dropdown-option">about</p></Link>
+                        <Link to={`/`}><p>home</p></Link>
+                        <Link to={`/about`}><p>about</p></Link>
                     </nav>
                 </section>
                 <section className="contact-btn-container">
