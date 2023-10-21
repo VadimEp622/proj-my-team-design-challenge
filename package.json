@@ -11,6 +11,9 @@
     "redux": "^4.2.0",
     "sass": "^1.50.0"
   },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
@@ -36,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }

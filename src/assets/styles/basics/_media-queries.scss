@@ -76,8 +76,25 @@
     }
 
     header {
+        & .app-header-container :is(.contact-btn-container, .header-logo-nav nav) {
+            display: none;
+        }
+
         & .app-header-container {
             padding-block: 48px;
+
+            & .mobile-navbar-btn-container {
+                & .btn-mobile-navbar {
+                    background-color: inherit;
+                    border: none;
+                    width: 20px;
+                    height: 17px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
         }
     }
 }
@@ -121,6 +138,47 @@
 @include for-tablet-layout {
     .main-layout {
         grid-template-columns: 40px 1fr 40px;
+    }
+
+    header {
+        & .app-header-container :is(.header-logo-nav nav, .contact-btn-container button) p {
+            @include typography-4;
+        }
+
+        & .app-header-container .mobile-navbar-btn-container {
+            display: none;
+        }
+
+        & .app-header-container {
+            & .header-logo-nav {
+                display: flex;
+                gap: 80px;
+                align-items: center;
+
+                & nav {
+                    display: flex;
+                    gap: 41px;
+                }
+            }
+
+            & .contact-btn-container {
+                & button {
+                    color: inherit;
+                    background-color: inherit;
+                    border: 2px solid $white-clr;
+                    border-radius: 24px;
+                    padding-block: 8px;
+                    padding-inline: 30.5px;
+                    transition: all 0.2s ease-in-out;
+
+                    &:hover {
+                        background-color: $white-clr;
+                        color: $main-teal-clr0;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
     }
 }
 
