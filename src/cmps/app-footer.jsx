@@ -11,19 +11,23 @@ export function AppFooter() {
     return (
         <footer className="main-layout">
             <section className="app-footer-container">
-                <section className="nav-container">
-                    <Logo />
-                    <nav>
-                        <Link to={`/`}><p>home</p></Link>
-                        <Link to={`/about`}><p>about</p></Link>
-                    </nav>
+
+                <section className="nav-and-contact">
+                    <section className="nav-container">
+                        <Logo />
+                        <nav>
+                            <Link to={`/`}><p>home</p></Link>
+                            <Link to={`/about`}><p>about</p></Link>
+                        </nav>
+                    </section>
+                    <section className="contact-container">
+                        <pre>987  Hillcrest Lane</pre>
+                        <pre>Irvine,CA</pre>
+                        <pre>California 92714</pre>
+                        <pre>Call Us : 949-833-7432</pre>
+                    </section>
                 </section>
-                <section className="contact-container">
-                    <pre>987  Hillcrest Lane</pre>
-                    <pre>Irvine,CA</pre>
-                    <pre>California 92714</pre>
-                    <pre>Call Us : 949-833-7432</pre>
-                </section>
+
                 <section className="share-copyright-container">
                     <nav>
                         <a href="/#"><img src={facebookIcon} alt="facebookIcon" /></a>
@@ -34,6 +38,7 @@ export function AppFooter() {
                         <p>Copyright 2023. All Rights Reserved</p>
                     </section>
                 </section>
+
             </section>
         </footer>
     )
