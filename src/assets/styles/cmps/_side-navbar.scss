@@ -60,16 +60,14 @@
                 padding-block: 56px;
                 padding-inline-start: 23px;
 
-                & .nav-list {
-                    & > * {
-                        &:not(:first-child) {
-                            margin-block-start: 24px;
-                        }
+                & .nav-list > * {
+                    &:not(:first-child) {
+                        margin-block-start: 24px;
+                    }
 
-                        &:hover {
-                            cursor: pointer;
-                            color: $main-orange-clr0;
-                        }
+                    &:hover {
+                        cursor: pointer;
+                        color: $main-orange-clr0;
                     }
                 }
 

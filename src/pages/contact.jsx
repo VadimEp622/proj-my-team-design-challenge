@@ -1,7 +1,7 @@
 export function Contact(){
 
     return(
-        <section>
+        <section className="contact-page">
             <h1>Hello from Contact</h1>
         </section>
     )
