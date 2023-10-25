@@ -32,6 +32,22 @@
                 }
             }
         }
+
+        & .info-container {
+            padding-block: 100px;
+
+            & .info .title h2 {
+                @include typography-9;
+            }
+
+            & .info {
+                & .title {
+                    margin-block-start: 32px;
+                    margin-inline-end: 125px;
+                    padding-block-end: 64px;
+                }
+            }
+        }
     }
 
     header {
@@ -92,6 +108,32 @@
 
                     & h1 {
                         @include typography-7;
+                    }
+                }
+            }
+        }
+
+        & .info-container {
+            padding-block: 64px;
+
+            & .info {
+                & .title {
+                    margin-inline-end: 110px;
+                    padding-block-end: 56px;
+                }
+
+                & .list {
+                    gap: 48px;
+
+                    & .item {
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 16px;
+                        text-align: center;
+
+                        & .content-container {
+                            gap: 8px;
+                        }
                     }
                 }
             }
@@ -187,6 +229,26 @@
         grid-template-columns: 40px 1fr 40px;
     }
 
+    .home-page {
+        & .info-container {
+            & .info {
+                margin-inline-end: 100px;
+
+                & .list {
+                    gap: 32px;
+
+                    & .item {
+                        gap: 23px;
+
+                        & .content-container {
+                            gap: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     header {
         & .app-header-container :is(.header-logo-nav nav, .contact-btn-container a) p {
             @include typography-4;
@@ -239,9 +301,9 @@
     }
 
     footer {
-        & .nav-and-contact{
-            & .nav-container{
-                & nav{
+        & .nav-and-contact {
+            & .nav-container {
+                & nav {
                     align-self: flex-start;
                 }
             }
@@ -304,6 +366,31 @@
                     & p {
                         @include typography-4;
                     }
+                }
+            }
+        }
+
+        & .info-container {
+            padding-block: 140px;
+
+            & .info .title h2 {
+                @include typography-3;
+            }
+
+            & .info {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 125px;
+                margin-inline-end: 0;
+                min-height: 400px;
+
+                & .title {
+                    align-self: flex-start;
+                    margin-block-start: 54px;
+                }
+
+                & .list {
+                    align-self: flex-end;
                 }
             }
         }

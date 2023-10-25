@@ -1,56 +1,39 @@
 .home-page .info-container {
     background-color: $main-teal-clr2;
-    padding-block: 140px;
 
-    & .info {
-        & .left h2 {
-            @include typography-3;
+    & .info .list .item .content-container {
+        & h3 {
+            @include typography-4;
         }
 
-        & .right .item .content-container {
-            & h3 {
-                @include typography-4;
-            }
-
-            & p {
-                @include typography-5;
-            }
+        & p {
+            @include typography-5;
         }
     }
 
     & .info {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-block-start: 26px;
-        gap: 125px;
+        & .list {
+            display: flex;
+            flex-direction: column;
 
-        & .left {
-            padding-block-start: 16px;
-        }
+            & .item {
+                display: flex;
 
-        & .right {
-            & ul {
-                & li {
-                    & .item {
-                        display: grid;
-                        grid-template-columns: auto 1fr;
-                        gap: 39px;
-                        padding-block: 16px;
+                & .img-container {
+                    display: flex;
 
-                        & .img-container img {
-                            height: 56px;
-                            width: 56px;
-                        }
+                    & img {
+                        height: 72px;
+                        width: 72px;
+                    }
+                }
 
-                        & .content-container {
-                            display: flex;
-                            flex-direction: column;
-                            gap: 16px;
+                & .content-container {
+                    display: flex;
+                    flex-direction: column;
 
-                            & h3 {
-                                color: $main-orange-clr0;
-                            }
-                        }
+                    & h3 {
+                        color: $main-orange-clr0;
                     }
                 }
             }
