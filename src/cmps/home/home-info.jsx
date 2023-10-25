@@ -1,11 +1,15 @@
 import imgPerson from "../../assets/images/icon-person.svg"
 import imgCog from "../../assets/images/icon-cog.svg"
 import imgChart from "../../assets/images/icon-chart.svg"
+import bgPatternHome3 from "../../assets/images/bg-pattern-home-3.svg"
 
 export function HomeInfo() {
 
     return (
         <section className="info-container full main-layout">
+            <section className="bg-pattern bg-pattern-home-3">
+                <img src={bgPatternHome3} alt="bgPatternHome3" />
+            </section>
             <section className="info">
                 <section className="title">
                     <h2>Build & manage distributed teams like no one else.</h2>

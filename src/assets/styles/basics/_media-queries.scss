@@ -40,12 +40,14 @@
                 @include typography-9;
             }
 
-            & .info {
-                & .title {
-                    padding-block-start: 32px;
-                    margin-inline-end: 125px;
-                    padding-block-end: 64px;
-                }
+            & .bg-pattern.bg-pattern-home-3 {
+                top: 0;
+            }
+
+            & .info .title {
+                padding-block-start: 32px;
+                margin-inline-end: 125px;
+                padding-block-end: 64px;
             }
         }
     }
@@ -202,6 +204,12 @@
                 padding-inline: unset;
             }
         }
+
+        & .info-container {
+            & .bg-pattern.bg-pattern-home-3 {
+                max-width: 50%;
+            }
+        }
     }
 }
 
@@ -230,19 +238,17 @@
     }
 
     .home-page {
-        & .info-container {
-            & .info {
-                margin-inline-end: 100px;
+        & .info-container .info {
+            margin-inline-end: 100px;
 
-                & .list {
-                    gap: 32px;
+            & .list {
+                gap: 32px;
 
-                    & .item {
-                        gap: 23px;
+                & .item {
+                    gap: 23px;
 
-                        & .content-container {
-                            gap: 16px;
-                        }
+                    & .content-container {
+                        gap: 16px;
                     }
                 }
             }
@@ -375,6 +381,10 @@
 
             & .info .title h2 {
                 @include typography-3;
+            }
+
+            & .bg-pattern.bg-pattern-home-3 {
+                bottom: 0;
             }
 
             & .info {

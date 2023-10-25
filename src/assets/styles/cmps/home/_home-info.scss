@@ -1,4 +1,5 @@
 .home-page .info-container {
+    position: relative;
     background-color: $main-teal-clr2;
 
     & .info .list .item .content-container {
@@ -9,6 +10,14 @@
         & p {
             @include typography-5;
         }
+    }
+
+    & .bg-pattern.bg-pattern-home-3 {
+        position: absolute;
+        display: flex;
+        width: 200px;
+        height: 244px;
+        right: -100px;
     }
 
     & .info {
