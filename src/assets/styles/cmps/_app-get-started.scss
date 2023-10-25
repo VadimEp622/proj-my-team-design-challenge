@@ -1,9 +1,18 @@
 .get-started-container {
+    position: relative;
     background-color: $main-orange-clr0;
     color: $main-teal-clr2;
+    overflow: hidden;
 
     & .get-started .contact-btn-container p {
         @include typography-4;
+    }
+
+    & .bg-pattern.bg-pattern-home-6 {
+        position: absolute;
+        left: 0;
+        display: flex;
+        pointer-events: none;
     }
 
     & .get-started {
