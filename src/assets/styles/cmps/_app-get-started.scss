@@ -1,24 +1,16 @@
 .get-started-container {
     background-color: $main-orange-clr0;
     color: $main-teal-clr2;
-    padding-block: 76px;
 
-    & .get-started {
-        & .title h2 {
-            @include typography-3;
-        }
-
-        & .contact-btn-container p {
-            @include typography-4;
-        }
+    & .get-started .contact-btn-container p {
+        @include typography-4;
     }
 
     & .get-started {
-        padding-inline-start: 98px;
-        padding-inline-end: 95px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 33px;
 
         & .contact-btn-container {
             display: flex;
@@ -39,9 +31,9 @@
                 }
 
                 &:hover {
-                    background-color: $white-clr;
-                    border-color: $white-clr;
-                    color: $main-teal-clr0;
+                    background-color: $main-teal-clr2;
+                    border-color: $main-teal-clr2;
+                    color: $white-clr;
                     cursor: pointer;
                 }
             }
