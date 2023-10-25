@@ -1,6 +1,7 @@
 .home-page .header-extension-container {
     position: relative;
     background-color: $main-teal-clr0;
+    overflow: hidden;
 
     & .bg-img {
         position: absolute;

@@ -1,6 +1,7 @@
 .home-page .info-container {
     position: relative;
     background-color: $main-teal-clr2;
+    overflow: hidden;
 
     & .info .list .item .content-container {
         & h3 {

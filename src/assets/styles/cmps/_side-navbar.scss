@@ -1,4 +1,6 @@
 .side-navbar-wrapper {
+    overflow: hidden;
+    
     & .side-navbar-container nav p {
         @include typography-4;
     }
@@ -28,6 +30,12 @@
     & .black-transparent-bg-wrapper {
         background-color: $black-clr;
         opacity: 0.5;
+    }
+
+    & .bg-pattern.bgPatternMobileNav1{
+        position: absolute;
+        right: -100px;
+        bottom: 0;
     }
 
     & .side-navbar-container {
