@@ -1,74 +1,48 @@
 .home-page .example-container {
     background-color: $main-teal-clr3;
 
-    & .example {
-        & .title h2 {
-            @include typography-3;
+    & .example .list .item {
+        & p {
+            @include typography-5;
         }
 
-        & .list .item {
-            & p {
-                @include typography-5;
-            }
+        & h3 {
+            @include typography-4;
+        }
 
-            & h3 {
-                @include typography-4;
-            }
-
-            & h4 {
-                @include typography-6;
-                font-weight: 500;
-                font-style: italic;
-            }
+        & h4 {
+            @include typography-6;
+            font-weight: 500;
+            font-style: italic;
         }
     }
 
     & .example {
-        padding-block: 140px;
         text-align: center;
 
-        & .title {
-            padding-block-end: 56px;
-            padding-inline: 89px;
-
-            & h2 span {
-                color: $main-teal-clr4;
-            }
+        & .title h2 span {
+            color: $main-teal-clr4;
         }
 
         & .list {
-            & ul {
-                & li {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
-                    gap: 30px;
+            & .item {
+                & p {
                     padding-block-start: 36px;
-                    padding-block-end: 9px;
+                }
 
-                    & .item {
-                        & p {
-                            margin-block-end: 24px;
-                        }
+                & h3 {
+                    padding-block-end: 2px;
+                    color: $main-teal-clr4;
+                }
 
-                        & h3 {
-                            color: $main-teal-clr4;
-                            margin-block-end: 2px;
-                        }
-
-                        & h4 {
-                            margin-block-end: 30px;
-                        }
-
-                        & img {
-                            box-sizing: content-box;
-                            height: 62px;
-                            width: 62px;
-                            border: 2px solid $main-teal-clr5;
-                            border-radius: 32px;
-                            display: block;
-                            margin-inline: auto;
-                        }
-                    }
+                & .avatar-pic {
+                    box-sizing: content-box;
+                    margin-inline: auto;
+                    height: 62px;
+                    width: 62px;
+                    border: 2px solid $main-teal-clr5;
+                    border-radius: 32px;
+                    overflow: hidden;
                 }
             }
         }
