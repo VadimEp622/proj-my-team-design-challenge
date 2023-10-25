@@ -12,6 +12,21 @@
     }
 
     & .info {
+        & .title {
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                height: 4px;
+                width: 50px;
+                background-color: $main-orange-clr0;
+            }
+        }
+
         & .list {
             display: flex;
             flex-direction: column;
