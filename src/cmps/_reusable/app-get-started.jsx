@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import bgPatternHome6 from "../assets/images/bg-pattern-home-6-about-5.svg"
+import bgPatternHome6 from "../../assets/images/bg-pattern-home-6-about-5.svg"
 
 export function GetStarted() {
 

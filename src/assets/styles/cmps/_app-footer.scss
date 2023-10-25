@@ -47,6 +47,11 @@ footer {
                 & a {
                     width: 24px;
                     height: 24px;
+
+                    &:hover img {
+                        filter: brightness(0) saturate(100%) invert(81%) sepia(54%) saturate(3586%) hue-rotate(307deg)
+                            brightness(95%) contrast(104%);
+                    }
                 }
             }
         }

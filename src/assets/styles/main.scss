@@ -12,6 +12,9 @@
 @import "basics/media-queries";
 
 // ************** Components **************
+// Reusable
+@import "cmps/_reusable/app-get-started";
+
 // Home Page
 @import "cmps/home/home-header-extension";
 @import "cmps/home/home-info";
@@ -20,7 +23,6 @@
 // Root
 @import "cmps/app-header";
 @import "cmps/app-footer";
-@import "cmps/app-get-started"; //reusable?
 @import "cmps/side-navbar";
 
 // ************** Pages **************
