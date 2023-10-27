@@ -30,9 +30,9 @@ export function AppFooter() {
 
                 <section className="share-copyright-container">
                     <nav>
-                        <a href="/#"><img src={facebookIcon} alt="facebookIcon" /></a>
-                        <a href="/#"><img src={pinterestIcon} alt="pinterestIcon" /></a>
-                        <a href="/#"><img src={twitterIcon} alt="twitterIcon" /></a>
+                        <Link to={`/share`}><img src={facebookIcon} alt="facebookIcon" /></Link>
+                        <Link to={`/share`}><img src={pinterestIcon} alt="pinterestIcon" /></Link>
+                        <Link to={`/share`}><img src={twitterIcon} alt="twitterIcon" /></Link>
                     </nav>
                     <section className="copyright">
                         <p>Copyright 2023. All Rights Reserved</p>
