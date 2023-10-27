@@ -1,0 +1,16 @@
+.about-intro-container {
+    position: relative;
+    background-color: $main-teal-clr0;
+    overflow: hidden;
+
+    & .bg-pattern.bgPatternAbout1 {
+        position: absolute;
+        right: -100px;
+        height: 200px;
+        width: 200px;
+    }
+
+    & .about-intro {
+        height: fit-content;
+    }
+}

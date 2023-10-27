@@ -82,6 +82,31 @@
         }
     }
 
+    .about-page {
+        & .about-intro-container {
+            padding-block-start: 48px;
+            padding-block-end: 112px;
+
+            & .about-intro {
+                & h1 {
+                    @include typography-2;
+                }
+
+                & p {
+                    @include typography-8;
+                }
+            }
+
+            & .about-intro {
+                text-align: center;
+
+                & h1 {
+                    margin-block-end: 24px;
+                }
+            }
+        }
+    }
+
     header {
         & .app-header-container {
             padding-block: 64px;
@@ -182,6 +207,25 @@
         & .example-container .example {
             padding-block-start: 140px;
             padding-block-end: 162px;
+        }
+    }
+
+    .about-page {
+        & .about-intro-container {
+            padding-block-start: 32px;
+            padding-block-end: 108px;
+
+            & .about-intro h1 {
+                @include typography-7;
+            }
+
+            & .bg-pattern.bgPatternAbout1 {
+                bottom: -100px;
+            }
+
+            & .about-intro h1 {
+                margin-block-end: 16px;
+            }
         }
     }
 
@@ -306,6 +350,18 @@
 
             & .title h2 {
                 padding-inline: 80px;
+            }
+        }
+    }
+
+    .about-page {
+        & .about-intro-container {
+            & .bg-pattern.bgPatternAbout1 {
+                bottom: 0;
+            }
+
+            & .about-intro {
+                margin-inline: 110px;
             }
         }
     }
@@ -489,6 +545,44 @@
                         & h4 {
                             padding-block-end: 30px;
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    .about-page {
+        & .about-intro-container {
+            padding-block-start: 47px;
+            padding-block-end: 120px;
+
+            & .about-intro {
+                & h1 {
+                    @include typography-10;
+                }
+
+                & p {
+                    @include typography-4;
+                }
+            }
+
+            & .about-intro {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                gap: 30px;
+
+                & p {
+                    position: relative;
+                    padding-block-start: 44px;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 4px;
+                        width: 50px;
+                        background-color: $main-orange-clr0;
                     }
                 }
             }
