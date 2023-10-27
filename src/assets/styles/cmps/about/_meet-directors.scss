@@ -1,0 +1,49 @@
+.meet-directors-container {
+    background-color: $main-teal-clr3;
+    text-align: center;
+
+    & .meet-directors {
+        & .director-list {
+            display: grid;
+
+            & .director-preview {
+                position: relative;
+                padding-block-start: 30px;
+                padding-block-end: 56px;
+                background-color: $main-teal-clr2;
+
+                & .avatar {
+                    height: 96px;
+                    width: 96px;
+                    border: 2px solid $main-teal-clr5;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    margin-inline: auto;
+                }
+
+                & .name {
+                    margin-block-start: 14px;
+                    color: $main-teal-clr4;
+                }
+
+                & .icon-cross-container {
+                    position: absolute;
+                    bottom: -28px;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+
+                    & .icon-cross {
+                        background-color: $main-orange-clr0;
+                        padding: 20px;
+                        border-radius: 50%;
+
+                        & img {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

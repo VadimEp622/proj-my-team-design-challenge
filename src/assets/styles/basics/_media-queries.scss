@@ -105,6 +105,22 @@
                 }
             }
         }
+
+        & .meet-directors-container {
+            padding-block: 100px;
+
+            & .meet-directors {
+                & .title h1 {
+                    @include typography-9;
+                }
+            }
+
+            & .meet-directors {
+                & .title {
+                    margin-block-end: 48px;
+                }
+            }
+        }
     }
 
     header {
@@ -225,6 +241,16 @@
 
             & .about-intro h1 {
                 margin-block-end: 16px;
+            }
+        }
+
+        & .meet-directors-container {
+            padding-block: 88px;
+
+            & .director-list {
+                & > *:not(:first-child) {
+                    margin-block-start: 52px;
+                }
             }
         }
     }
@@ -362,6 +388,18 @@
 
             & .about-intro {
                 margin-inline: 110px;
+            }
+        }
+
+        & .meet-directors-container {
+            & .meet-directors {
+                padding-inline: 60px;
+            }
+
+            & .director-list {
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 11px;
+                row-gap: 76px;
             }
         }
     }
@@ -584,6 +622,29 @@
                         width: 50px;
                         background-color: $main-orange-clr0;
                     }
+                }
+            }
+        }
+
+        & .meet-directors-container {
+            padding-block: 140px;
+
+            & .meet-directors {
+                & .title h1 {
+                    @include typography-3;
+                }
+            }
+
+            & .meet-directors {
+                padding-inline: 0;
+
+                & .title {
+                    margin-block-end: 60px;
+                }
+
+                & .director-list {
+                    grid-template-columns: repeat(3, 1fr);
+                    column-gap: 30px;
                 }
             }
         }
