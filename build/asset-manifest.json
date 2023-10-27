@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proj-my-team-design-challenge/static/css/main.b869448f.css",
-    "main.js": "/proj-my-team-design-challenge/static/js/main.796bb0a3.js",
+    "main.css": "/proj-my-team-design-challenge/static/css/main.8271ba46.css",
+    "main.js": "/proj-my-team-design-challenge/static/js/main.9ffb593c.js",
     "static/media/Livvic-BoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-BoldItalic.b9e334bcf82de36a5907.ttf",
     "static/media/Livvic-SemiBoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-SemiBoldItalic.3bfdd0e8025e9ed40b8f.ttf",
     "static/media/Livvic-MediumItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-MediumItalic.c388d554d36321255ab9.ttf",
@@ -31,15 +31,16 @@
     "static/media/bg-pattern-home-5.svg": "/proj-my-team-design-challenge/static/media/bg-pattern-home-5.95a2a6211526850cef5564daa5a17630.svg",
     "static/media/bg-pattern-about-1-mobile-nav-1.svg": "/proj-my-team-design-challenge/static/media/bg-pattern-about-1-mobile-nav-1.b09936d7157850a9c759a89d1991ea1a.svg",
     "static/media/icon-facebook.svg": "/proj-my-team-design-challenge/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
+    "static/media/icon-linkedin.svg": "/proj-my-team-design-challenge/static/media/icon-linkedin.416b1433deae6e8d9d9d1efa0fe793f4.svg",
     "static/media/bg-pattern-home-4-about-3.svg": "/proj-my-team-design-challenge/static/media/bg-pattern-home-4-about-3.aacd4e03b04df33749baa362f4612832.svg",
     "static/media/icon-close.svg": "/proj-my-team-design-challenge/static/media/icon-close.7bb417a5beb45106e0df4f87af9026db.svg",
     "static/media/icon-hamburger.svg": "/proj-my-team-design-challenge/static/media/icon-hamburger.fc176eb243d0591583eb436d00f4c10e.svg",
     "static/media/icon-cross.svg": "/proj-my-team-design-challenge/static/media/icon-cross.dd951e5ef6d380146072a5c890156c3d.svg",
-    "main.b869448f.css.map": "/proj-my-team-design-challenge/static/css/main.b869448f.css.map",
-    "main.796bb0a3.js.map": "/proj-my-team-design-challenge/static/js/main.796bb0a3.js.map"
+    "main.8271ba46.css.map": "/proj-my-team-design-challenge/static/css/main.8271ba46.css.map",
+    "main.9ffb593c.js.map": "/proj-my-team-design-challenge/static/js/main.9ffb593c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b869448f.css",
-    "static/js/main.796bb0a3.js"
+    "static/css/main.8271ba46.css",
+    "static/js/main.9ffb593c.js"
   ]
 }
