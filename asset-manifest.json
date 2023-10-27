@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proj-my-team-design-challenge/static/css/main.80aa98a8.css",
-    "main.js": "/proj-my-team-design-challenge/static/js/main.0e292605.js",
+    "main.css": "/proj-my-team-design-challenge/static/css/main.5b01eb06.css",
+    "main.js": "/proj-my-team-design-challenge/static/js/main.705175ac.js",
     "static/media/Livvic-BoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-BoldItalic.b9e334bcf82de36a5907.ttf",
     "static/media/Livvic-SemiBoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-SemiBoldItalic.3bfdd0e8025e9ed40b8f.ttf",
     "static/media/Livvic-MediumItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-MediumItalic.c388d554d36321255ab9.ttf",
@@ -29,11 +29,11 @@
     "static/media/bg-pattern-home-4-about-3.svg": "/proj-my-team-design-challenge/static/media/bg-pattern-home-4-about-3.aacd4e03b04df33749baa362f4612832.svg",
     "static/media/icon-close.svg": "/proj-my-team-design-challenge/static/media/icon-close.7bb417a5beb45106e0df4f87af9026db.svg",
     "static/media/icon-hamburger.svg": "/proj-my-team-design-challenge/static/media/icon-hamburger.fc176eb243d0591583eb436d00f4c10e.svg",
-    "main.80aa98a8.css.map": "/proj-my-team-design-challenge/static/css/main.80aa98a8.css.map",
-    "main.0e292605.js.map": "/proj-my-team-design-challenge/static/js/main.0e292605.js.map"
+    "main.5b01eb06.css.map": "/proj-my-team-design-challenge/static/css/main.5b01eb06.css.map",
+    "main.705175ac.js.map": "/proj-my-team-design-challenge/static/js/main.705175ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.80aa98a8.css",
-    "static/js/main.0e292605.js"
+    "static/css/main.5b01eb06.css",
+    "static/js/main.705175ac.js"
   ]
 }
