@@ -35,9 +35,15 @@ $size-pic-avatar-large: 96px;
 // Picture Dimensions:
 
 // Paddings
-$padding-block-header-small: 48px;
-$padding-block-header-medium: 64px;
-$padding-block-header-large: 73px;
+$padding-block-header-mobile: 48px;
+$padding-block-header-tablet: 64px;
+$padding-block-header-desktop: 73px;
+
+$padding-block-footer-mobile: 64px;
+$padding-block-footer-tablet: 56px;
+$padding-block-footer-desktop: 48px;
+
+// $padding-block-0: 100px;
 
 // $padding-large: 20px;
 // $padding-small: 5px;
