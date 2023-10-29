@@ -44,7 +44,7 @@
         background-color: $main-teal-clr6;
         color: $white-clr;
         padding-inline: 25px;
-        padding-block-start: 56px;
+        padding-block: $padding-block-side-navbar;
 
         & .side-navbar {
             display: grid;
@@ -65,7 +65,7 @@
             }
 
             & nav {
-                padding-block: $padding-block-2;
+                padding-block: $padding-block-side-navbar;
                 padding-inline-start: 23px;
 
                 & .nav-list > * {
