@@ -126,3 +126,28 @@
     background-color: inherit;
     border: none;
 }
+
+/* =================== Repeating Styling =================== */
+@mixin avatar($size: $size-pic-avatar-small) {
+    box-sizing: content-box;
+    height: $size;
+    width: $size;
+    border: 2px solid $main-teal-clr5;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-inline: auto;
+}
+
+@mixin nav-share($size: $size-pic-icon-share-small) {
+    display: flex;
+    gap: 16px;
+
+    & a {
+        width: $size;
+        height: $size;
+
+        &:hover img {
+            filter: $clr-filter0;
+        }
+    }
+}

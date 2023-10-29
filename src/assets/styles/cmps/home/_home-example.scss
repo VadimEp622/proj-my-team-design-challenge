@@ -61,13 +61,7 @@
             }
 
             & .avatar-pic {
-                box-sizing: content-box;
-                margin-inline: auto;
-                height: 62px;
-                width: 62px;
-                border: 2px solid $main-teal-clr5;
-                border-radius: 32px;
-                overflow: hidden;
+                @include avatar($size-pic-avatar-small);
             }
         }
     }

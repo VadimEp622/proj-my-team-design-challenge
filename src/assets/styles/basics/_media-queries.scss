@@ -125,7 +125,7 @@
 
     header {
         & .app-header-container {
-            padding-block: 64px;
+            padding-block: $padding-block-header-medium;
 
             & .logo {
                 width: 128px;
@@ -261,7 +261,7 @@
         }
 
         & .app-header-container {
-            padding-block: 48px;
+            padding-block: $padding-block-header-small;
 
             & .mobile-navbar-btn-container .btn-mobile-navbar {
                 background-color: inherit;
@@ -652,7 +652,7 @@
 
     header {
         & .app-header-container {
-            padding-block: 73px;
+            padding-block: $padding-block-header-large;
         }
     }
 

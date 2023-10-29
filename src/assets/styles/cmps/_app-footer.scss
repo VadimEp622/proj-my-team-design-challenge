@@ -41,17 +41,7 @@ footer {
             display: flex;
 
             & nav {
-                display: flex;
-                gap: 16px;
-
-                & a {
-                    width: 24px;
-                    height: 24px;
-
-                    &:hover img {
-                        filter: $clr-filter0;
-                    }
-                }
+                @include nav-share($size: $size-pic-icon-share-large);
             }
         }
     }
