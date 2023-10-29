@@ -1,15 +1,15 @@
 import bgPatternHome1 from "../../assets/images/bg-pattern-home-1.svg"
 import bgPatternHome2 from "../../assets/images/bg-pattern-home-2.svg"
 
-export function HomeHeaderExtension() {
+export function HomeFindTalent() {
 
     return (
-        <section className="header-extension-container full main-layout">
+        <section className="find-talent-container full main-layout">
             <section className="full main-layout">
                 <section className="bg-img bgPatternHome1 full">
                     <img src={bgPatternHome1} alt="bgPatternHome1" />
                 </section>
-                <section className="header-extension">
+                <section className="find-talent">
                     <article className="title">
                         <h1>Find the best <span>talent</span></h1>
                     </article>

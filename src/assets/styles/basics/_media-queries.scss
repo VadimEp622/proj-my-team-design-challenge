@@ -1,7 +1,7 @@
 // less than 1440px
 @include for-wide-layout {
     .home-page {
-        & .header-extension-container {
+        & .find-talent-container {
             & .bg-img {
                 &.bgPatternHome1 {
                     display: none;
@@ -13,7 +13,7 @@
                 }
             }
 
-            & .header-extension {
+            & .find-talent {
                 padding-block-start: 48px;
                 padding-block-end: 256px;
                 text-align: center;
@@ -34,7 +34,7 @@
         }
 
         & .info-container {
-            padding-block: 100px;
+            padding-block: $padding-block-8;
 
             & .info .title h2 {
                 @include typography-9;
@@ -57,7 +57,7 @@
             }
 
             & .example {
-                padding-block: 100px;
+                padding-block: $padding-block-8;
 
                 & .title {
                     margin-block-end: 48px;
@@ -107,7 +107,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: 100px;
+            padding-block: $padding-block-8;
 
             & .meet-directors {
                 & .title h1 {
@@ -182,7 +182,7 @@
     }
 
     .home-page {
-        & .header-extension-container .header-extension {
+        & .find-talent-container .find-talent {
             padding-block-start: 32px;
             padding-block-end: 197px;
 
@@ -197,7 +197,7 @@
         }
 
         & .info-container {
-            padding-block: 64px;
+            padding-block: $padding-block-3;
 
             & .info {
                 & .title {
@@ -247,7 +247,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: 88px;
+            padding-block: $padding-block-7;
 
             & .director-list {
                 & > *:not(:first-child) {
@@ -305,7 +305,7 @@
     }
 
     .get-started-container {
-        padding-block: 83px;
+        padding-block: $padding-block-6;
 
         & .get-started {
             flex-direction: column;
@@ -318,14 +318,14 @@
 // less than 375px
 @include for-narrow-layout {
     .home-page {
-        & .header-extension-container {
+        & .find-talent-container {
             & .bg-img.bgPatternHome2 {
                 width: 100%;
                 height: auto;
                 display: flex;
             }
 
-            & .header-extension .title {
+            & .find-talent .title {
                 padding-inline: unset;
             }
         }
@@ -339,13 +339,13 @@
 // more than 375px
 @include for-mobile-layout {
     .home-page {
-        & .header-extension-container {
+        & .find-talent-container {
             & .bg-img.bgPatternHome2 {
                 height: 100px;
                 width: 358px;
             }
 
-            & .header-extension .content {
+            & .find-talent .content {
                 padding-inline: 15%;
             }
         }
@@ -440,7 +440,7 @@
                 border: 2px solid $white-clr;
                 border-radius: 24px;
                 padding-inline: 31.5px;
-                padding-block: 8px;
+                padding-block: $padding-block-0;
                 transition: all 0.2s ease-in-out;
 
                 & p {
@@ -470,7 +470,7 @@
     }
 
     .get-started-container {
-        padding-block: 76px;
+        padding-block: $padding-block-5;
 
         & .get-started {
             padding-inline: 100px;
@@ -485,11 +485,11 @@
     }
 
     .home-page {
-        & .header-extension-container {
+        & .find-talent-container {
             padding-block-start: 56px;
             padding-block-end: 250px;
 
-            & .header-extension {
+            & .find-talent {
                 & .title h1 {
                     @include typography-1;
                 }
@@ -511,7 +511,7 @@
                 }
             }
 
-            & .header-extension {
+            & .find-talent {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 30px;
@@ -535,7 +535,7 @@
         }
 
         & .info-container {
-            padding-block: 140px;
+            padding-block: $padding-block-9;
 
             & .info .title h2 {
                 @include typography-3;
@@ -569,7 +569,7 @@
             }
 
             & .example {
-                padding-block: 140px;
+                padding-block: $padding-block-9;
 
                 & .title {
                     margin-block-end: 56px;
@@ -631,7 +631,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: 140px;
+            padding-block: $padding-block-9;
 
             & .meet-directors {
                 & .title h1 {

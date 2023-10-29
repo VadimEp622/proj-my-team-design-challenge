@@ -65,7 +65,7 @@
             }
 
             & nav {
-                padding-block: 56px;
+                padding-block: $padding-block-2;
                 padding-inline-start: 23px;
 
                 & .nav-list > * {
@@ -88,7 +88,7 @@
                         border: 2px solid $white-clr;
                         border-radius: 24px;
                         padding-inline: 31.5px;
-                        padding-block: 8px;
+                        padding-block: $padding-block-0;
                         transition: all 0.2s ease-in-out;
 
                         & p {

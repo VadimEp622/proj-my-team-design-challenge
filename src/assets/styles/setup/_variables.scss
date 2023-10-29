@@ -26,27 +26,33 @@ $mobile-breakpoint: 375px;
 $tablet-breakpoint: 768px;
 $desktop-breakpoint: 1440px;
 
-// Picture Sizes:
+// Picture Sizes
 $size-pic-icon-share-small: 20px;
 $size-pic-icon-share-large: 24px;
 $size-pic-avatar-small: 62px;
 $size-pic-avatar-large: 96px;
 
-// Picture Dimensions:
+// Picture Dimensions
 
 // Paddings
-$padding-block-header-mobile: 48px;
-$padding-block-header-tablet: 64px;
-$padding-block-header-desktop: 73px;
+$padding-block-0: 8px;
+$padding-block-1: 48px;
+$padding-block-2: 56px;
+$padding-block-3: 64px;
+$padding-block-4: 73px;
+$padding-block-5: 76px;
+$padding-block-6: 83px;
+$padding-block-7: 88px;
+$padding-block-8: 100px;
+$padding-block-9: 140px;
 
-$padding-block-footer-mobile: 64px;
-$padding-block-footer-tablet: 56px;
-$padding-block-footer-desktop: 48px;
+$padding-block-header-mobile: $padding-block-1;
+$padding-block-header-tablet: $padding-block-3;
+$padding-block-header-desktop: $padding-block-4;
 
-// $padding-block-0: 100px;
-
-// $padding-large: 20px;
-// $padding-small: 5px;
+$padding-block-footer-mobile: $padding-block-3;
+$padding-block-footer-tablet: $padding-block-2;
+$padding-block-footer-desktop: $padding-block-1;
 
 // Heights
 // $height-header: 80px;
