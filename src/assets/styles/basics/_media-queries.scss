@@ -34,7 +34,7 @@
         }
 
         & .info-container {
-            padding-block: $padding-block-8;
+            padding-block: $padding-block-home-info-tablet;
 
             & .info .title h2 {
                 @include typography-9;
@@ -57,7 +57,7 @@
             }
 
             & .example {
-                padding-block: $padding-block-8;
+                padding-block: $padding-block-home-example-tablet;
 
                 & .title {
                     margin-block-end: 48px;
@@ -107,7 +107,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: $padding-block-8;
+            padding-block: $padding-block-meet-directors-tablet;
 
             & .meet-directors {
                 & .title h1 {
@@ -197,7 +197,7 @@
         }
 
         & .info-container {
-            padding-block: $padding-block-3;
+            padding-block: $padding-block-home-info-mobile;
 
             & .info {
                 & .title {
@@ -223,8 +223,7 @@
         }
 
         & .example-container .example {
-            padding-block-start: 140px;
-            padding-block-end: 162px;
+            padding-block: $padding-block-home-example-mobile;
         }
     }
 
@@ -247,7 +246,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: $padding-block-7;
+            padding-block: $padding-block-meet-directors-mobile;
 
             & .director-list {
                 & > *:not(:first-child) {
@@ -305,7 +304,7 @@
     }
 
     .get-started-container {
-        padding-block: $padding-block-6;
+        padding-block: $padding-block-get-started-mobile;
 
         & .get-started {
             flex-direction: column;
@@ -440,7 +439,7 @@
                 border: 2px solid $white-clr;
                 border-radius: 24px;
                 padding-inline: 31.5px;
-                padding-block: $padding-block-0;
+                padding-block: $padding-block-btn-contact-us;
                 transition: all 0.2s ease-in-out;
 
                 & p {
@@ -470,7 +469,7 @@
     }
 
     .get-started-container {
-        padding-block: $padding-block-5;
+        padding-block: $padding-block-get-started-tablet;
 
         & .get-started {
             padding-inline: 100px;
@@ -535,7 +534,7 @@
         }
 
         & .info-container {
-            padding-block: $padding-block-9;
+            padding-block: $padding-block-home-info-desktop;
 
             & .info .title h2 {
                 @include typography-3;
@@ -569,7 +568,7 @@
             }
 
             & .example {
-                padding-block: $padding-block-9;
+                padding-block: $padding-block-home-example-desktop;
 
                 & .title {
                     margin-block-end: 56px;
@@ -631,7 +630,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: $padding-block-9;
+            padding-block: $padding-block-meet-directors-desktop;
 
             & .meet-directors {
                 & .title h1 {
