@@ -34,9 +34,9 @@
         &.iconQuotes {
             inset: 0 50%;
             transform: translate(-50%, 0);
-            width: 67px;
-            height: 56px;
             z-index: -1;
+            width: max-content;
+            height: max-content;
         }
     }
 
