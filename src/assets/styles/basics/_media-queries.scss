@@ -505,16 +505,7 @@
                     display: flex;
                     align-items: flex-end;
                     padding-inline: unset;
-                    position: relative;
-
-                    &::before {
-                        content: "";
-                        height: 4px;
-                        width: 50px;
-                        background-color: $main-teal-clr4;
-                        position: absolute;
-                        top: 0;
-                    }
+                    @include small-upper-rectangle($main-teal-clr4);
                 }
             }
         }
@@ -599,18 +590,8 @@
                 gap: 30px;
 
                 & p {
-                    position: relative;
                     padding-block-start: 44px;
-
-                    &::before {
-                        content: "";
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        height: 4px;
-                        width: 50px;
-                        background-color: $main-orange-clr0;
-                    }
+                    @include small-upper-rectangle($main-orange-clr0);
                 }
             }
         }

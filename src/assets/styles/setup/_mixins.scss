@@ -151,3 +151,18 @@
         }
     }
 }
+
+@mixin small-upper-rectangle($clr: $main-orange-clr0) {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        height: 4px;
+        width: 50px;
+        background-color: $clr;
+    }
+}
