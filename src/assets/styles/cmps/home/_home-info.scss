@@ -32,11 +32,9 @@
 
                 & .img-container {
                     display: flex;
-
-                    & img {
-                        height: 72px;
-                        width: 72px;
-                    }
+                    flex: 0 0 auto;
+                    height: $size-pic-icon-home-info;
+                    width: $size-pic-icon-home-info;
                 }
 
                 & .content-container {
