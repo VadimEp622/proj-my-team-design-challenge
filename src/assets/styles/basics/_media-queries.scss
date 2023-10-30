@@ -8,8 +8,7 @@
                 }
 
                 &.bgPatternHome2 {
-                    inset-inline: 50%;
-                    transform: translateX(-50%);
+                    justify-self: center;
                 }
             }
 
@@ -318,12 +317,6 @@
 @include for-narrow-layout {
     .home-page {
         & .find-talent-container {
-            & .bg-img.bgPatternHome2 {
-                width: 100%;
-                height: auto;
-                display: flex;
-            }
-
             & .find-talent .title {
                 padding-inline: unset;
             }
@@ -339,11 +332,6 @@
 @include for-mobile-layout {
     .home-page {
         & .find-talent-container {
-            & .bg-img.bgPatternHome2 {
-                height: 100px;
-                width: 358px;
-            }
-
             & .find-talent .content {
                 padding-inline: 15%;
             }
