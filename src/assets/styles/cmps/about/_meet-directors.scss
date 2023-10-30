@@ -83,10 +83,6 @@
                             background-color 0.2s ease-out,
                             transform 0.2s ease;
 
-                        & img {
-                            display: block;
-                        }
-
                         &:hover {
                             background-color: $main-teal-clr4;
                             cursor: pointer;
