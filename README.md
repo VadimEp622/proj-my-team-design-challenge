@@ -25,6 +25,8 @@
 ![mixins](https://github.com/VadimEp622/proj-my-team-design-challenge/assets/118854398/75668f79-2d89-42e3-9f61-19141d94ae85)
 
 Application was designed as **Mobile-First**, with minimal styling for the component itself.
+
 All the different styling, which are only relevant for certain screen-widths, were inserted into relevant media-query mixin (closed range if possible).
+
 The goal is maximizing performance for mobile, while improving the overall performance for all devices.
 
