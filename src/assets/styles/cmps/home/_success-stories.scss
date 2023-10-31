@@ -1,8 +1,8 @@
-.home-page .example-container {
+.success-stories-container {
     position: relative;
     background-color: $main-teal-clr3;
 
-    & .example .list .item {
+    & .success-stories .list .item {
         & p {
             @include typography-5;
         }
@@ -40,7 +40,7 @@
         }
     }
 
-    & .example {
+    & .success-stories {
         text-align: center;
 
         & .title h2 span {

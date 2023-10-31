@@ -50,13 +50,13 @@
             }
         }
 
-        & .example-container {
-            & .example .title h2 {
+        & .success-stories-container {
+            & .success-stories .title h2 {
                 @include typography-9;
             }
 
-            & .example {
-                padding-block: $padding-block-home-example-tablet;
+            & .success-stories {
+                padding-block: $padding-block-success-stories-tablet;
 
                 & .title {
                     margin-block-end: 48px;
@@ -240,8 +240,8 @@
             }
         }
 
-        & .example-container .example {
-            padding-block: $padding-block-home-example-mobile;
+        & .success-stories-container .success-stories {
+            padding-block: $padding-block-success-stories-mobile;
         }
     }
 
@@ -409,7 +409,7 @@
             }
         }
 
-        & .example-container .example {
+        & .success-stories-container .success-stories {
             padding-inline: 60px;
 
             & .title h2 {
@@ -592,13 +592,13 @@
             }
         }
 
-        & .example-container {
-            & .example .title h2 {
+        & .success-stories-container {
+            & .success-stories .title h2 {
                 @include typography-3;
             }
 
-            & .example {
-                padding-block: $padding-block-home-example-desktop;
+            & .success-stories {
+                padding-block: $padding-block-success-stories-desktop;
 
                 & .title {
                     margin-block-end: 56px;

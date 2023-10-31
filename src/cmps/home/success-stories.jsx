@@ -5,17 +5,17 @@ import bgPatternHome4 from "../../assets/images/bg-pattern-home-4-about-3.svg"
 import bgPatternHome5 from "../../assets/images/bg-pattern-home-5.svg"
 import iconQuotes from "../../assets/images/icon-quotes.svg"
 
-export function HomeExample() {
+export function SuccessStories() {
 
     return (
-        <section className="example-container full main-layout">
+        <section className="success-stories-container full main-layout">
             <section className="full bg-pattern bgPatternHome4">
                 <img src={bgPatternHome4} alt="bgPatternHome4" />
             </section>
             <section className="full bg-pattern bgPatternHome5">
                 <img src={bgPatternHome5} alt="bgPatternHome5" />
             </section>
-            <section className="example">
+            <section className="success-stories">
                 <section className="title">
                     <h2>Delivering real results for top companies. Some of our <span>success stories.</span></h2>
                 </section>
