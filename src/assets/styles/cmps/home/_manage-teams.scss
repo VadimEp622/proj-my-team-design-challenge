@@ -3,7 +3,7 @@
     background-color: $main-teal-clr2;
     overflow: hidden;
 
-    & .manage-teams .list .item .content-container {
+    & .manage-teams .content-container {
         & h3 {
             @include typography-4;
         }
@@ -23,11 +23,11 @@
             @include small-upper-rectangle($main-orange-clr0);
         }
 
-        & .list {
+        & .team-quality-list {
             display: flex;
             flex-direction: column;
 
-            & .item {
+            & .team-quality-preview {
                 display: flex;
 
                 & .img-container {

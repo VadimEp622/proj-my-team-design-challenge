@@ -54,3 +54,24 @@ export const directors = [
         img: require('../assets/images/avatar-aden.jpg')
     },
 ]
+
+export const teamQualities = [
+    {
+        title: 'Experienced Individuals',
+        content: 'Our network is made up of highly experienced professionals who are passionate about what they do.',
+        img: require('../assets/images/icon-person.svg').default,
+        imgName: 'person'
+    },
+    {
+        title: 'Easy to Implement',
+        content: 'Our processes have been refined over years of implementation meaning our teams always deliver.',
+        img: require('../assets/images/icon-cog.svg').default,
+        imgName: 'cog'
+    },
+    {
+        title: 'Enhanced Productivity',
+        content: 'Our customized platform with in-built analytics helps you manage your distributed teams.',
+        img: require('../assets/images/icon-chart.svg').default,
+        imgName: 'chart'
+    },
+]

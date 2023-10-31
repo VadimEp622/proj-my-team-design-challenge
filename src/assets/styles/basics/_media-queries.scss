@@ -223,10 +223,10 @@
                     padding-block-end: 56px;
                 }
 
-                & .list {
+                & .team-quality-list {
                     gap: 48px;
 
-                    & .item {
+                    & .team-quality-preview {
                         flex-direction: column;
                         align-items: center;
                         gap: 16px;
@@ -400,10 +400,10 @@
         & .manage-teams-container .manage-teams {
             margin-inline: 60px;
 
-            & .list {
+            & .team-quality-list {
                 gap: 32px;
 
-                & .item {
+                & .team-quality-preview {
                     gap: 23px;
 
                     & .content-container {
@@ -590,7 +590,7 @@
                     padding-block-start: 54px;
                 }
 
-                & .list {
+                & .team-quality-list {
                     align-self: flex-end;
                 }
             }
