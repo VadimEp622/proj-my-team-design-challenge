@@ -120,6 +120,25 @@
                 }
             }
         }
+
+        & .client-examples-container {
+            padding-block: $padding-block-client-examples-tablet;
+
+            & .title h1 {
+                @include typography-9;
+            }
+
+            & .bg-pattern.bgPatternAbout4 {
+                top: -100px;
+            }
+
+            & .client-examples {
+                & .client-list {
+                    gap: 50px;
+                    margin-block-start: 48px;
+                }
+            }
+        }
     }
 
     header {
@@ -250,6 +269,34 @@
             & .director-list {
                 & > *:not(:first-child) {
                     margin-block-start: 52px;
+                }
+            }
+        }
+
+        & .client-examples-container {
+            padding-block: $padding-block-client-examples-mobile;
+
+            & .bg-pattern.bgPatternAbout4 {
+                left: -100px;
+            }
+
+            & .title {
+                margin-inline: 15px;
+            }
+
+            & .client-examples {
+                & .client-list {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 57px;
+                    margin-block-start: 64px;
+                    height: 360px;
+                    margin-inline: auto;
+
+                    & .client-preview {
+                        flex: 1 1 auto;
+                        min-height: 0;
+                    }
                 }
             }
         }
@@ -391,6 +438,12 @@
                 grid-template-columns: repeat(2, 1fr);
                 column-gap: 11px;
                 row-gap: 76px;
+            }
+        }
+
+        & .client-examples {
+            & .client-preview {
+                height: 28px;
             }
         }
     }
@@ -615,6 +668,25 @@
                 & .director-list {
                     grid-template-columns: repeat(3, 1fr);
                     column-gap: 30px;
+                }
+            }
+        }
+
+        & .client-examples-container {
+            padding-block: $padding-block-client-examples-desktop;
+
+            & .title h1 {
+                @include typography-3;
+            }
+
+            & .client-examples {
+                & .client-list {
+                    gap: 80px;
+                    margin-block-start: 64px;
+
+                    & .client-preview {
+                        height: 45px;
+                    }
                 }
             }
         }

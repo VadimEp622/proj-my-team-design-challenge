@@ -1,0 +1,28 @@
+.client-examples-container {
+    background-color: $main-teal-clr2;
+    position: relative;
+    overflow: hidden;
+
+    & .bg-pattern.bgPatternAbout4 {
+        position: absolute;
+    }
+
+    & .client-examples {
+        & .title {
+            text-align: center;
+        }
+
+        & .client-list {
+            display: flex;
+            justify-content: space-between;
+
+            & .client-preview {
+                display: flex;
+
+                & img {
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
