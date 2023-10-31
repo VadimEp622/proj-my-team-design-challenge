@@ -1,7 +1,7 @@
 import { FindTalent } from "../cmps/home/find-talent"
 import { ManageTeams } from "../cmps/home/manage-teams"
 import { SuccessStories } from "../cmps/home/success-stories"
-import { GetStarted } from "../cmps/_reusable/app-get-started"
+import { GetStarted } from "../cmps/_reusable/get-started"
 
 export function Home() {
 
