@@ -266,6 +266,10 @@
         & .meet-directors-container {
             padding-block: $padding-block-meet-directors-mobile;
 
+            & .bg-pattern.bgPatternAbout2 {
+                top: -100px;
+            }
+
             & .director-list {
                 & > *:not(:first-child) {
                     margin-block-start: 52px;

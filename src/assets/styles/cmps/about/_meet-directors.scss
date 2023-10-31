@@ -1,6 +1,8 @@
 .meet-directors-container {
     background-color: $main-teal-clr3;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 
     & .meet-directors .director-preview {
         & .name {
@@ -14,6 +16,11 @@
         & .position {
             font-style: italic;
         }
+    }
+
+    & .bg-pattern.bgPatternAbout2 {
+        position: absolute;
+        left: -100px;
     }
 
     & .meet-directors {
