@@ -1,9 +1,9 @@
-.home-page .info-container {
+.manage-teams-container {
     position: relative;
     background-color: $main-teal-clr2;
     overflow: hidden;
 
-    & .info .list .item .content-container {
+    & .manage-teams .list .item .content-container {
         & h3 {
             @include typography-4;
         }
@@ -18,7 +18,7 @@
         right: -100px;
     }
 
-    & .info {
+    & .manage-teams {
         & .title {
             @include small-upper-rectangle($main-orange-clr0);
         }

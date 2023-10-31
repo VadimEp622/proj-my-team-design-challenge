@@ -32,10 +32,10 @@
             }
         }
 
-        & .info-container {
-            padding-block: $padding-block-home-info-tablet;
+        & .manage-teams-container {
+            padding-block: $padding-block-manage-teams-tablet;
 
-            & .info .title h2 {
+            & .manage-teams .title h2 {
                 @include typography-9;
             }
 
@@ -43,7 +43,7 @@
                 top: 0;
             }
 
-            & .info .title {
+            & .manage-teams .title {
                 padding-block-start: 32px;
                 margin-inline-end: 125px;
                 padding-block-end: 64px;
@@ -214,10 +214,10 @@
             }
         }
 
-        & .info-container {
-            padding-block: $padding-block-home-info-mobile;
+        & .manage-teams-container {
+            padding-block: $padding-block-manage-teams-mobile;
 
-            & .info {
+            & .manage-teams {
                 & .title {
                     margin-inline-end: 110px;
                     padding-block-end: 56px;
@@ -369,7 +369,7 @@
             }
         }
 
-        & .info-container .bg-pattern.bg-pattern-home-3 {
+        & .manage-teams-container .bg-pattern.bg-pattern-home-3 {
             max-width: 50%;
         }
     }
@@ -393,7 +393,7 @@
     }
 
     .home-page {
-        & .info-container .info {
+        & .manage-teams-container .manage-teams {
             margin-inline: 60px;
 
             & .list {
@@ -563,10 +563,10 @@
             }
         }
 
-        & .info-container {
-            padding-block: $padding-block-home-info-desktop;
+        & .manage-teams-container {
+            padding-block: $padding-block-manage-teams-desktop;
 
-            & .info .title h2 {
+            & .manage-teams .title h2 {
                 @include typography-3;
             }
 
@@ -574,7 +574,7 @@
                 bottom: 0;
             }
 
-            & .info {
+            & .manage-teams {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 125px;
