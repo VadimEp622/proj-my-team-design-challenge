@@ -1,7 +1,7 @@
 import bgPatternHome1 from "../../assets/images/bg-pattern-home-1.svg"
 import bgPatternHome2 from "../../assets/images/bg-pattern-home-2.svg"
 
-export function HomeFindTalent() {
+export function FindTalent() {
 
     return (
         <section className="find-talent-container full main-layout">
