@@ -1,5 +1,5 @@
-import { DirectorList } from "./director-list"
-import { directors } from "../../services/director.service"
+import { DirectorList } from "../_reusable/_lists/director-list"
+import { directors } from "../../services/data.service"
 import bgPatternAbout2 from "../../assets/images/bg-pattern-about-2-contact-1.svg"
 
 export function MeetDirectors() {

@@ -1,5 +1,5 @@
-import { clients } from "../../services/client.service"
-import { ClientList } from "./client-list"
+import { clients } from "../../services/data.service"
+import { ClientList } from "../_reusable/_lists/client-list"
 import bgPatternAbout4 from "../../assets/images/bg-pattern-about-4.svg"
 
 export function ClientExamples() {

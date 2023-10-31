@@ -1,9 +1,9 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 
-import iconCross from "../../assets/images/icon-cross.svg"
-import twitterIcon from "../../assets/images/icon-twitter.svg"
-import linkedInIcon from "../../assets/images/icon-linkedin.svg"
+import iconCross from "../../../assets/images/icon-cross.svg"
+import twitterIcon from "../../../assets/images/icon-twitter.svg"
+import linkedInIcon from "../../../assets/images/icon-linkedin.svg"
 
 
 export function DirectorPreview({ director }) {
