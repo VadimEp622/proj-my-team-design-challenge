@@ -16,13 +16,12 @@
  - **Pixel-Perfect**
  - **Mobile-First** design pattern, with additional closed media-query ranges styling
 
-# Examples - Styling:
+# Breakdown - Styling:
 
 - Responsivity:
 
-![media-queries](https://github.com/VadimEp622/proj-my-team-design-challenge/assets/118854398/029b99e2-9bb7-430b-9421-0396a0cc077a)
-
 ![mixins](https://github.com/VadimEp622/proj-my-team-design-challenge/assets/118854398/75668f79-2d89-42e3-9f61-19141d94ae85)
+![media-queries](https://github.com/VadimEp622/proj-my-team-design-challenge/assets/118854398/029b99e2-9bb7-430b-9421-0396a0cc077a)
 
 Application was designed as **Mobile-First**, with minimal styling for the component itself.
 
