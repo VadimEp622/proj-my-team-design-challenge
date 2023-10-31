@@ -2,7 +2,7 @@
     position: relative;
     background-color: $main-teal-clr3;
 
-    & .success-stories .list .item {
+    & .success-stories .success-story-preview {
         & p {
             @include typography-5;
         }
@@ -47,7 +47,7 @@
             color: $main-teal-clr4;
         }
 
-        & .list .item {
+        & .success-story-list .success-story-preview {
             position: relative;
             z-index: 0;
 

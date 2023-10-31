@@ -75,3 +75,27 @@ export const teamQualities = [
         imgName: 'chart'
     },
 ]
+
+export const successStories = [
+    {
+        quote: '“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”',
+        fullName: 'Kady Baker',
+        position: 'Product Manager at Bookmark',
+        img: require('../assets/images/avatar-kady.jpg'),
+        imgName: 'avatar-kady'
+    },
+    {
+        quote: '“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”',
+        fullName: 'Aiysha Reese',
+        position: 'Founder of Manage',
+        img: require('../assets/images/avatar-aiysha.jpg'),
+        imgName: 'avatar-aiysha'
+    },
+    {
+        quote: '“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”',
+        fullName: 'Arthur Clarke',
+        position: 'Co-founder of MyPhysio',
+        img: require('../assets/images/avatar-arthur.jpg'),
+        imgName: 'avatar-arthur'
+    }
+]

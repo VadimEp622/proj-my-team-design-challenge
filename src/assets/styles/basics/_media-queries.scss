@@ -62,12 +62,12 @@
                     margin-block-end: 48px;
                 }
 
-                & .list {
+                & .success-story-list {
                     & > *:not(:first-child) {
                         margin-block-start: 46px;
                     }
 
-                    & .item {
+                    & .success-story-preview {
                         & p {
                             padding-block-end: 16px;
                         }
@@ -608,11 +608,11 @@
                     margin-block-end: 56px;
                 }
 
-                & .list {
+                & .success-story-list {
                     display: flex;
                     gap: 30px;
 
-                    & .item {
+                    & .success-story-preview {
                         & p {
                             padding-block-end: 24px;
                         }
