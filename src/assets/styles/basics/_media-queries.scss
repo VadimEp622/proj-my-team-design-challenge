@@ -155,7 +155,7 @@
     footer {
         padding-block: $padding-block-footer-tablet;
 
-        & .app-footer-container .nav-container nav p {
+        & .app-footer-container .nav-container .main-nav p {
             @include typography-5;
         }
 
@@ -174,7 +174,7 @@
                 & .nav-container {
                     gap: 53px;
 
-                    & .main-nav {
+                    & .main-nav .nav-list {
                         gap: $gap-footer-main-nav-mobile;
                     }
                 }
@@ -471,7 +471,7 @@
                 gap: 80px;
                 align-items: center;
 
-                & .main-nav {
+                & .main-nav .nav-list {
                     display: flex;
                     gap: $gap-header-main-nav;
 
@@ -489,7 +489,7 @@
     }
 
     footer {
-        & .nav-and-contact .main-nav {
+        & .nav-and-contact .main-nav  {
             align-self: flex-start;
         }
 
@@ -703,7 +703,7 @@
                 & .nav-container {
                     gap: 25px;
 
-                    & .main-nav {
+                    & .main-nav .nav-list {
                         gap: $gap-footer-main-nav-desktop;
                     }
                 }

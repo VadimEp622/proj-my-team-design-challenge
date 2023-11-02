@@ -23,8 +23,10 @@ export function AppHeader() {
                 <section className="header-logo-nav">
                     <Logo />
                     <nav className="main-nav">
-                        <Link to={`/`}><p>home</p></Link>
-                        <Link to={`/about`}><p>about</p></Link>
+                        <ul className="nav-list">
+                            <li><Link to={`/`}><p>home</p></Link></li>
+                            <li><Link to={`/about`}><p>about</p></Link></li>
+                        </ul>
                     </nav>
                 </section>
                 <section className="contact-btn-container">
