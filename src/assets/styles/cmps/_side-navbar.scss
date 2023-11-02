@@ -70,7 +70,7 @@
 
                 & .main-nav .nav-list {
                     flex-direction: column;
-                    gap: 24px;
+                    gap: $gap-nav-sidebar-main-nav;
                 }
 
                 & .contact-btn-container {

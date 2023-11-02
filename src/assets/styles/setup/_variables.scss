@@ -94,6 +94,7 @@ $border-radius-0: 24px;
 $gap-0: 16px;
 $gap-1: 41px;
 $gap-2: 25px;
+$gap-3: 24px;
 
 // ******* Gap individual components *******
 // gap-header-main-nav
@@ -102,3 +103,6 @@ $gap-header-main-nav: $gap-1;
 // gap-footer-main-nav
 $gap-footer-main-nav-desktop: $gap-1;
 $gap-footer-main-nav-mobile: $gap-2;
+
+// gap-nav-sidebar-main-nav
+$gap-nav-sidebar-main-nav: $gap-3;
