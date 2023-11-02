@@ -129,9 +129,8 @@
 
 /* =================== Repeating Styling =================== */
 @mixin avatar($size: $size-pic-avatar-small) {
-    box-sizing: content-box;
-    height: $size;
-    width: $size;
+    height: calc($size + 4px);
+    width: calc($size + 4px);
     border: 2px solid $main-teal-clr5;
     border-radius: $border-radius-circle;
     overflow: hidden;
