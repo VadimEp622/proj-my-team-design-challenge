@@ -95,6 +95,8 @@ $gap-0: 16px;
 $gap-1: 41px;
 $gap-2: 25px;
 $gap-3: 24px;
+$gap-4: 32px;
+$gap-5: 48px;
 
 // ******* Gap individual components *******
 // gap-header-main-nav
@@ -106,3 +108,7 @@ $gap-footer-main-nav-mobile: $gap-2;
 
 // gap-nav-sidebar-main-nav
 $gap-nav-sidebar-main-nav: $gap-3;
+
+// gap-team-quality-list
+$gap-team-quality-list-mobile: $gap-5;
+$gap-team-quality-list-tablet: $gap-4;

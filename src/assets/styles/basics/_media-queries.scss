@@ -228,7 +228,7 @@
                 }
 
                 & .team-quality-list {
-                    gap: 48px;
+                    gap: $gap-team-quality-list-mobile;
 
                     & .team-quality-preview {
                         flex-direction: column;
@@ -405,7 +405,7 @@
             margin-inline: 60px;
 
             & .team-quality-list {
-                gap: 32px;
+                gap: $gap-team-quality-list-tablet;
 
                 & .team-quality-preview {
                     gap: 23px;
