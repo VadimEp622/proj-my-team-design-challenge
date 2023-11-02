@@ -26,25 +26,7 @@
             justify-content: flex-end;
 
             & a {
-                color: inherit;
-                background-color: inherit;
-                border: 2px solid $main-teal-clr2;
-                border-radius: 24px;
-                padding-block: $padding-block-0;
-                padding-inline: 30.5px;
-                transition: all 0.2s ease-in-out;
-
-                & p {
-                    width: 88px;
-                    text-align: center;
-                }
-
-                &:hover {
-                    background-color: $main-teal-clr2;
-                    border-color: $main-teal-clr2;
-                    color: $white-clr;
-                    cursor: pointer;
-                }
+                @include contact-btn(small, $main-teal-clr2, $white-clr);
             }
         }
     }

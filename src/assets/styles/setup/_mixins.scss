@@ -166,3 +166,35 @@
         background-color: $clr;
     }
 }
+
+@mixin contact-btn($btn-size: small, $before-hover-clr, $hover-clr) {
+    @if $btn-size == small {
+        padding-inline: 30.5px;
+
+        & p {
+            width: 88px;
+        }
+    } @else {
+        padding-inline: 31.5px;
+
+        & p {
+            width: 92px;
+        }
+    }
+
+    border: 2px solid $before-hover-clr;
+    border-radius: 24px;
+    padding-block: $padding-block-btn-contact-us;
+    transition: all 0.2s ease-in-out;
+    width: fit-content;
+
+    & p {
+        text-align: center;
+    }
+
+    &:hover {
+        background-color: $before-hover-clr;
+        color: $hover-clr;
+        cursor: pointer;
+    }
+}

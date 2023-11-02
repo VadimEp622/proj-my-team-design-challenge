@@ -479,24 +479,7 @@
             }
 
             & .contact-btn-container a {
-                display: block;
-                width: fit-content;
-                border: 2px solid $white-clr;
-                border-radius: 24px;
-                padding-inline: 31.5px;
-                padding-block: $padding-block-btn-contact-us;
-                transition: all 0.2s ease-in-out;
-
-                & p {
-                    text-align: center;
-                    width: 92px;
-                }
-
-                &:hover {
-                    background-color: $white-clr;
-                    color: $main-teal-clr0;
-                    cursor: pointer;
-                }
+                @include contact-btn(small, $white-clr, $main-teal-clr0);
             }
         }
     }

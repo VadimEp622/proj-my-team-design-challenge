@@ -35,7 +35,7 @@ export function SideNavbar({ isSideNavbar }) {
                             <li><Link to={`/`} onClick={(ev) => onCloseSideNavbar(ev)}><p>home</p></Link></li>
                             <li><Link to={`/about`} onClick={(ev) => onCloseSideNavbar(ev)}><p>about</p></Link></li>
                         </ul>
-                        <section className="contact">
+                        <section className="contact-btn-container">
                             <Link to={`/contact`} onClick={(ev) => onCloseSideNavbar(ev)}><p>contact us</p></Link>
                         </section>
                     </nav>
