@@ -1,10 +1,10 @@
 import { useContext, useEffect } from "react"
 import { Link } from "react-router-dom"
 
-import { Context } from "../context"
-
 import iconClose from "../assets/images/icon-close.svg"
 import bgPatternMobileNav1 from "../assets/images/bg-pattern-about-1-mobile-nav-1.svg"
+import { Context } from "../context"
+import { MainNav } from "./_reusable/main-nav"
 
 
 export function SideNavbar({ isSideNavbar }) {
@@ -31,12 +31,7 @@ export function SideNavbar({ isSideNavbar }) {
                 </section>
                 <section className="side-navbar">
                     <section className="main-nav-and-contact">
-                        <nav className="main-nav">
-                            <ul className="nav-list">
-                                <li><Link to={`/`} onClick={(ev) => onCloseSideNavbar(ev)}><p>home</p></Link></li>
-                                <li><Link to={`/about`} onClick={(ev) => onCloseSideNavbar(ev)}><p>about</p></Link></li>
-                            </ul>
-                        </nav>
+                        <MainNav onLinkClick={(ev) => onCloseSideNavbar(ev)} />
                         <section className="contact-btn-container">
                             <Link to={`/contact`} className="contact-btn" onClick={(ev) => onCloseSideNavbar(ev)}><p>contact us</p></Link>
                         </section>

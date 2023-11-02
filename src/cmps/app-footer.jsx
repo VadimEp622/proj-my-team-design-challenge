@@ -4,6 +4,7 @@ import facebookIcon from "../assets/images/icon-facebook.svg"
 import pinterestIcon from "../assets/images/icon-pinterest.svg"
 import twitterIcon from "../assets/images/icon-twitter.svg"
 import { Logo } from "./_reusable/logo"
+import { MainNav } from "./_reusable/main-nav"
 
 
 export function AppFooter() {
@@ -15,12 +16,7 @@ export function AppFooter() {
                 <section className="nav-and-contact">
                     <section className="nav-container">
                         <Logo />
-                        <nav className="main-nav">
-                            <ul className="nav-list">
-                                <li><Link to={`/`}><p>home</p></Link></li>
-                                <li><Link to={`/about`}><p>about</p></Link></li>
-                            </ul>
-                        </nav>
+                        <MainNav />
                     </section>
                     <section className="contact-container">
                         <pre>987  Hillcrest Lane</pre>
