@@ -84,3 +84,21 @@ $padding-block-client-examples-desktop: $padding-block-9;
 // ******* Padding-block unresponsive individual components *******
 $padding-block-btn-contact-us: $padding-block-0;
 $padding-block-side-navbar: $padding-block-2;
+
+// ======================== Dimensions & Sizes ========================:
+// ******* Border-radius *******
+$border-radius-circle: 50%;
+$border-radius-0: 24px;
+
+// ******* Gap List *******
+$gap-0: 16px;
+$gap-1: 41px;
+$gap-2: 25px;
+
+// ******* Gap individual components *******
+// gap-header-main-nav
+$gap-header-main-nav: $gap-1;
+
+// gap-footer-main-nav
+$gap-footer-main-nav-desktop: $gap-1;
+$gap-footer-main-nav-mobile: $gap-2;

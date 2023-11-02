@@ -30,15 +30,17 @@ export function SideNavbar({ isSideNavbar }) {
                     <img src={bgPatternMobileNav1} alt="bgPatternMobileNav1" />
                 </section>
                 <section className="side-navbar">
-                    <nav>
-                        <ul className="nav-list">
-                            <li><Link to={`/`} onClick={(ev) => onCloseSideNavbar(ev)}><p>home</p></Link></li>
-                            <li><Link to={`/about`} onClick={(ev) => onCloseSideNavbar(ev)}><p>about</p></Link></li>
-                        </ul>
+                    <section className="main-nav-and-contact">
+                        <nav className="main-nav">
+                            <ul className="nav-list">
+                                <li><Link to={`/`} onClick={(ev) => onCloseSideNavbar(ev)}><p>home</p></Link></li>
+                                <li><Link to={`/about`} onClick={(ev) => onCloseSideNavbar(ev)}><p>about</p></Link></li>
+                            </ul>
+                        </nav>
                         <section className="contact-btn-container">
                             <Link to={`/contact`} className="contact-btn" onClick={(ev) => onCloseSideNavbar(ev)}><p>contact us</p></Link>
                         </section>
-                    </nav>
+                    </section>
                     <button className="btn-close" onClick={(ev) => onCloseSideNavbar(ev)}>
                         <img src={iconClose} alt="icon close" />
                     </button>

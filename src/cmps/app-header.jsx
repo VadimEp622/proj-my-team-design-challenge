@@ -22,7 +22,7 @@ export function AppHeader() {
             <section className="app-header-container">
                 <section className="header-logo-nav">
                     <Logo />
-                    <nav>
+                    <nav className="main-nav">
                         <Link to={`/`}><p>home</p></Link>
                         <Link to={`/about`}><p>about</p></Link>
                     </nav>

@@ -173,6 +173,10 @@
 
                 & .nav-container {
                     gap: 53px;
+
+                    & .main-nav {
+                        gap: $gap-footer-main-nav-mobile;
+                    }
                 }
 
                 & .contact-container {
@@ -307,7 +311,7 @@
     }
 
     header {
-        & .app-header-container :is(.contact-btn-container, .header-logo-nav nav) {
+        & .app-header-container :is(.contact-btn-container, .main-nav) {
             display: none;
         }
 
@@ -467,9 +471,9 @@
                 gap: 80px;
                 align-items: center;
 
-                & nav {
+                & .main-nav {
                     display: flex;
-                    gap: 41px;
+                    gap: $gap-header-main-nav;
 
                     & a:hover {
                         cursor: pointer;
@@ -485,7 +489,7 @@
     }
 
     footer {
-        & .nav-and-contact .nav-container nav {
+        & .nav-and-contact .main-nav {
             align-self: flex-start;
         }
 
@@ -688,7 +692,7 @@
     footer {
         padding-block: $padding-block-footer-desktop;
 
-        & .app-footer-container .nav-container nav p {
+        & .app-footer-container .main-nav p {
             @include typography-4;
         }
 
@@ -698,6 +702,10 @@
 
                 & .nav-container {
                     gap: 25px;
+
+                    & .main-nav {
+                        gap: $gap-footer-main-nav-desktop;
+                    }
                 }
             }
 

@@ -15,7 +15,7 @@ export function AppFooter() {
                 <section className="nav-and-contact">
                     <section className="nav-container">
                         <Logo />
-                        <nav>
+                        <nav className="main-nav">
                             <Link to={`/`}><p>home</p></Link>
                             <Link to={`/about`}><p>about</p></Link>
                         </nav>
