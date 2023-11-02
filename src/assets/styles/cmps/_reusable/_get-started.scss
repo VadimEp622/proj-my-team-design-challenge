@@ -19,7 +19,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 33px;
+        gap: $gap-get-started;
 
         & .contact-btn-container {
             display: flex;
