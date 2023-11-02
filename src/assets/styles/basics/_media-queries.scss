@@ -478,7 +478,7 @@
                 }
             }
 
-            & .contact-btn-container a {
+            & .contact-btn {
                 @include contact-btn(small, $white-clr, $main-teal-clr0);
             }
         }

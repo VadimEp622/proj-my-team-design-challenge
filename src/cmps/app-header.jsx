@@ -28,7 +28,7 @@ export function AppHeader() {
                     </nav>
                 </section>
                 <section className="contact-btn-container">
-                    <Link to={`/contact`}><p>contact us</p></Link>
+                    <Link to={`/contact`} className="contact-btn"><p>contact us</p></Link>
                 </section>
                 <section className="mobile-navbar-btn-container">
                     <button className="btn-mobile-navbar" onClick={(ev) => onOpenSideNavbar(ev)}>

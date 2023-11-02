@@ -82,7 +82,7 @@
                 & .contact-btn-container {
                     margin-block-start: 36px;
 
-                    & a {
+                    & .contact-btn {
                         @include contact-btn(big, $white-clr, $main-teal-clr0);
                     }
                 }

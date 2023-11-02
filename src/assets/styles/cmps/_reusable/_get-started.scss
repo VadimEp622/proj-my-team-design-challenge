@@ -25,7 +25,7 @@
             display: flex;
             justify-content: flex-end;
 
-            & a {
+            & .contact-btn {
                 @include contact-btn(small, $main-teal-clr2, $white-clr);
             }
         }
