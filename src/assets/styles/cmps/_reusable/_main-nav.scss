@@ -1,0 +1,8 @@
+nav.main-nav .nav-list {
+    display: flex;
+
+    & a:hover {
+        cursor: pointer;
+        color: $main-orange-clr0;
+    }
+}

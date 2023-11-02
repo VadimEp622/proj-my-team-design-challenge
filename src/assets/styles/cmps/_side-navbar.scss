@@ -68,15 +68,9 @@
                 padding-block: $padding-block-side-navbar;
                 padding-inline-start: 23px;
 
-                & .main-nav .nav-list > * {
-                    &:not(:first-child) {
-                        margin-block-start: 24px;
-                    }
-
-                    & a:hover {
-                        cursor: pointer;
-                        color: $main-orange-clr0;
-                    }
+                & .main-nav .nav-list {
+                    flex-direction: column;
+                    gap: 24px;
                 }
 
                 & .contact-btn-container {

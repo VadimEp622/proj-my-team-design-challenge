@@ -17,15 +17,6 @@ footer {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
-                & .main-nav .nav-list {
-                    display: flex;
-
-                    & a:hover {
-                        cursor: pointer;
-                        color: $main-orange-clr0;
-                    }
-                }
             }
 
             & .contact-container {

@@ -155,7 +155,7 @@
     footer {
         padding-block: $padding-block-footer-tablet;
 
-        & .app-footer-container .nav-container .main-nav p {
+        & .app-footer-container .main-nav p {
             @include typography-5;
         }
 
@@ -457,7 +457,7 @@
     }
 
     header {
-        & .app-header-container :is(.header-logo-nav nav, .contact-btn-container a) p {
+        & .app-header-container :is(.header-logo-nav .main-nav, .contact-btn-container a) p {
             @include typography-4;
         }
 
@@ -472,13 +472,7 @@
                 align-items: center;
 
                 & .main-nav .nav-list {
-                    display: flex;
                     gap: $gap-header-main-nav;
-
-                    & a:hover {
-                        cursor: pointer;
-                        color: $main-orange-clr0;
-                    }
                 }
             }
 
@@ -489,7 +483,7 @@
     }
 
     footer {
-        & .nav-and-contact .main-nav  {
+        & .nav-and-contact .main-nav {
             align-self: flex-start;
         }
 
