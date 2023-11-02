@@ -47,21 +47,25 @@
             color: $main-teal-clr4;
         }
 
-        & .success-story-list .success-story-preview {
-            position: relative;
-            z-index: 0;
+        & .success-story-list {
+            display: flex;
 
-            & p {
-                padding-block-start: 36px;
-            }
+            & .success-story-preview {
+                position: relative;
+                z-index: 0;
 
-            & h3 {
-                padding-block-end: 2px;
-                color: $main-teal-clr4;
-            }
+                & p {
+                    padding-block-start: 36px;
+                }
 
-            & .avatar-pic {
-                @include avatar($size-pic-avatar-small);
+                & h3 {
+                    padding-block-end: 2px;
+                    color: $main-teal-clr4;
+                }
+
+                & .avatar-pic {
+                    @include avatar($size-pic-avatar-small);
+                }
             }
         }
     }

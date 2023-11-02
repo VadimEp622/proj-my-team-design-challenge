@@ -63,9 +63,8 @@
                 }
 
                 & .success-story-list {
-                    & > *:not(:first-child) {
-                        margin-block-start: 46px;
-                    }
+                    flex-direction: column;
+                    gap: $gap-success-story-list-mobile;
 
                     & .success-story-preview {
                         & p {
@@ -590,7 +589,6 @@
                 }
 
                 & .success-story-list {
-                    display: flex;
                     gap: $gap-success-story-list-desktop;
 
                     & .success-story-preview {
