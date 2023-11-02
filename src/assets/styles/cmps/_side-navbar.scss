@@ -1,7 +1,7 @@
 .side-navbar-wrapper {
     overflow: hidden;
 
-    & .side-navbar-container nav p {
+    & .side-navbar-container .main-nav-and-contact p {
         @include typography-4;
     }
 
