@@ -133,7 +133,7 @@
 
             & .client-examples {
                 & .client-list {
-                    gap: 50px;
+                    gap: $gap-client-example-list-tablet;
                     margin-block-start: 48px;
                 }
             }
@@ -295,7 +295,7 @@
                 & .client-list {
                     flex-direction: column;
                     align-items: center;
-                    gap: 57px;
+                    gap: $gap-client-example-list-mobile;
                     margin-block-start: 64px;
                     height: 360px;
                     margin-inline: auto;
@@ -664,7 +664,7 @@
 
             & .client-examples {
                 & .client-list {
-                    gap: 80px;
+                    gap: $gap-client-example-list-desktop;
                     margin-block-start: 64px;
 
                     & .client-preview {
