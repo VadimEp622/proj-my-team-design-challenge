@@ -9,21 +9,20 @@ import { Contact } from './pages/contact'
 import { AppHeader } from './cmps/app-header'
 import { AppFooter } from './cmps/app-footer'
 import { SideNavbar } from './cmps/side-navbar'
+import ScrollToTop from './hooks/scrollToTop'
 
 
 
 export function RootCmp() {
-    // TODO: Responsiveness (mobile/tablet/desktop) 
-    // TODO: use rem()/em() function in scss for sizes
-    // TODO: use variables for: size values & colors
+    // TODO: use variables for: size values 
     // TODO: consider using helpers.scss!!!
 
     const [isSideNavbar, setIsSideNavbar] = useState(false)
     const isMobile = useIsMobile()
 
     return (
-        < >
-            <Context.Provider value={{ isSideNavbar, setIsSideNavbar }}>
+        <Context.Provider value={{ isSideNavbar, setIsSideNavbar }}>
+            <ScrollToTop>
                 <section className="app app-layout">
                     <AppHeader />
                     <main className="app-main main-layout">
@@ -36,7 +35,7 @@ export function RootCmp() {
                     <AppFooter />
                     {isMobile && <SideNavbar isSideNavbar={isSideNavbar} />}
                 </section>
-            </Context.Provider>
-        </>
+            </ScrollToTop>
+        </Context.Provider>
     )
 }
