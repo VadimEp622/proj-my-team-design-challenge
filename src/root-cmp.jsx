@@ -9,7 +9,6 @@ import { Contact } from './pages/contact'
 import { AppHeader } from './cmps/app-header'
 import { AppFooter } from './cmps/app-footer'
 import { SideNavbar } from './cmps/side-navbar'
-import ScrollToTop from './hooks/scrollToTop'
 
 
 
@@ -22,20 +21,18 @@ export function RootCmp() {
 
     return (
         <Context.Provider value={{ isSideNavbar, setIsSideNavbar }}>
-            <ScrollToTop>
-                <section className="app app-layout">
-                    <AppHeader />
-                    <main className="app-main main-layout">
-                        <Routes>
-                            <Route path="/" element={<Home />} />
-                            <Route path="/about" element={<About />} />
-                            <Route path="/contact" element={<Contact />} />
-                        </Routes>
-                    </main>
-                    <AppFooter />
-                    {isMobile && <SideNavbar isSideNavbar={isSideNavbar} />}
-                </section>
-            </ScrollToTop>
+            <section className="app app-layout">
+                <AppHeader />
+                <main className="app-main main-layout">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/contact" element={<Contact />} />
+                    </Routes>
+                </main>
+                <AppFooter />
+                {isMobile && <SideNavbar isSideNavbar={isSideNavbar} />}
+            </section>
         </Context.Provider>
     )
 }
