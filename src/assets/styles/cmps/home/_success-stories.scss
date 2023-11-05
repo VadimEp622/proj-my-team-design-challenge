@@ -2,22 +2,6 @@
     position: relative;
     background-color: $main-teal-clr3;
 
-    & .success-stories .success-story-preview {
-        & p {
-            @include typography(5);
-        }
-
-        & h3 {
-            @include typography(4);
-        }
-
-        & h4 {
-            @include typography(6);
-            font-weight: 500;
-            font-style: italic;
-        }
-    }
-
     & .bg-pattern {
         position: absolute;
 
@@ -41,8 +25,6 @@
     }
 
     & .success-stories {
-        text-align: center;
-
         & .title h2 span {
             color: $main-teal-clr4;
         }

@@ -6,8 +6,8 @@ export function TeamQualityPreview({ teamQuality }) {
                 <img src={teamQuality.img} alt={teamQuality.imgName}></img>
             </section>
             <section className="content-container">
-                <h3>{teamQuality.title}</h3>
-                <p>{teamQuality.content}</p>
+                <h3 className="typography-4">{teamQuality.title}</h3>
+                <p className="typography-5">{teamQuality.content}</p>
             </section>
         </section>
     )

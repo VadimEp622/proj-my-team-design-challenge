@@ -10,7 +10,7 @@ export function ClientExamples() {
                 <img src={bgPatternAbout4} alt="bgPatternAbout4" />
             </section>
             <section className="client-examples">
-                <section className="title"><h1>Some of our clients</h1></section>
+                <section className="title text-align-center"><h1>Some of our clients</h1></section>
                 <ClientList clients={clients} />
             </section>
         </section>

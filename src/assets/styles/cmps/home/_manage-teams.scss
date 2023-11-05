@@ -3,16 +3,6 @@
     background-color: $main-teal-clr2;
     overflow: hidden;
 
-    & .manage-teams .content-container {
-        & h3 {
-            @include typography(4);
-        }
-
-        & p {
-            @include typography(5);
-        }
-    }
-
     & .bg-pattern.bg-pattern-home-3 {
         position: absolute;
         right: -100px;

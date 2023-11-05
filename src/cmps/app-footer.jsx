@@ -18,7 +18,7 @@ export function AppFooter() {
                         <Logo />
                         <MainNav />
                     </section>
-                    <section className="contact-container">
+                    <section className="contact-container typography-5">
                         <pre>987  Hillcrest Lane</pre>
                         <pre>Irvine,CA</pre>
                         <pre>California 92714</pre>
@@ -32,7 +32,7 @@ export function AppFooter() {
                         <Link to={`/share`}><img src={pinterestIcon} alt="pinterestIcon" /></Link>
                         <Link to={`/share`}><img src={twitterIcon} alt="twitterIcon" /></Link>
                     </nav>
-                    <section className="copyright">
+                    <section className="copyright typography-5">
                         <p>Copyright 2023. All Rights Reserved</p>
                     </section>
                 </section>

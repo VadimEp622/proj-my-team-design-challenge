@@ -7,21 +7,15 @@
         position: absolute;
     }
 
-    & .client-examples {
-        & .title {
-            text-align: center;
-        }
+    & .client-examples .client-list {
+        display: flex;
+        justify-content: space-between;
 
-        & .client-list {
+        & .client-preview {
             display: flex;
-            justify-content: space-between;
 
-            & .client-preview {
-                display: flex;
-
-                & img {
-                    object-fit: contain;
-                }
+            & img {
+                object-fit: contain;
             }
         }
     }

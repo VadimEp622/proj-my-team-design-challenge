@@ -30,7 +30,7 @@ export function SideNavbar({ isSideNavbar }) {
                     <img src={bgPatternMobileNav1} alt="bgPatternMobileNav1" />
                 </section>
                 <section className="side-navbar">
-                    <section className="main-nav-and-contact">
+                    <section className="main-nav-and-contact typography-4">
                         <MainNav onLinkClick={(ev) => onCloseSideNavbar(ev)} />
                         <section className="contact-btn-container">
                             <Link to={`/contact`} className="contact-btn" onClick={(ev) => onCloseSideNavbar(ev)}><p>contact us</p></Link>

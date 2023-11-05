@@ -14,7 +14,7 @@ export function SuccessStories() {
             <section className="full bg-pattern bgPatternHome5">
                 <img src={bgPatternHome5} alt="bgPatternHome5" />
             </section>
-            <section className="success-stories">
+            <section className="success-stories text-align-center">
                 <section className="title">
                     <h2>Delivering real results for top companies. Some of our <span>success stories.</span></h2>
                 </section>

@@ -19,15 +19,15 @@ export function DirectorPreview({ director }) {
         <section className={`director-preview-container${activePreview ? ' active' : ''}`}>
             <section className="director-preview">
                 <section className="avatar"><img src={director.img} alt="avatarNikita" /></section>
-                <h2 className="name">{director.name}</h2>
+                <h2 className="name typography-4">{director.name}</h2>
                 <section className="quote-share-container">
-                    <p className="quote">{director.quote}</p>
+                    <p className="quote typography-5">{director.quote}</p>
                     <nav className="share">
                         <Link to={`/share`}><img src={twitterIcon} alt="twitterIcon" /></Link>
                         <Link to={`/share`}><img src={linkedInIcon} alt="linkedInIcon" /></Link>
                     </nav>
                 </section>
-                <p className="position">{director.position}</p>
+                <p className="position typography-5 italic">{director.position}</p>
             </section>
             <section className="icon-cross-btn-container">
                 <button className="icon-cross-btn" onClick={(ev) => onClickPreview(ev)}>
