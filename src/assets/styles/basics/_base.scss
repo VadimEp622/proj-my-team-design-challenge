@@ -20,13 +20,9 @@ body {
     position: relative;
 }
 
-ul {
-    padding: unset;
-    margin: unset;
-}
-
-li {
-    list-style-type: none;
+ul,
+ol {
+    @include clean-list;
 }
 
 h1,
