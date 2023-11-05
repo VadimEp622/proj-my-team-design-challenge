@@ -6,11 +6,11 @@
 
     & .meet-directors .director-preview {
         & .name {
-            @include typography-4;
+            @include typography(4);
         }
 
         & :is(.quote, .position) {
-            @include typography-5;
+            @include typography(5);
         }
 
         & .position {

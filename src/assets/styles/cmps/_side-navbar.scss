@@ -2,7 +2,7 @@
     overflow: hidden;
 
     & .side-navbar-container .main-nav-and-contact p {
-        @include typography-4;
+        @include typography(4);
     }
 
     & :is(.black-transparent-bg-wrapper, .side-navbar-container) {

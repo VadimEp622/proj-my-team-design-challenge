@@ -4,15 +4,15 @@
 
     & .success-stories .success-story-preview {
         & p {
-            @include typography-5;
+            @include typography(5);
         }
 
         & h3 {
-            @include typography-4;
+            @include typography(4);
         }
 
         & h4 {
-            @include typography-6;
+            @include typography(6);
             font-weight: 500;
             font-style: italic;
         }

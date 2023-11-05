@@ -5,11 +5,11 @@
 
     & .manage-teams .content-container {
         & h3 {
-            @include typography-4;
+            @include typography(4);
         }
 
         & p {
-            @include typography-5;
+            @include typography(5);
         }
     }
 

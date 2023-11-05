@@ -22,12 +22,12 @@
                     padding-inline: 25%;
 
                     & h1 {
-                        @include typography-2;
+                        @include typography(2);
                     }
                 }
 
                 & .content p {
-                    @include typography-8;
+                    @include typography(8);
                 }
             }
         }
@@ -36,7 +36,7 @@
             padding-block: $padding-block-manage-teams-tablet;
 
             & .manage-teams .title h2 {
-                @include typography-9;
+                @include typography(9);
             }
 
             & .bg-pattern.bg-pattern-home-3 {
@@ -52,7 +52,7 @@
 
         & .success-stories-container {
             & .success-stories .title h2 {
-                @include typography-9;
+                @include typography(9);
             }
 
             & .success-stories {
@@ -87,11 +87,11 @@
 
             & .about-intro {
                 & h1 {
-                    @include typography-2;
+                    @include typography(2);
                 }
 
                 & p {
-                    @include typography-8;
+                    @include typography(8);
                 }
             }
 
@@ -109,7 +109,7 @@
 
             & .meet-directors {
                 & .title h1 {
-                    @include typography-9;
+                    @include typography(9);
                 }
             }
 
@@ -124,7 +124,7 @@
             padding-block: $padding-block-client-examples-tablet;
 
             & .title h1 {
-                @include typography-9;
+                @include typography(9);
             }
 
             & .bg-pattern.bgPatternAbout4 {
@@ -155,7 +155,7 @@
         padding-block: $padding-block-footer-tablet;
 
         & .app-footer-container .main-nav p {
-            @include typography-5;
+            @include typography(5);
         }
 
         & .logo {
@@ -187,7 +187,7 @@
 
     .get-started-container {
         & .get-started .title h2 {
-            @include typography-9;
+            @include typography(9);
         }
 
         & .bg-pattern.bg-pattern-home-6 {
@@ -212,7 +212,7 @@
                 padding-inline: 15%;
 
                 & h1 {
-                    @include typography-7;
+                    @include typography(7);
                 }
             }
         }
@@ -254,7 +254,7 @@
             padding-block-end: 108px;
 
             & .about-intro h1 {
-                @include typography-7;
+                @include typography(7);
             }
 
             & .bg-pattern.bgPatternAbout1 {
@@ -457,7 +457,7 @@
 
     header {
         & .app-header-container :is(.header-logo-nav .main-nav, .contact-btn-container a) p {
-            @include typography-4;
+            @include typography(4);
         }
 
         & .app-header-container .mobile-navbar-btn-container {
@@ -515,11 +515,11 @@
 
             & .find-talent {
                 & .title h1 {
-                    @include typography-1;
+                    @include typography(1);
                 }
 
                 & .content p {
-                    @include typography-4;
+                    @include typography(4);
                 }
             }
 
@@ -551,7 +551,7 @@
             padding-block: $padding-block-manage-teams-desktop;
 
             & .manage-teams .title h2 {
-                @include typography-3;
+                @include typography(3);
             }
 
             & .bg-pattern.bg-pattern-home-3 {
@@ -578,7 +578,7 @@
 
         & .success-stories-container {
             & .success-stories .title h2 {
-                @include typography-3;
+                @include typography(3);
             }
 
             & .success-stories {
@@ -612,11 +612,11 @@
 
             & .about-intro {
                 & h1 {
-                    @include typography-10;
+                    @include typography(10);
                 }
 
                 & p {
-                    @include typography-4;
+                    @include typography(4);
                 }
             }
 
@@ -637,7 +637,7 @@
 
             & .meet-directors {
                 & .title h1 {
-                    @include typography-3;
+                    @include typography(3);
                 }
             }
 
@@ -659,7 +659,7 @@
             padding-block: $padding-block-client-examples-desktop;
 
             & .title h1 {
-                @include typography-3;
+                @include typography(3);
             }
 
             & .client-examples {
@@ -685,7 +685,7 @@
         padding-block: $padding-block-footer-desktop;
 
         & .app-footer-container .main-nav p {
-            @include typography-4;
+            @include typography(4);
         }
 
         & .app-footer-container {
@@ -710,7 +710,7 @@
 
     .get-started-container {
         & .get-started .title h2 {
-            @include typography-3;
+            @include typography(3);
         }
 
         & .bg-pattern.bg-pattern-home-6 {

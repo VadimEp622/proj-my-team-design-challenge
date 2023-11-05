@@ -73,44 +73,9 @@
     line-height: rem($lh);
 }
 
-@mixin typography-1 {
-    @include fs-lh(100px, 100px);
-}
-
-@mixin typography-2 {
-    @include fs-lh(64px, 56px);
-}
-
-@mixin typography-3 {
-    @include fs-lh(48px, 48px);
-}
-
-@mixin typography-4 {
-    @include fs-lh(18px, 28px);
-}
-
-@mixin typography-5 {
-    @include fs-lh(15px, 25px);
-}
-
-@mixin typography-6 {
-    @include fs-lh(13px, 18px);
-}
-
-@mixin typography-7 {
-    @include fs-lh(40px, 40px);
-}
-
-@mixin typography-8 {
-    @include fs-lh(15px, 28px);
-}
-
-@mixin typography-9 {
-    @include fs-lh(32px, 32px);
-}
-
-@mixin typography-10 {
-    @include fs-lh(64px, 100px);
+@mixin typography($index: 1) {
+    $setting: get-typography-settings($index);
+    @include fs-lh(nth($setting, 1), nth($setting, 2));
 }
 
 /* =================== Reset =================== */

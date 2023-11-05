@@ -1,12 +1,8 @@
 // ============ Font Sizes ============
-// .typography-1 {
-//     @include typography-1;
-// }
-
 @each $setting in $typography-settings {
     $i: index($typography-settings, $setting);
     .typography-#{$i} {
-        @include fs-lh(nth($setting, 1), nth($setting, 2));
+        @include typography($i);
     }
 }
 

@@ -3,7 +3,7 @@ footer {
     color: $white-clr;
 
     & .app-footer-container :is(.contact-container pre, .share-copyright-container .copyright p) {
-        @include typography-5;
+        @include typography(5);
     }
 
     & .app-footer-container {
