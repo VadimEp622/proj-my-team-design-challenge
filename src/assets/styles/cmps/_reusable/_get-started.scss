@@ -10,11 +10,7 @@
         pointer-events: none;
     }
 
-    & .get-started {
-        gap: $gap-get-started;
-
-        & .contact-btn-container .contact-btn {
-            @include contact-btn(small, $main-teal-clr2, $white-clr);
-        }
+    & .contact-btn-container .contact-btn {
+        @include contact-btn(small, $main-teal-clr2, $white-clr);
     }
 }

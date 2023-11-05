@@ -100,47 +100,50 @@ $padding-block-client-examples-desktop: $padding-block-9;
 $padding-block-btn-contact-us: $padding-block-0;
 $padding-block-side-navbar: $padding-block-2;
 
+// ======================== Gaps ========================:
+// ******* Gap Map *******
+$gap-map: (
+    "gap-16": 16px,
+    "gap-24": 24px,
+    "gap-25": 25px,
+    "gap-30": 30px,
+    "gap-32": 32px,
+    "gap-41": 41px,
+    "gap-46": 46px,
+    "gap-48": 48px,
+    "gap-49": 49px,
+    "gap-57": 57px,
+    "gap-80": 80px
+);
+
+// ******* Gap individual components *******
+// gap-header-main-nav
+$gap-header-main-nav: map-get($gap-map, "gap-41");
+
+// gap-footer-main-nav
+$gap-footer-main-nav-desktop: map-get($gap-map, "gap-41");
+$gap-footer-main-nav-mobile: map-get($gap-map, "gap-25");
+
+// gap-get-started
+$gap-get-started: map-get($gap-map, "gap-24");
+
+// gap-nav-sidebar-main-nav
+$gap-nav-sidebar-main-nav: map-get($gap-map, "gap-24");
+
+// gap-team-quality-list
+$gap-team-quality-list-mobile: map-get($gap-map, "gap-48");
+$gap-team-quality-list-tablet: map-get($gap-map, "gap-32");
+
+// gap-success-story-list
+$gap-success-story-list-desktop: map-get($gap-map, "gap-30");
+$gap-success-story-list-mobile: map-get($gap-map, "gap-46");
+
+// gap-client-example-list
+$gap-client-example-list-desktop: map-get($gap-map, "gap-80");
+$gap-client-example-list-tablet: map-get($gap-map, "gap-49");
+$gap-client-example-list-mobile: map-get($gap-map, "gap-57");
+
 // ======================== Dimensions & Sizes ========================:
 // ******* Border-radius *******
 $border-radius-circle: 50%;
 $border-radius-0: 24px;
-
-// ******* Gap List *******
-$gap-0: 16px;
-$gap-1: 41px;
-$gap-2: 25px;
-$gap-3: 24px;
-$gap-4: 32px;
-$gap-5: 48px;
-$gap-6: 46px;
-$gap-7: 30px;
-$gap-8: 49px;
-$gap-9: 80px;
-$gap-10: 57px;
-
-// ******* Gap individual components *******
-// gap-header-main-nav
-$gap-header-main-nav: $gap-1;
-
-// gap-footer-main-nav
-$gap-footer-main-nav-desktop: $gap-1;
-$gap-footer-main-nav-mobile: $gap-2;
-
-// gap-get-started
-$gap-get-started: $gap-3;
-
-// gap-nav-sidebar-main-nav
-$gap-nav-sidebar-main-nav: $gap-3;
-
-// gap-team-quality-list
-$gap-team-quality-list-mobile: $gap-5;
-$gap-team-quality-list-tablet: $gap-4;
-
-// gap-success-story-list
-$gap-success-story-list-desktop: $gap-7;
-$gap-success-story-list-mobile: $gap-6;
-
-// gap-client-example-list
-$gap-client-example-list-desktop: $gap-9;
-$gap-client-example-list-tablet: $gap-8;
-$gap-client-example-list-mobile: $gap-10;

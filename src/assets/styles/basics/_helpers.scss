@@ -6,16 +6,12 @@
     }
 }
 
-// ============ Flex ============
-.flex {
-    display: flex;
-
-    > *.full {
-        flex: 1;
-    }
-
-    &.column {
-        flex-direction: column;
+// ======================== Flex & Grid ========================
+.flex,
+.grid {
+    // ******** Align & Justify ********
+    &.justify-start {
+        justify-content: flex-start;
     }
 
     &.justify-center {
@@ -40,6 +36,25 @@
 
     &.align-baseline {
         align-items: baseline;
+    }
+
+    // ******** Gaps ********
+    @each $class-name, $gap in $gap-map {
+        &.#{$class-name} {
+            gap: $gap;
+        }
+    }
+}
+
+.flex {
+    display: flex;
+
+    > *.full {
+        flex: 1;
+    }
+
+    &.column {
+        flex-direction: column;
     }
 }
 
