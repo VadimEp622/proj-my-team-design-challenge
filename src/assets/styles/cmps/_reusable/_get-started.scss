@@ -7,23 +7,14 @@
     & .bg-pattern.bg-pattern-home-6 {
         position: absolute;
         left: 0;
-        display: flex;
         pointer-events: none;
     }
 
     & .get-started {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         gap: $gap-get-started;
 
-        & .contact-btn-container {
-            display: flex;
-            justify-content: flex-end;
-
-            & .contact-btn {
-                @include contact-btn(small, $main-teal-clr2, $white-clr);
-            }
+        & .contact-btn-container .contact-btn {
+            @include contact-btn(small, $main-teal-clr2, $white-clr);
         }
     }
 }

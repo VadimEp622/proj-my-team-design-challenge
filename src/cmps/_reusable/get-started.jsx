@@ -8,7 +8,7 @@ export function GetStarted() {
             <section className="full bg-pattern bg-pattern-home-6">
                 <img src={bgPatternHome6} alt="bgPatternHome6" />
             </section>
-            <section className="get-started">
+            <section className="get-started flex align-center">
                 <section className="title"><h2>Ready to get started?</h2></section>
                 <section className="contact-btn-container">
                     <Link to={`/contact`} className="contact-btn"><p className="typography-4">contact us</p></Link>

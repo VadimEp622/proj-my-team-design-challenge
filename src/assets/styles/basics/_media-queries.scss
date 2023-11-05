@@ -497,6 +497,7 @@
         padding-block: $padding-block-get-started-tablet;
 
         & .get-started {
+            justify-content: space-between;
             padding-inline: 100px;
         }
     }
