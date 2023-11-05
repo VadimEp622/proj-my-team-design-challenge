@@ -1,42 +1,13 @@
 // ============ Font Sizes ============
-.fs12 {
-    font-size: rem(12px);
-}
+// .typography-1 {
+//     @include typography-1;
+// }
 
-.fs14 {
-    font-size: rem(14px);
-}
-
-.fs16 {
-    font-size: rem(16px);
-}
-
-.fs18 {
-    font-size: rem(18px);
-}
-
-.fs20 {
-    font-size: rem(20px);
-}
-
-.fs22 {
-    font-size: rem(22px);
-}
-
-.fs24 {
-    font-size: rem(24px);
-}
-
-.fs26 {
-    font-size: rem(26px);
-}
-
-.fs28 {
-    font-size: rem(28px);
-}
-
-.fs30 {
-    font-size: rem(30px);
+@each $setting in $typography-settings {
+    $i: index($typography-settings, $setting);
+    .typography-#{$i} {
+        @include fs-lh(nth($setting, 1), nth($setting, 2));
+    }
 }
 
 // ============ Flex ============
@@ -101,4 +72,8 @@
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.text-align-center {
+    text-align: center;
 }

@@ -25,6 +25,21 @@ $mobile-breakpoint: 375px;
 $tablet-breakpoint: 768px;
 $desktop-breakpoint: 1440px;
 
+// ======================== Typography & Fonts ========================:
+// ******* Font-size & Line-height List *******
+$typography-settings: (
+    (100px, 100px),
+    (64px, 56px),
+    (48px, 48px),
+    (18px, 28px),
+    (15px, 25px),
+    (13px, 18px),
+    (40px, 40px),
+    (15px, 28px),
+    (32px, 32px),
+    (64px, 100px)
+);
+
 // ======================== Picture Sizes ========================:
 // ******* Picture Sizes *******
 $size-pic-icon-share-small: 20px;
