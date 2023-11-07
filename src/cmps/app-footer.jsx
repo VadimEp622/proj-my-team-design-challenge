@@ -11,14 +11,14 @@ export function AppFooter() {
 
     return (
         <footer className="main-layout">
-            <section className="app-footer-container">
+            <section className="app-footer-container flex">
 
-                <section className="nav-and-contact">
-                    <section className="nav-container">
+                <section className="nav-and-contact flex space-between">
+                    <section className="nav-container flex column align-center">
                         <Logo />
                         <MainNav />
                     </section>
-                    <section className="contact-container typography-5">
+                    <section className="contact-container typography-5 flex column">
                         <pre>987  Hillcrest Lane</pre>
                         <pre>Irvine,CA</pre>
                         <pre>California 92714</pre>
@@ -26,7 +26,7 @@ export function AppFooter() {
                     </section>
                 </section>
 
-                <section className="share-copyright-container">
+                <section className="share-copyright-container full flex">
                     <nav>
                         <Link to={`/share`}><img src={facebookIcon} alt="facebookIcon" /></Link>
                         <Link to={`/share`}><img src={pinterestIcon} alt="pinterestIcon" /></Link>

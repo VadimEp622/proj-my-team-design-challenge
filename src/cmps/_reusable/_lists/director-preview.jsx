@@ -22,14 +22,14 @@ export function DirectorPreview({ director }) {
                 <h2 className="name typography-4">{director.name}</h2>
                 <section className="quote-share-container">
                     <p className="quote typography-5">{director.quote}</p>
-                    <nav className="share">
+                    <nav className="share justify-center">
                         <Link to={`/share`}><img src={twitterIcon} alt="twitterIcon" /></Link>
                         <Link to={`/share`}><img src={linkedInIcon} alt="linkedInIcon" /></Link>
                     </nav>
                 </section>
                 <p className="position typography-5 italic">{director.position}</p>
             </section>
-            <section className="icon-cross-btn-container">
+            <section className="icon-cross-btn-container flex justify-center width-100-percent">
                 <button className="icon-cross-btn" onClick={(ev) => onClickPreview(ev)}>
                     <img src={iconCross} alt="iconCross" />
                 </button>

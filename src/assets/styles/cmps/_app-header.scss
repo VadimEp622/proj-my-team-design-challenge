@@ -1,11 +1,4 @@
 header {
     background-color: $main-teal-clr0;
     color: $white-clr;
-
-    & .app-header-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 40px;
-    }
 }

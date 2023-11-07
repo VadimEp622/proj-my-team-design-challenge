@@ -2,32 +2,7 @@ footer {
     background-color: $main-teal-clr1;
     color: $white-clr;
 
-    & .app-footer-container {
-        display: flex;
-
-        & .nav-and-contact {
-            display: flex;
-            justify-content: space-between;
-
-            & .nav-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            & .contact-container {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-
-        & .share-copyright-container {
-            flex: 1;
-            display: flex;
-
-            & nav {
-                @include nav-share($size: $size-pic-icon-share-large);
-            }
-        }
+    & .share-copyright-container nav {
+        @include nav-share($size: $size-pic-icon-share-large);
     }
 }

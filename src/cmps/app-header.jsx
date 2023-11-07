@@ -19,7 +19,7 @@ export function AppHeader() {
 
     return (
         <header className="main-layout">
-            <section className="app-header-container">
+            <section className="app-header-container flex align-center space-between gap-41">
                 <section className="header-logo-nav">
                     <Logo />
                     <MainNav />

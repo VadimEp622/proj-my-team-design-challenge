@@ -1,6 +1,5 @@
 .meet-directors-container {
     background-color: $main-teal-clr3;
-    text-align: center;
     position: relative;
     overflow: hidden;
 
@@ -9,102 +8,96 @@
         left: -100px;
     }
 
-    & .meet-directors {
-        & .director-list {
-            display: grid;
-            min-width: 270px;
+    & .meet-directors .director-list {
+        min-width: 270px;
 
-            & .director-preview-container {
+        & .director-preview-container {
+            position: relative;
+            background-color: $main-teal-clr2;
+            padding-block-start: 30px;
+            padding-block-end: 56px;
+            padding-inline: 24px;
+
+            & .director-preview {
                 position: relative;
-                background-color: $main-teal-clr2;
-                padding-block-start: 30px;
-                padding-block-end: 56px;
-                padding-inline: 24px;
+                transition: background-color 0.2s ease;
 
-                & .director-preview {
-                    position: relative;
-                    transition: background-color 0.2s ease;
-
-                    & .avatar {
-                        @include avatar($size-pic-avatar-large);
-                        opacity: 1;
-                        transition: opacity 0.2s ease;
-                    }
-
-                    & .name {
-                        margin-block-start: 14px;
-                        color: $main-teal-clr4;
-                        transition: transform 0.2s ease;
-                    }
-
-                    & .quote-share-container {
-                        position: absolute;
-                        margin-block-start: 8px;
-                        opacity: 0;
-                        transition:
-                            opacity 0.2s ease,
-                            transform 0.2s ease;
-
-                        & .share {
-                            @include nav-share($size: $size-pic-icon-share-small);
-                            justify-content: center;
-                            margin-block-start: 24px;
-                        }
-                    }
-
-                    & .position {
-                        opacity: 1;
-                        transition: opacity 0.2s ease;
-                        pointer-events: none;
-                    }
+                & .avatar {
+                    @include avatar($size-pic-avatar-large);
+                    opacity: 1;
+                    transition: opacity 0.2s ease;
                 }
 
-                & .icon-cross-btn-container {
+                & .name {
+                    margin-block-start: 14px;
+                    color: $main-teal-clr4;
+                    transition: transform 0.2s ease;
+                }
+
+                & .quote-share-container {
                     position: absolute;
-                    left: 0;
-                    bottom: -28px;
-                    display: flex;
-                    justify-content: center;
-                    width: 100%;
+                    margin-block-start: 8px;
+                    opacity: 0;
+                    transition:
+                        opacity 0.2s ease,
+                        transform 0.2s ease;
 
-                    & .icon-cross-btn {
-                        @include clean-btn;
-                        background-color: $main-orange-clr0;
-                        padding: 20px;
-                        border-radius: $border-radius-circle;
-                        transition:
-                            background-color 0.2s ease-out,
-                            transform 0.2s ease;
-
-                        &:hover {
-                            background-color: $main-teal-clr4;
-                            cursor: pointer;
-                        }
+                    & .share {
+                        @include nav-share($size: $size-pic-icon-share-small);
+                        justify-content: center;
+                        margin-block-start: 24px;
                     }
                 }
 
-                &.active {
-                    background-color: $main-teal-clr1;
+                & .position {
+                    opacity: 1;
+                    transition: opacity 0.2s ease;
+                    pointer-events: none;
+                }
+            }
 
-                    & :is(.avatar, .position) {
-                        opacity: 0;
-                    }
+            & .icon-cross-btn-container {
+                position: absolute;
+                left: 0;
+                bottom: -28px;
 
-                    & :is(.name, .quote-share-container) {
-                        transform: translateY(-105px);
-                    }
+                & .icon-cross-btn {
+                    @include clean-btn;
+                    background-color: $main-orange-clr0;
+                    padding: 20px;
+                    border-radius: $border-radius-circle;
+                    transition:
+                        background-color 0.2s ease-out,
+                        transform 0.2s ease;
 
-                    & .quote-share-container {
-                        opacity: 1;
-                    }
-
-                    & .icon-cross-btn {
-                        transform: rotate(45deg);
+                    &:hover {
                         background-color: $main-teal-clr4;
+                        cursor: pointer;
+                    }
+                }
+            }
 
-                        &:hover {
-                            background-color: $main-orange-clr0;
-                        }
+            &.active {
+                background-color: $main-teal-clr1;
+
+                & :is(.avatar, .position) {
+                    opacity: 0;
+                }
+
+                & :is(.name, .quote-share-container) {
+                    transform: translateY(-105px);
+                }
+
+                & .quote-share-container {
+                    opacity: 1;
+                }
+
+                & .icon-cross-btn {
+                    transform: rotate(45deg);
+                    background-color: $main-teal-clr4;
+
+                    &:hover {
+                        background-color: $main-orange-clr0;
                     }
                 }
             }

@@ -7,16 +7,7 @@
         position: absolute;
     }
 
-    & .client-examples .client-list {
-        display: flex;
-        justify-content: space-between;
-
-        & .client-preview {
-            display: flex;
-
-            & img {
-                object-fit: contain;
-            }
-        }
+    & .client-preview img {
+        object-fit: contain;
     }
 }

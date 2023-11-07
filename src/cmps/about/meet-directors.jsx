@@ -5,7 +5,7 @@ import bgPatternAbout2 from "../../assets/images/bg-pattern-about-2-contact-1.sv
 export function MeetDirectors() {
 
     return (
-        <section className="meet-directors-container main-layout full">
+        <section className="meet-directors-container main-layout full text-align-center">
             <section className="full bg-pattern bgPatternAbout2">
                 <img src={bgPatternAbout2} alt="bgPatternAbout2" />
             </section>
