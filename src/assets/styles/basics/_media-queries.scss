@@ -19,7 +19,8 @@
 
                 & .title {
                     padding-block-end: 24px;
-                    padding-inline: 25%;
+                    width: 350px;
+                    margin-inline: auto;
 
                     & h1 {
                         @include typography(2);
@@ -209,7 +210,7 @@
 
             & .title {
                 padding-block-end: 18px;
-                padding-inline: 15%;
+                width: 225px;
 
                 & h1 {
                     @include typography(7);
@@ -372,7 +373,7 @@
     .home-page {
         & .find-talent-container {
             & .find-talent .title {
-                padding-inline: unset;
+                width: auto;
             }
         }
 
@@ -384,13 +385,6 @@
 
 // more than 375px
 @include for-mobile-layout {
-    .home-page {
-        & .find-talent-container {
-            & .find-talent .content {
-                padding-inline: 15%;
-            }
-        }
-    }
 }
 
 // more than 768px
@@ -400,6 +394,12 @@
     }
 
     .home-page {
+        & .find-talent-container {
+            & .find-talent .content {
+                padding-inline: $padding-inline-find-talent-content-tablet;
+            }
+        }
+
         & .manage-teams-container .manage-teams {
             margin-inline: 60px;
 
@@ -542,7 +542,7 @@
                 & .content {
                     display: flex;
                     align-items: flex-end;
-                    padding-inline: unset;
+                    padding-inline: $padding-inline-null;
                     @include small-upper-rectangle($main-teal-clr4);
                 }
             }
@@ -643,7 +643,7 @@
             }
 
             & .meet-directors {
-                padding-inline: 0;
+                padding-inline: $padding-inline-null;
 
                 & .title {
                     margin-block-end: 60px;

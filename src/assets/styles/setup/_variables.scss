@@ -51,14 +51,24 @@ $size-pic-icon-home-info: 72px;
 // ======================== Padding Inline's ========================:
 // ******* Padding-inline Map *******
 $padding-inline-map: (
+    "pd-in-0": 0px,
     "pd-in-24": 24px,
+    "pd-in-30-dot-5": 30.5px,
+    "pd-in-31-dot-5": 31.5px,
     "pd-in-50": 50px,
     "pd-in-60": 60px,
     "pd-in-80": 80px,
-    "pd-in-100": 100px
+    "pd-in-100": 100px,
+    "pd-in-156": 156px
 );
 
 // ******* Padding-inline individual components *******
+// padding-inline-null
+$padding-inline-null: map-get($padding-inline-map, "pd-in-0");
+
+// padding-inline-find-talent
+$padding-inline-find-talent-content-tablet: map-get($padding-inline-map, "pd-in-156");
+
 // padding-inline-success-stories
 $padding-inline-success-stories-tablet: map-get($padding-inline-map, "pd-in-60");
 $padding-inline-success-stories-title-tablet: map-get($padding-inline-map, "pd-in-80");
@@ -69,6 +79,10 @@ $padding-inline-meet-directors-tablet: map-get($padding-inline-map, "pd-in-60");
 // padding-inline-get-started
 $padding-inline-get-started-mobile: map-get($padding-inline-map, "pd-in-50");
 $padding-inline-get-started-tablet: map-get($padding-inline-map, "pd-in-100");
+
+// ******* padding-inline unresponsive individual components *******
+$padding-inline-contact-btn-small: map-get($padding-inline-map, "pd-in-30-dot-5");
+$padding-inline-contact-btn-big: map-get($padding-inline-map, "pd-in-31-dot-5");
 
 // ======================== Padding Blocks ========================:
 // ******* Padding-block Map *******
