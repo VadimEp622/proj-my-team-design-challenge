@@ -51,8 +51,24 @@ $size-pic-icon-home-info: 72px;
 // ======================== Padding Inline's ========================:
 // ******* Padding-inline Map *******
 $padding-inline-map: (
-    "pd-in-24": 24px
+    "pd-in-24": 24px,
+    "pd-in-50": 50px,
+    "pd-in-60": 60px,
+    "pd-in-80": 80px,
+    "pd-in-100": 100px
 );
+
+// ******* Padding-inline individual components *******
+// padding-inline-success-stories
+$padding-inline-success-stories-tablet: map-get($padding-inline-map, "pd-in-60");
+$padding-inline-success-stories-title-tablet: map-get($padding-inline-map, "pd-in-80");
+
+// padding-inline-meet-directors
+$padding-inline-meet-directors-tablet: map-get($padding-inline-map, "pd-in-60");
+
+// padding-inline-get-started
+$padding-inline-get-started-mobile: map-get($padding-inline-map, "pd-in-50");
+$padding-inline-get-started-tablet: map-get($padding-inline-map, "pd-in-100");
 
 // ======================== Padding Blocks ========================:
 // ******* Padding-block Map *******

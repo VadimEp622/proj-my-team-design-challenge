@@ -362,7 +362,7 @@
         & .get-started {
             flex-direction: column;
             text-align: center;
-            padding-inline: 50px;
+            padding-inline: $padding-inline-get-started-mobile;
         }
     }
 }
@@ -417,10 +417,10 @@
         }
 
         & .success-stories-container .success-stories {
-            padding-inline: 60px;
+            padding-inline: $padding-inline-success-stories-tablet;
 
-            & .title h2 {
-                padding-inline: 80px;
+            & .title {
+                padding-inline: $padding-inline-success-stories-title-tablet;
             }
         }
     }
@@ -438,7 +438,7 @@
 
         & .meet-directors-container {
             & .meet-directors {
-                padding-inline: 60px;
+                padding-inline: $padding-inline-meet-directors-tablet;
             }
 
             & .director-list {
@@ -498,7 +498,7 @@
 
         & .get-started {
             justify-content: space-between;
-            padding-inline: 100px;
+            padding-inline: $padding-inline-get-started-tablet;
         }
     }
 }
