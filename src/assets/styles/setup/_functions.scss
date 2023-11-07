@@ -13,3 +13,8 @@
 @function get-typography-settings($index) {
     @return nth($typography-settings, $index);
 }
+
+// Function to get map values
+@function get-map-value($map, $key) {
+    @return map-get($map, $key);
+}

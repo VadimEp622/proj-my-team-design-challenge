@@ -13,8 +13,8 @@
             }
 
             & .find-talent {
-                padding-block-start: 48px;
-                padding-block-end: 256px;
+                padding-block-start: get-map-value($padding-block-start-map, "48");
+                padding-block-end: get-map-value($padding-block-end-map, "256");
                 text-align: center;
 
                 & .title {
@@ -205,8 +205,8 @@
 
     .home-page {
         & .find-talent-container .find-talent {
-            padding-block-start: 32px;
-            padding-block-end: 197px;
+            padding-block-start: get-map-value($padding-block-start-map, "32");
+            padding-block-end: get-map-value($padding-block-end-map, "197");
 
             & .title {
                 padding-block-end: 18px;
@@ -511,8 +511,8 @@
 
     .home-page {
         & .find-talent-container {
-            padding-block-start: 56px;
-            padding-block-end: 250px;
+            padding-block-start: get-map-value($padding-block-start-map, "56");
+            padding-block-end: get-map-value($padding-block-end-map, "250");
 
             & .find-talent {
                 & .title h1 {

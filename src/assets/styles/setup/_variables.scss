@@ -137,6 +137,26 @@ $padding-block-client-examples-desktop: map-get($padding-block-map, "pd-bl-140")
 // ******* Padding-block unresponsive individual components *******
 $padding-block-btn-contact-us: map-get($padding-block-map, "pd-bl-8");
 
+// !!!!!!!!!!! THIS BELOW IS THE STANDARD MAP FORMAT FROM NOW ON !!!!!!!!!!!
+// !!!!!!!!!!! THIS BELOW IS THE STANDARD MAP FORMAT FROM NOW ON !!!!!!!!!!!
+// ======================== Padding Block Start ========================:
+// ******* Padding-block-start Map *******
+$padding-block-start-map: (
+    "32": 32px,
+    "48": 48px,
+    "56": 56px
+);
+
+// ======================== Padding Block End ========================:
+// ******* Padding-block-end Map *******
+$padding-block-end-map: (
+    "197": 197px,
+    "250": 250px,
+    "256": 256px
+);
+// !!!!!!!!!!! THIS ABOVE IS THE STANDARD MAP FORMAT FROM NOW ON !!!!!!!!!!!
+// !!!!!!!!!!! THIS ABOVE IS THE STANDARD MAP FORMAT FROM NOW ON !!!!!!!!!!!
+
 // ======================== Gaps ========================:
 // ******* Gap Map *******
 $gap-map: (
