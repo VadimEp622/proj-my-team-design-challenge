@@ -13,28 +13,14 @@
             @include small-upper-rectangle($main-orange-clr0);
         }
 
-        & .team-quality-list {
-            display: flex;
-            flex-direction: column;
+        & .team-quality-preview {
+            & .img-container {
+                height: $size-pic-icon-home-info;
+                width: $size-pic-icon-home-info;
+            }
 
-            & .team-quality-preview {
-                display: flex;
-
-                & .img-container {
-                    display: flex;
-                    flex: 0 0 auto;
-                    height: $size-pic-icon-home-info;
-                    width: $size-pic-icon-home-info;
-                }
-
-                & .content-container {
-                    display: flex;
-                    flex-direction: column;
-
-                    & h3 {
-                        color: $main-orange-clr0;
-                    }
-                }
+            & .content-container h3 {
+                color: $main-orange-clr0;
             }
         }
     }
