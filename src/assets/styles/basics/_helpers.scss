@@ -6,6 +6,13 @@
     }
 }
 
+// ============ Padding Inline's ============
+@each $class-name, $padding-inline in $padding-inline-map {
+    .#{$class-name} {
+        padding-inline: $padding-inline;
+    }
+}
+
 // ============ Padding Blocks ============
 @each $class-name, $padding-block in $padding-block-map {
     .#{$class-name} {

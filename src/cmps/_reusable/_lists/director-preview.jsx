@@ -16,7 +16,7 @@ export function DirectorPreview({ director }) {
     }
 
     return (
-        <section className={`director-preview-container${activePreview ? ' active' : ''}`}>
+        <section className={`director-preview-container${activePreview ? ' active' : ''} pd-in-24`}>
             <section className="director-preview">
                 <section className="avatar"><img src={director.img} alt="avatarNikita" /></section>
                 <h2 className="name typography-4">{director.name}</h2>
