@@ -40,7 +40,6 @@
         background-color: $main-teal-clr6;
         color: $white-clr;
         padding-inline: 24px;
-        padding-block: $padding-block-side-navbar;
 
         & .side-navbar {
             position: relative;
@@ -59,7 +58,6 @@
             }
 
             & .main-nav-and-contact {
-                padding-block: $padding-block-side-navbar;
                 padding-inline: 24px;
 
                 & .main-nav .nav-list {

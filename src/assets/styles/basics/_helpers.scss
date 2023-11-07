@@ -6,6 +6,13 @@
     }
 }
 
+// ============ Padding Blocks ============
+@each $class-name, $padding-block in $padding-block-map {
+    .#{$class-name} {
+        padding-block: $padding-block;
+    }
+}
+
 // ======================== Flex & Grid ========================
 .flex,
 .grid {
