@@ -13,15 +13,8 @@
             @include small-upper-rectangle($main-orange-clr0);
         }
 
-        & .team-quality-preview {
-            & .img-container {
-                height: $size-pic-icon-home-info;
-                width: $size-pic-icon-home-info;
-            }
-
-            & .content-container h3 {
-                color: $main-orange-clr0;
-            }
+        & .team-quality-preview .content-container h3 {
+            color: $main-orange-clr0;
         }
     }
 }

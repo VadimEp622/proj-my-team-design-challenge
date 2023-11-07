@@ -69,11 +69,11 @@
 
                     & .success-story-preview {
                         & p {
-                            padding-block-end: 16px;
+                            margin-block-end: $margin-block-end-16;
                         }
 
                         & h4 {
-                            padding-block-end: 14px;
+                            margin-block-end: $margin-block-end-14;
                         }
                     }
                 }
@@ -586,7 +586,7 @@
                 padding-block: $padding-block-success-stories-desktop;
 
                 & .title {
-                    margin-block-end: 56px;
+                    margin-block-end: $margin-block-end-56;
                 }
 
                 & .success-story-list {
@@ -594,11 +594,11 @@
 
                     & .success-story-preview {
                         & p {
-                            padding-block-end: 24px;
+                            margin-block-end: $margin-block-end-24;
                         }
 
                         & h4 {
-                            padding-block-end: 30px;
+                            margin-block-end: $margin-block-end-30;
                         }
                     }
                 }

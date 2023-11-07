@@ -16,6 +16,7 @@ $white-clr: rgb(255, 255, 255);
 $black-clr: rgb(0, 0, 0);
 
 // ******* Filter Color Replacement For Icons *******
+//  Consider renaming it to something like $icon-filter-color
 $clr-filter0: brightness(0) saturate(100%) invert(81%) sepia(54%) saturate(3586%) hue-rotate(307deg) brightness(95%)
     contrast(104%); //$main-orange-clr0
 
@@ -46,7 +47,6 @@ $size-pic-icon-share-small: 20px;
 $size-pic-icon-share-large: 24px;
 $size-pic-avatar-small: 62px;
 $size-pic-avatar-large: 96px;
-$size-pic-icon-home-info: 72px;
 
 // ======================== Padding Inline's ========================:
 // ******* Padding-inline Map *******
@@ -176,6 +176,34 @@ $gap-success-story-list-mobile: map-get($gap-map, "gap-46");
 $gap-client-example-list-desktop: map-get($gap-map, "gap-80");
 $gap-client-example-list-tablet: map-get($gap-map, "gap-49");
 $gap-client-example-list-mobile: map-get($gap-map, "gap-57");
+
+// ======================== Margin-Block-Start ========================:
+// ************ Margin-block-start List ************
+$margin-block-start-map: (
+    "mg-bl-st-36": 36px
+);
+
+// ************ Margin-block-start Specific Items ************
+$margin-block-start-36: map-get($margin-block-start-map, "mg-bl-st-36");
+
+// ======================== Margin-Block-End ========================:
+// ************ Margin-block-end List ************
+$margin-block-end-map: (
+    "mg-bl-ed-2": 2px,
+    "mg-bl-ed-14": 14px,
+    "mg-bl-ed-16": 16px,
+    "mg-bl-ed-24": 24px,
+    "mg-bl-ed-30": 30px,
+    "mg-bl-ed-56": 56px
+);
+
+// ************ Margin-block-end Specific Items ************
+$margin-block-end-2: map-get($margin-block-end-map, "mg-bl-ed-2");
+$margin-block-end-14: map-get($margin-block-end-map, "mg-bl-ed-14");
+$margin-block-end-16: map-get($margin-block-end-map, "mg-bl-ed-16");
+$margin-block-end-24: map-get($margin-block-end-map, "mg-bl-ed-24");
+$margin-block-end-30: map-get($margin-block-end-map, "mg-bl-ed-30");
+$margin-block-end-56: map-get($margin-block-end-map, "mg-bl-ed-56");
 
 // ======================== Dimensions & Sizes ========================:
 // ******* Border-radius *******

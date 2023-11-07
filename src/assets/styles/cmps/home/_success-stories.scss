@@ -34,11 +34,11 @@
             z-index: 0;
 
             & p {
-                padding-block-start: 36px;
+                margin-block-start: $margin-block-start-36;
             }
 
             & h3 {
-                padding-block-end: 2px;
+                margin-block-end: $margin-block-end-2;
                 color: $main-teal-clr4;
             }
 

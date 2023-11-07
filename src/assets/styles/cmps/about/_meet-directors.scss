@@ -28,7 +28,7 @@
                 }
 
                 & .name {
-                    margin-block-start: 14px;
+                    margin-block-start: $margin-block-end-14;
                     color: $main-teal-clr4;
                     transition: transform 0.2s ease;
                 }
