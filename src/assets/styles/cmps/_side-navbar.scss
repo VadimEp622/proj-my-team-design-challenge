@@ -35,25 +35,23 @@
     }
 
     & .side-navbar-container {
-        min-width: 63vw;
-        max-width: calc(100vw - 100px);
+        max-width: calc(100vw - 50px);
+        width: auto;
         background-color: $main-teal-clr6;
         color: $white-clr;
-        padding-inline: 25px;
+        padding-inline: 24px;
         padding-block: $padding-block-side-navbar;
 
         & .side-navbar {
-            display: grid;
-            grid-template-columns: 1fr auto;
-            justify-content: space-between;
-            gap: 5px;
+            position: relative;
 
             & .btn-close {
                 @include clean-btn;
+                position: absolute;
                 right: 0;
                 top: 0;
-                height: 17px;
-                width: 18px;
+                left: 189px;
+                width: max-content;
 
                 &:hover {
                     cursor: pointer;
@@ -62,7 +60,7 @@
 
             & .main-nav-and-contact {
                 padding-block: $padding-block-side-navbar;
-                padding-inline-start: 23px;
+                padding-inline: 24px;
 
                 & .main-nav .nav-list {
                     flex-direction: column;
