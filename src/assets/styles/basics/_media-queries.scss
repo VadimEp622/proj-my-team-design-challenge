@@ -65,7 +65,7 @@
 
                 & .success-story-list {
                     flex-direction: column;
-                    gap: $gap-success-story-list-mobile;
+                    gap: get-map-value($map-gap,"46px");
 
                     & .success-story-preview {
                         & p {
@@ -134,7 +134,7 @@
 
             & .client-examples {
                 & .client-list {
-                    gap: $gap-client-example-list-tablet;
+                    gap: get-map-value($map-gap,"49px");
                     margin-block-start: get-map-value($map-margin-block-start, "48px");
                 }
             }
@@ -175,7 +175,7 @@
                     gap: 53px;
 
                     & .main-nav .nav-list {
-                        gap: $gap-footer-main-nav-mobile;
+                        gap: get-map-value($map-gap,"25px");
                     }
                 }
 
@@ -228,7 +228,7 @@
                 }
 
                 & .team-quality-list {
-                    gap: $gap-team-quality-list-mobile;
+                    gap: get-map-value($map-gap,"48px");
 
                     & .team-quality-preview {
                         flex-direction: column;
@@ -296,7 +296,7 @@
                 & .client-list {
                     flex-direction: column;
                     align-items: center;
-                    gap: $gap-client-example-list-mobile;
+                    gap: get-map-value($map-gap,"57px");
                     margin-block-start: get-map-value($map-margin-block-start, "64px");
                     height: 360px;
                     margin-inline: auto;
@@ -404,7 +404,7 @@
             margin-inline: 60px;
 
             & .team-quality-list {
-                gap: $gap-team-quality-list-tablet;
+                gap: get-map-value($map-gap,"32px");
 
                 & .team-quality-preview {
                     gap: 23px;
@@ -471,7 +471,7 @@
                 align-items: center;
 
                 & .main-nav .nav-list {
-                    gap: $gap-header-main-nav;
+                    gap: get-map-value($map-gap,"41px");
                 }
             }
 
@@ -590,7 +590,7 @@
                 }
 
                 & .success-story-list {
-                    gap: $gap-success-story-list-desktop;
+                    gap: get-map-value($map-gap,"30px");
 
                     & .success-story-preview {
                         & p {
@@ -665,7 +665,7 @@
 
             & .client-examples {
                 & .client-list {
-                    gap: $gap-client-example-list-desktop;
+                    gap: get-map-value($map-gap,"80px");
                     margin-block-start: get-map-value($map-margin-block-start, "64px");
 
                     & .client-preview {
@@ -697,7 +697,7 @@
                     gap: 25px;
 
                     & .main-nav .nav-list {
-                        gap: $gap-footer-main-nav-desktop;
+                        gap: get-map-value($map-gap,"41px");
                     }
                 }
             }

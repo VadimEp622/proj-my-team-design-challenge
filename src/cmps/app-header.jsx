@@ -16,10 +16,9 @@ export function AppHeader() {
         setIsSideNavbar(true)
     }
 
-
     return (
         <header className="main-layout">
-            <section className="app-header-container flex align-center space-between gap-41">
+            <section className="app-header-container flex align-center space-between gap-41px">
                 <section className="header-logo-nav">
                     <Logo />
                     <MainNav />

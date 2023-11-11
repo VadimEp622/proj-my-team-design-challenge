@@ -59,7 +59,7 @@
             & .main-nav-and-contact {
                 & .main-nav .nav-list {
                     flex-direction: column;
-                    gap: $gap-nav-sidebar-main-nav;
+                    gap: get-map-value($map-gap,"24px");
                 }
 
                 & .contact-btn-container {

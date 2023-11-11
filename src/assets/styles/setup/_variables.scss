@@ -49,7 +49,6 @@ $size-pic-avatar-small: 62px;
 $size-pic-avatar-large: 96px;
 
 // ======================== Spacing ========================:
-// map-get($map-spacing,"")
 // ******* Spacing Map *******
 $map-spacing: (
     "0px": 0px,
@@ -164,45 +163,20 @@ $map-margin-block-end: (
     "60px": map-get($map-spacing, "60px")
 );
 
-// ======================== Gaps ========================:
 // ******* Gap Map *******
-$gap-map: (
-    "gap-16": map-get($map-spacing, "16px"),
-    "gap-24": map-get($map-spacing, "24px"),
-    "gap-25": map-get($map-spacing, "25px"),
-    "gap-30": map-get($map-spacing, "30px"),
-    "gap-32": map-get($map-spacing, "32px"),
-    "gap-41": map-get($map-spacing, "41px"),
-    "gap-46": map-get($map-spacing, "46px"),
-    "gap-48": map-get($map-spacing, "48px"),
-    "gap-49": map-get($map-spacing, "49px"),
-    "gap-57": map-get($map-spacing, "57px"),
-    "gap-80": map-get($map-spacing, "80px")
+$map-gap: (
+    "16px": map-get($map-spacing, "16px"),
+    "24px": map-get($map-spacing, "24px"),
+    "25px": map-get($map-spacing, "25px"),
+    "30px": map-get($map-spacing, "30px"),
+    "32px": map-get($map-spacing, "32px"),
+    "41px": map-get($map-spacing, "41px"),
+    "46px": map-get($map-spacing, "46px"),
+    "48px": map-get($map-spacing, "48px"),
+    "49px": map-get($map-spacing, "49px"),
+    "57px": map-get($map-spacing, "57px"),
+    "80px": map-get($map-spacing, "80px")
 );
-
-// ******* Gap individual components *******
-// gap-header-main-nav
-$gap-header-main-nav: map-get($gap-map, "gap-41");
-
-// gap-footer-main-nav
-$gap-footer-main-nav-desktop: map-get($gap-map, "gap-41");
-$gap-footer-main-nav-mobile: map-get($gap-map, "gap-25");
-
-// gap-nav-sidebar-main-nav
-$gap-nav-sidebar-main-nav: map-get($gap-map, "gap-24");
-
-// gap-team-quality-list
-$gap-team-quality-list-mobile: map-get($gap-map, "gap-48");
-$gap-team-quality-list-tablet: map-get($gap-map, "gap-32");
-
-// gap-success-story-list
-$gap-success-story-list-desktop: map-get($gap-map, "gap-30");
-$gap-success-story-list-mobile: map-get($gap-map, "gap-46");
-
-// gap-client-example-list
-$gap-client-example-list-desktop: map-get($gap-map, "gap-80");
-$gap-client-example-list-tablet: map-get($gap-map, "gap-49");
-$gap-client-example-list-mobile: map-get($gap-map, "gap-57");
 
 // ======================== Dimensions & Sizes ========================:
 // ******* Border-radius *******

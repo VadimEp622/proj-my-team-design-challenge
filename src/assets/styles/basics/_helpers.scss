@@ -53,8 +53,8 @@
     }
 
     // ******** Gaps ********
-    @each $class-name, $gap in $gap-map {
-        &.#{$class-name} {
+    @each $class-name, $gap in $map-gap {
+        &.gap-#{$class-name} {
             gap: $gap;
         }
     }

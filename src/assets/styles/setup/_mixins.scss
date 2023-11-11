@@ -104,7 +104,7 @@
 
 @mixin nav-share($size: $size-pic-icon-share-small) {
     display: flex;
-    gap: map-get($gap-map, "gap-16");
+    gap: get-map-value($map-gap, "16px");
 
     & a {
         width: $size;
