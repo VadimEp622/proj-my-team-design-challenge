@@ -14,8 +14,8 @@
         & .director-preview-container {
             position: relative;
             background-color: $main-teal-clr2;
-            padding-block-start: 30px;
-            padding-block-end: 56px;
+            padding-block-start: get-map-value($padding-block-start-map, "30");
+            padding-block-end: get-map-value($padding-block-end-map, "56");
 
             & .director-preview {
                 position: relative;
@@ -28,7 +28,7 @@
                 }
 
                 & .name {
-                    margin-block-start: $margin-block-end-14;
+                    margin-block-start: get-map-value($margin-block-start-map, "14");
                     color: $main-teal-clr4;
                     transition: transform 0.2s ease;
                 }

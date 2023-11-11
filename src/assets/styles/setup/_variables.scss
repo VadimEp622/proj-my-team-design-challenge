@@ -137,25 +137,53 @@ $padding-block-client-examples-desktop: map-get($padding-block-map, "pd-bl-140")
 // ******* Padding-block unresponsive individual components *******
 $padding-block-btn-contact-us: map-get($padding-block-map, "pd-bl-8");
 
-// !!!!!!!!!!! THIS BELOW IS THE STANDARD MAP FORMAT FROM NOW ON !!!!!!!!!!!
-// !!!!!!!!!!! THIS BELOW IS THE STANDARD MAP FORMAT FROM NOW ON !!!!!!!!!!!
 // ======================== Padding Block Start ========================:
-// ******* Padding-block-start Map *******
+// ******* padding-block-start map *******
 $padding-block-start-map: (
+    "30": 30px,
     "32": 32px,
+    "44": 44px,
+    "47": 47px,
     "48": 48px,
-    "56": 56px
+    "56": 56px,
+    "58": 58px
 );
 
 // ======================== Padding Block End ========================:
-// ******* Padding-block-end Map *******
+// ******* padding-block-end map *******
 $padding-block-end-map: (
+    "56": 56px,
+    "64": 64px,
+    "108": 108px,
+    "112": 112px,
     "197": 197px,
+    "120": 120px,
     "250": 250px,
     "256": 256px
 );
-// !!!!!!!!!!! THIS ABOVE IS THE STANDARD MAP FORMAT FROM NOW ON !!!!!!!!!!!
-// !!!!!!!!!!! THIS ABOVE IS THE STANDARD MAP FORMAT FROM NOW ON !!!!!!!!!!!
+
+// ======================== Margin-Block-Start ========================:
+// ******* margin-block-start map *******
+$margin-block-start-map: (
+    "14": 14px,
+    "36": 36px,
+    "48": 48px,
+    "52": 52px,
+    "64": 64px
+);
+
+// ======================== Margin-Block-End ========================:
+// ******* margin-block-end map *******
+$margin-block-end-map: (
+    "2": 2px,
+    "14": 14px,
+    "16": 16px,
+    "24": 24px,
+    "30": 30px,
+    "48": 48px,
+    "56": 56px,
+    "60": 60px
+);
 
 // ======================== Gaps ========================:
 // ******* Gap Map *******
@@ -196,34 +224,6 @@ $gap-success-story-list-mobile: map-get($gap-map, "gap-46");
 $gap-client-example-list-desktop: map-get($gap-map, "gap-80");
 $gap-client-example-list-tablet: map-get($gap-map, "gap-49");
 $gap-client-example-list-mobile: map-get($gap-map, "gap-57");
-
-// ======================== Margin-Block-Start ========================:
-// ************ Margin-block-start List ************
-$margin-block-start-map: (
-    "mg-bl-st-36": 36px
-);
-
-// ************ Margin-block-start Specific Items ************
-$margin-block-start-36: map-get($margin-block-start-map, "mg-bl-st-36");
-
-// ======================== Margin-Block-End ========================:
-// ************ Margin-block-end List ************
-$margin-block-end-map: (
-    "mg-bl-ed-2": 2px,
-    "mg-bl-ed-14": 14px,
-    "mg-bl-ed-16": 16px,
-    "mg-bl-ed-24": 24px,
-    "mg-bl-ed-30": 30px,
-    "mg-bl-ed-56": 56px
-);
-
-// ************ Margin-block-end Specific Items ************
-$margin-block-end-2: map-get($margin-block-end-map, "mg-bl-ed-2");
-$margin-block-end-14: map-get($margin-block-end-map, "mg-bl-ed-14");
-$margin-block-end-16: map-get($margin-block-end-map, "mg-bl-ed-16");
-$margin-block-end-24: map-get($margin-block-end-map, "mg-bl-ed-24");
-$margin-block-end-30: map-get($margin-block-end-map, "mg-bl-ed-30");
-$margin-block-end-56: map-get($margin-block-end-map, "mg-bl-ed-56");
 
 // ======================== Dimensions & Sizes ========================:
 // ******* Border-radius *******

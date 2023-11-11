@@ -63,7 +63,7 @@
                 }
 
                 & .contact-btn-container {
-                    margin-block-start: 36px;
+                    margin-block-start: get-map-value($margin-block-start-map, "36");
 
                     & .contact-btn {
                         @include contact-btn(big, $white-clr, $main-teal-clr0);
