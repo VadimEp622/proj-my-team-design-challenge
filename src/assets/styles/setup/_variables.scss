@@ -89,7 +89,7 @@ $map-spacing: (
 );
 
 // ******* Padding-Inline Map *******
-$padding-inline-map: (
+$map-padding-inline: (
     "0px": map-get($map-spacing, "0px"),
     "24px": map-get($map-spacing, "24px"),
     "30-5px": map-get($map-spacing, "30-5px"),

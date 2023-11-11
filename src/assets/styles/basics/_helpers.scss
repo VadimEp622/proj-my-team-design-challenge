@@ -7,7 +7,7 @@
 }
 
 // ============ Padding Inline's ============
-@each $class-name, $padding-inline in $padding-inline-map {
+@each $class-name, $padding-inline in $map-padding-inline {
     .pd-in-#{$class-name} {
         padding-inline: $padding-inline;
     }
