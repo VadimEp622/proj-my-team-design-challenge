@@ -50,7 +50,7 @@ $size-pic-avatar-large: 96px;
 
 // ======================== Spacing ========================:
 // map-get($map-spacing,"")
-// ******* Spacing map *******
+// ******* Spacing Map *******
 $map-spacing: (
     "0px": 0px,
     "2px": 2px,
@@ -88,44 +88,20 @@ $map-spacing: (
     "256px": 256px
 );
 
-// ======================== Padding Inline's ========================:
-// ******* Padding-inline Map *******
+// ******* Padding-Inline Map *******
 $padding-inline-map: (
-    "pd-in-0": map-get($map-spacing, "0px"),
-    "pd-in-24": map-get($map-spacing, "24px"),
-    "pd-in-30-dot-5": map-get($map-spacing, "30-5px"),
-    "pd-in-31-dot-5": map-get($map-spacing, "31-5px"),
-    "pd-in-50": map-get($map-spacing, "50px"),
-    "pd-in-60": map-get($map-spacing, "60px"),
-    "pd-in-80": map-get($map-spacing, "80px"),
-    "pd-in-100": map-get($map-spacing, "100px"),
-    "pd-in-156": map-get($map-spacing, "156px")
+    "0px": map-get($map-spacing, "0px"),
+    "24px": map-get($map-spacing, "24px"),
+    "30-5px": map-get($map-spacing, "30-5px"),
+    "31-5px": map-get($map-spacing, "31-5px"),
+    "50px": map-get($map-spacing, "50px"),
+    "60px": map-get($map-spacing, "60px"),
+    "80px": map-get($map-spacing, "80px"),
+    "100px": map-get($map-spacing, "100px"),
+    "156px": map-get($map-spacing, "156px")
 );
 
-// ******* Padding-inline individual components *******
-// padding-inline-null
-$padding-inline-null: map-get($padding-inline-map, "pd-in-0");
-
-// padding-inline-find-talent
-$padding-inline-find-talent-content-tablet: map-get($padding-inline-map, "pd-in-156");
-
-// padding-inline-success-stories
-$padding-inline-success-stories-tablet: map-get($padding-inline-map, "pd-in-60");
-$padding-inline-success-stories-title-tablet: map-get($padding-inline-map, "pd-in-80");
-
-// padding-inline-meet-directors
-$padding-inline-meet-directors-tablet: map-get($padding-inline-map, "pd-in-60");
-
-// padding-inline-get-started
-$padding-inline-get-started-mobile: map-get($padding-inline-map, "pd-in-50");
-$padding-inline-get-started-tablet: map-get($padding-inline-map, "pd-in-100");
-
-// ******* padding-inline unresponsive individual components *******
-$padding-inline-contact-btn-small: map-get($padding-inline-map, "pd-in-30-dot-5");
-$padding-inline-contact-btn-big: map-get($padding-inline-map, "pd-in-31-dot-5");
-
-// ======================== Padding Blocks ========================:
-// ******* Padding-block Map *******
+// ******* Padding-Block Map *******
 $map-padding-block: (
     "8px": map-get($map-spacing, "8px"),
     "48px": map-get($map-spacing, "48px"),
@@ -139,8 +115,7 @@ $map-padding-block: (
     "140px": map-get($map-spacing, "140px")
 );
 
-// ======================== Padding Block Start ========================:
-// ******* padding-block-start map *******
+// ******* Padding-Block-Start Map *******
 $map-padding-block-start: (
     "30px": map-get($map-spacing, "30px"),
     "32px": map-get($map-spacing, "32px"),
@@ -151,8 +126,7 @@ $map-padding-block-start: (
     "58px": map-get($map-spacing, "58px")
 );
 
-// ======================== Padding Block End ========================:
-// ******* padding-block-end map *******
+// ******* Padding-Block-End Map *******
 $map-padding-block-end: (
     "56px": map-get($map-spacing, "56px"),
     "64px": map-get($map-spacing, "64px"),
@@ -164,8 +138,7 @@ $map-padding-block-end: (
     "256px": map-get($map-spacing, "256px")
 );
 
-// ======================== Margin-Block-Start ========================:
-// ******* margin-block-start map *******
+// ******* Margin-Block-Start Map *******
 $map-margin-block-start: (
     "14px": map-get($map-spacing, "14px"),
     "36px": map-get($map-spacing, "36px"),
@@ -174,8 +147,7 @@ $map-margin-block-start: (
     "64px": map-get($map-spacing, "64px")
 );
 
-// ======================== Margin-Block-End ========================:
-// ******* margin-block-end map *******
+// ******* Margin-Block-End Map *******
 $map-margin-block-end: (
     "2px": map-get($map-spacing, "2px"),
     "14px": map-get($map-spacing, "14px"),

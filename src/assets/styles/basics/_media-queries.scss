@@ -363,7 +363,7 @@
         & .get-started {
             flex-direction: column;
             text-align: center;
-            padding-inline: $padding-inline-get-started-mobile;
+            padding-inline: get-map-value($padding-inline-map, "50px");
         }
     }
 }
@@ -396,7 +396,7 @@
     .home-page {
         & .find-talent-container {
             & .find-talent .content {
-                padding-inline: $padding-inline-find-talent-content-tablet;
+                padding-inline: get-map-value($padding-inline-map, "156px");
             }
         }
 
@@ -417,10 +417,10 @@
         }
 
         & .success-stories-container .success-stories {
-            padding-inline: $padding-inline-success-stories-tablet;
+            padding-inline: get-map-value($padding-inline-map, "60px");
 
             & .title {
-                padding-inline: $padding-inline-success-stories-title-tablet;
+                padding-inline: get-map-value($padding-inline-map, "80px");
             }
         }
     }
@@ -438,7 +438,7 @@
 
         & .meet-directors-container {
             & .meet-directors {
-                padding-inline: $padding-inline-meet-directors-tablet;
+                padding-inline: get-map-value($padding-inline-map, "60px");
             }
 
             & .director-list {
@@ -498,7 +498,7 @@
 
         & .get-started {
             justify-content: space-between;
-            padding-inline: $padding-inline-get-started-tablet;
+            padding-inline: get-map-value($padding-inline-map, "100px");
         }
     }
 }
@@ -542,7 +542,7 @@
                 & .content {
                     display: flex;
                     align-items: flex-end;
-                    padding-inline: $padding-inline-null;
+                    padding-inline: get-map-value($padding-inline-map, "0px");
                     @include small-upper-rectangle($main-teal-clr4);
                 }
             }
@@ -643,7 +643,7 @@
             }
 
             & .meet-directors {
-                padding-inline: $padding-inline-null;
+                padding-inline: get-map-value($padding-inline-map, "0px");
 
                 & .title {
                     margin-block-end: get-map-value($map-margin-block-end, "60px");

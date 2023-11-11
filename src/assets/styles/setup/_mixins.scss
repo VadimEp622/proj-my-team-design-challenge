@@ -133,13 +133,13 @@
 
 @mixin contact-btn($btn-size: small, $before-hover-clr, $hover-clr) {
     @if $btn-size == small {
-        padding-inline: $padding-inline-contact-btn-small;
+        padding-inline: get-map-value($padding-inline-map, "30-5px");
 
         & p {
             width: 88px;
         }
     } @else {
-        padding-inline: $padding-inline-contact-btn-big;
+        padding-inline: get-map-value($padding-inline-map, "31-5px");
 
         & p {
             width: 92px;
