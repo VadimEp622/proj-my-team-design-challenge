@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proj-my-team-design-challenge/static/css/main.0a8818fa.css",
-    "main.js": "/proj-my-team-design-challenge/static/js/main.f9743fe3.js",
+    "main.css": "/proj-my-team-design-challenge/static/css/main.1d240111.css",
+    "main.js": "/proj-my-team-design-challenge/static/js/main.2c6a9a46.js",
     "static/media/Livvic-BoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-BoldItalic.b9e334bcf82de36a5907.ttf",
     "static/media/Livvic-SemiBoldItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-SemiBoldItalic.3bfdd0e8025e9ed40b8f.ttf",
     "static/media/Livvic-MediumItalic.ttf": "/proj-my-team-design-challenge/static/media/Livvic-MediumItalic.c388d554d36321255ab9.ttf",
@@ -16,7 +16,7 @@
     "static/media/avatar-nikita.jpg": "/proj-my-team-design-challenge/static/media/avatar-nikita.81886969b7b695a125fd.jpg",
     "static/media/avatar-griffin.jpg": "/proj-my-team-design-challenge/static/media/avatar-griffin.befbf0336c8bf00c29bb.jpg",
     "static/media/avatar-cruz.jpg": "/proj-my-team-design-challenge/static/media/avatar-cruz.81cd3556a3746ac5366d.jpg",
-    "static/media/icon-person.svg": "/proj-my-team-design-challenge/static/media/icon-person.0a313a85e4148d7ea17f5657dbbffa33.svg",
+    "static/media/icon-person.svg": "/proj-my-team-design-challenge/static/media/icon-person.233a513064b2f942ec75b9d46b7f7bea.svg",
     "static/media/icon-cog.svg": "/proj-my-team-design-challenge/static/media/icon-cog.c5d2403fc5d7754badaf2da8c88d8b35.svg",
     "static/media/logo.svg": "/proj-my-team-design-challenge/static/media/logo.9e687f65b84bdaad178f8a42a249e298.svg",
     "static/media/icon-chart.svg": "/proj-my-team-design-challenge/static/media/icon-chart.8de3d4d2ce95686ba9409a82599a8de1.svg",
@@ -38,11 +38,11 @@
     "static/media/icon-close.svg": "/proj-my-team-design-challenge/static/media/icon-close.7bb417a5beb45106e0df4f87af9026db.svg",
     "static/media/icon-hamburger.svg": "/proj-my-team-design-challenge/static/media/icon-hamburger.fc176eb243d0591583eb436d00f4c10e.svg",
     "static/media/icon-cross.svg": "/proj-my-team-design-challenge/static/media/icon-cross.dd951e5ef6d380146072a5c890156c3d.svg",
-    "main.0a8818fa.css.map": "/proj-my-team-design-challenge/static/css/main.0a8818fa.css.map",
-    "main.f9743fe3.js.map": "/proj-my-team-design-challenge/static/js/main.f9743fe3.js.map"
+    "main.1d240111.css.map": "/proj-my-team-design-challenge/static/css/main.1d240111.css.map",
+    "main.2c6a9a46.js.map": "/proj-my-team-design-challenge/static/js/main.2c6a9a46.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a8818fa.css",
-    "static/js/main.f9743fe3.js"
+    "static/css/main.1d240111.css",
+    "static/js/main.2c6a9a46.js"
   ]
 }
