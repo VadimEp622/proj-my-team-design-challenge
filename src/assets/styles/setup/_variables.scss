@@ -48,18 +48,58 @@ $size-pic-icon-share-large: 24px;
 $size-pic-avatar-small: 62px;
 $size-pic-avatar-large: 96px;
 
+// ======================== Spacing ========================:
+// map-get($map-spacing,"")
+// ******* Spacing map *******
+$map-spacing: (
+    "0px": 0px,
+    "2px": 2px,
+    "8px": 8px,
+    "14px": 14px,
+    "16px": 16px,
+    "24px": 24px,
+    "30px": 30px,
+    "30-5px": 30.5px,
+    "31-5px": 31.5px,
+    "32px": 32px,
+    "36px": 36px,
+    "44px": 44px,
+    "47px": 47px,
+    "48px": 48px,
+    "50px": 50px,
+    "52px": 52px,
+    "56px": 56px,
+    "58px": 58px,
+    "60px": 60px,
+    "64px": 64px,
+    "73px": 73px,
+    "76px": 76px,
+    "80px": 80px,
+    "83px": 83px,
+    "88px": 88px,
+    "100px": 100px,
+    "108px": 108px,
+    "112px": 112px,
+    "120px": 120px,
+    "140px": 140px,
+    "156px": 156px,
+    "197px": 197px,
+    "250px": 250px,
+    "256px": 256px
+);
+
 // ======================== Padding Inline's ========================:
 // ******* Padding-inline Map *******
 $padding-inline-map: (
-    "pd-in-0": 0px,
-    "pd-in-24": 24px,
-    "pd-in-30-dot-5": 30.5px,
-    "pd-in-31-dot-5": 31.5px,
-    "pd-in-50": 50px,
-    "pd-in-60": 60px,
-    "pd-in-80": 80px,
-    "pd-in-100": 100px,
-    "pd-in-156": 156px
+    "pd-in-0": map-get($map-spacing, "0px"),
+    "pd-in-24": map-get($map-spacing, "24px"),
+    "pd-in-30-dot-5": map-get($map-spacing, "30-5px"),
+    "pd-in-31-dot-5": map-get($map-spacing, "31-5px"),
+    "pd-in-50": map-get($map-spacing, "50px"),
+    "pd-in-60": map-get($map-spacing, "60px"),
+    "pd-in-80": map-get($map-spacing, "80px"),
+    "pd-in-100": map-get($map-spacing, "100px"),
+    "pd-in-156": map-get($map-spacing, "156px")
 );
 
 // ******* Padding-inline individual components *******
@@ -83,40 +123,6 @@ $padding-inline-get-started-tablet: map-get($padding-inline-map, "pd-in-100");
 // ******* padding-inline unresponsive individual components *******
 $padding-inline-contact-btn-small: map-get($padding-inline-map, "pd-in-30-dot-5");
 $padding-inline-contact-btn-big: map-get($padding-inline-map, "pd-in-31-dot-5");
-
-// ======================== Spacing ========================:
-// map-get($map-spacing,"")
-// ******* Spacing map *******
-$map-spacing: (
-    "2px": 2px,
-    "8px": 8px,
-    "14px": 14px,
-    "16px": 16px,
-    "24px": 24px,
-    "30px": 30px,
-    "32px": 32px,
-    "36px": 36px,
-    "44px": 44px,
-    "47px": 47px,
-    "48px": 48px,
-    "52px": 52px,
-    "56px": 56px,
-    "58px": 58px,
-    "60px": 60px,
-    "64px": 64px,
-    "73px": 73px,
-    "76px": 76px,
-    "83px": 83px,
-    "88px": 88px,
-    "100px": 100px,
-    "108px": 108px,
-    "112px": 112px,
-    "120px": 120px,
-    "140px": 140px,
-    "197px": 197px,
-    "250px": 250px,
-    "256px": 256px
-);
 
 // ======================== Padding Blocks ========================:
 // ******* Padding-block Map *******
