@@ -58,17 +58,22 @@ $map-spacing: (
     "14px": 14px,
     "16px": 16px,
     "24px": 24px,
+    "25px": 25px,
     "30px": 30px,
     "30-5px": 30.5px,
     "31-5px": 31.5px,
     "32px": 32px,
     "36px": 36px,
+    "41px": 41px,
     "44px": 44px,
+    "46px": 46px,
     "47px": 47px,
     "48px": 48px,
+    "49px": 49px,
     "50px": 50px,
     "52px": 52px,
     "56px": 56px,
+    "57px": 57px,
     "58px": 58px,
     "60px": 60px,
     "64px": 64px,
@@ -162,17 +167,17 @@ $map-margin-block-end: (
 // ======================== Gaps ========================:
 // ******* Gap Map *******
 $gap-map: (
-    "gap-16": 16px,
-    "gap-24": 24px,
-    "gap-25": 25px,
-    "gap-30": 30px,
-    "gap-32": 32px,
-    "gap-41": 41px,
-    "gap-46": 46px,
-    "gap-48": 48px,
-    "gap-49": 49px,
-    "gap-57": 57px,
-    "gap-80": 80px
+    "gap-16": map-get($map-spacing, "16px"),
+    "gap-24": map-get($map-spacing, "24px"),
+    "gap-25": map-get($map-spacing, "25px"),
+    "gap-30": map-get($map-spacing, "30px"),
+    "gap-32": map-get($map-spacing, "32px"),
+    "gap-41": map-get($map-spacing, "41px"),
+    "gap-46": map-get($map-spacing, "46px"),
+    "gap-48": map-get($map-spacing, "48px"),
+    "gap-49": map-get($map-spacing, "49px"),
+    "gap-57": map-get($map-spacing, "57px"),
+    "gap-80": map-get($map-spacing, "80px")
 );
 
 // ******* Gap individual components *******
