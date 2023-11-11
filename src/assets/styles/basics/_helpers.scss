@@ -15,7 +15,7 @@
 
 // ============ Padding Blocks ============
 @each $class-name, $padding-block in $map-padding-block {
-    .#{$class-name} {
+    .pd-bl-#{$class-name} {
         padding-block: $padding-block;
     }
 }

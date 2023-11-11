@@ -149,7 +149,7 @@
     width: fit-content;
     border: 2px solid $before-hover-clr;
     border-radius: $border-radius-0;
-    padding-block: $padding-block-btn-contact-us;
+    padding-block: get-map-value($map-padding-block, "8px");
     transition:
         color 0.2s ease-in-out,
         background-color 0.2s ease-in-out;

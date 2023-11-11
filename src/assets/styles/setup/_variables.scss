@@ -121,55 +121,17 @@ $map-spacing: (
 // ======================== Padding Blocks ========================:
 // ******* Padding-block Map *******
 $map-padding-block: (
-    "pd-bl-8": map-get($map-spacing, "8px"),
-    "pd-bl-48": map-get($map-spacing, "48px"),
-    "pd-bl-56": map-get($map-spacing, "56px"),
-    "pd-bl-64": map-get($map-spacing, "64px"),
-    "pd-bl-73": map-get($map-spacing, "73px"),
-    "pd-bl-76": map-get($map-spacing, "76px"),
-    "pd-bl-83": map-get($map-spacing, "83px"),
-    "pd-bl-88": map-get($map-spacing, "88px"),
-    "pd-bl-100": map-get($map-spacing, "100px"),
-    "pd-bl-140": map-get($map-spacing, "140px")
+    "8px": map-get($map-spacing, "8px"),
+    "48px": map-get($map-spacing, "48px"),
+    "56px": map-get($map-spacing, "56px"),
+    "64px": map-get($map-spacing, "64px"),
+    "73px": map-get($map-spacing, "73px"),
+    "76px": map-get($map-spacing, "76px"),
+    "83px": map-get($map-spacing, "83px"),
+    "88px": map-get($map-spacing, "88px"),
+    "100px": map-get($map-spacing, "100px"),
+    "140px": map-get($map-spacing, "140px")
 );
-
-// ******* Padding-block individual components *******
-// padding-block-header
-$padding-block-header-mobile: map-get($map-padding-block, "pd-bl-48");
-$padding-block-header-tablet: map-get($map-padding-block, "pd-bl-64");
-$padding-block-header-desktop: map-get($map-padding-block, "pd-bl-73");
-
-// padding-block-footer
-$padding-block-footer-mobile: map-get($map-padding-block, "pd-bl-64");
-$padding-block-footer-tablet: map-get($map-padding-block, "pd-bl-56");
-$padding-block-footer-desktop: map-get($map-padding-block, "pd-bl-48");
-
-// padding-block-manage-teams
-$padding-block-manage-teams-mobile: map-get($map-padding-block, "pd-bl-64");
-$padding-block-manage-teams-tablet: map-get($map-padding-block, "pd-bl-100");
-$padding-block-manage-teams-desktop: map-get($map-padding-block, "pd-bl-140");
-
-// padding-block-success-stories
-$padding-block-success-stories-mobile: map-get($map-padding-block, "pd-bl-140");
-$padding-block-success-stories-tablet: map-get($map-padding-block, "pd-bl-100");
-$padding-block-success-stories-desktop: map-get($map-padding-block, "pd-bl-140");
-
-// padding-block-meet-directors
-$padding-block-meet-directors-mobile: map-get($map-padding-block, "pd-bl-88");
-$padding-block-meet-directors-tablet: map-get($map-padding-block, "pd-bl-100");
-$padding-block-meet-directors-desktop: map-get($map-padding-block, "pd-bl-140");
-
-// padding-block-get-started
-$padding-block-get-started-mobile: map-get($map-padding-block, "pd-bl-83");
-$padding-block-get-started-tablet: map-get($map-padding-block, "pd-bl-76");
-
-// padding-block-client-examples
-$padding-block-client-examples-mobile: map-get($map-padding-block, "pd-bl-88");
-$padding-block-client-examples-tablet: map-get($map-padding-block, "pd-bl-100");
-$padding-block-client-examples-desktop: map-get($map-padding-block, "pd-bl-140");
-
-// ******* Padding-block unresponsive individual components *******
-$padding-block-btn-contact-us: map-get($map-padding-block, "pd-bl-8");
 
 // ======================== Padding Block Start ========================:
 // ******* padding-block-start map *******

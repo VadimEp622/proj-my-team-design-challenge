@@ -34,7 +34,7 @@
         }
 
         & .manage-teams-container {
-            padding-block: $padding-block-manage-teams-tablet;
+            padding-block: get-map-value($map-padding-block, "100px");
 
             & .manage-teams .title h2 {
                 @include typography(9);
@@ -57,7 +57,7 @@
             }
 
             & .success-stories {
-                padding-block: $padding-block-success-stories-tablet;
+                padding-block: get-map-value($map-padding-block, "100px");
 
                 & .title {
                     margin-block-end: get-map-value($map-margin-block-end, "48px");
@@ -106,7 +106,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: $padding-block-meet-directors-tablet;
+            padding-block: get-map-value($map-padding-block, "100px");
 
             & .meet-directors {
                 & .title h1 {
@@ -122,7 +122,7 @@
         }
 
         & .client-examples-container {
-            padding-block: $padding-block-client-examples-tablet;
+            padding-block: get-map-value($map-padding-block, "100px");
 
             & .title h1 {
                 @include typography(9);
@@ -143,7 +143,7 @@
 
     header {
         & .app-header-container {
-            padding-block: $padding-block-header-tablet;
+            padding-block: get-map-value($map-padding-block, "64px");
 
             & .logo {
                 width: 128px;
@@ -153,7 +153,7 @@
     }
 
     footer {
-        padding-block: $padding-block-footer-tablet;
+        padding-block: get-map-value($map-padding-block, "56px");
 
         & .app-footer-container .main-nav p {
             @include typography(5);
@@ -219,7 +219,7 @@
         }
 
         & .manage-teams-container {
-            padding-block: $padding-block-manage-teams-mobile;
+            padding-block: get-map-value($map-padding-block, "64px");
 
             & .manage-teams {
                 & .title {
@@ -245,7 +245,7 @@
         }
 
         & .success-stories-container .success-stories {
-            padding-block: $padding-block-success-stories-mobile;
+            padding-block: get-map-value($map-padding-block, "140px");
         }
     }
 
@@ -268,7 +268,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: $padding-block-meet-directors-mobile;
+            padding-block: get-map-value($map-padding-block, "88px");
 
             & .bg-pattern.bgPatternAbout2 {
                 top: -100px;
@@ -282,7 +282,7 @@
         }
 
         & .client-examples-container {
-            padding-block: $padding-block-client-examples-mobile;
+            padding-block: get-map-value($map-padding-block, "88px");
 
             & .bg-pattern.bgPatternAbout4 {
                 left: -100px;
@@ -316,7 +316,7 @@
         }
 
         & .app-header-container {
-            padding-block: $padding-block-header-mobile;
+            padding-block: get-map-value($map-padding-block, "48px");
 
             & .mobile-navbar-btn-container .btn-mobile-navbar {
                 background-color: inherit;
@@ -332,7 +332,7 @@
     }
 
     footer {
-        padding-block: $padding-block-footer-mobile;
+        padding-block: get-map-value($map-padding-block, "64px");
 
         & .app-footer-container {
             gap: 40px;
@@ -358,7 +358,7 @@
     }
 
     .get-started-container {
-        padding-block: $padding-block-get-started-mobile;
+        padding-block: get-map-value($map-padding-block, "83px");
 
         & .get-started {
             flex-direction: column;
@@ -494,7 +494,7 @@
     }
 
     .get-started-container {
-        padding-block: $padding-block-get-started-tablet;
+        padding-block: get-map-value($map-padding-block, "76px");
 
         & .get-started {
             justify-content: space-between;
@@ -549,7 +549,7 @@
         }
 
         & .manage-teams-container {
-            padding-block: $padding-block-manage-teams-desktop;
+            padding-block: get-map-value($map-padding-block, "140px");
 
             & .manage-teams .title h2 {
                 @include typography(3);
@@ -583,7 +583,7 @@
             }
 
             & .success-stories {
-                padding-block: $padding-block-success-stories-desktop;
+                padding-block: get-map-value($map-padding-block, "140px");
 
                 & .title {
                     margin-block-end: get-map-value($map-margin-block-end, "56px");
@@ -634,7 +634,7 @@
         }
 
         & .meet-directors-container {
-            padding-block: $padding-block-meet-directors-desktop;
+            padding-block: get-map-value($map-padding-block, "140px");
 
             & .meet-directors {
                 & .title h1 {
@@ -657,7 +657,7 @@
         }
 
         & .client-examples-container {
-            padding-block: $padding-block-client-examples-desktop;
+            padding-block: get-map-value($map-padding-block, "140px");
 
             & .title h1 {
                 @include typography(3);
@@ -678,12 +678,12 @@
 
     header {
         & .app-header-container {
-            padding-block: $padding-block-header-desktop;
+            padding-block: get-map-value($map-padding-block, "73px");
         }
     }
 
     footer {
-        padding-block: $padding-block-footer-desktop;
+        padding-block: get-map-value($map-padding-block, "48px");
 
         & .app-footer-container .main-nav p {
             @include typography(4);
