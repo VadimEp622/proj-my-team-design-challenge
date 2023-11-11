@@ -13,12 +13,12 @@
             }
 
             & .find-talent {
-                padding-block-start: get-map-value($padding-block-start-map, "48");
-                padding-block-end: get-map-value($padding-block-end-map, "256");
+                padding-block-start: get-map-value($map-padding-block-start, "48px");
+                padding-block-end: get-map-value($map-padding-block-end, "256px");
                 text-align: center;
 
                 & .title {
-                    margin-block-end: get-map-value($margin-block-end-map, "24");
+                    margin-block-end: get-map-value($map-margin-block-end, "24px");
                     width: 350px;
                     margin-inline: auto;
 
@@ -45,8 +45,8 @@
             }
 
             & .manage-teams .title {
-                padding-block-start: get-map-value($padding-block-start-map, "32");
-                padding-block-end: get-map-value($padding-block-end-map, "64");
+                padding-block-start: get-map-value($map-padding-block-start, "32px");
+                padding-block-end: get-map-value($map-padding-block-end, "64px");
                 margin-inline-end: 125px;
             }
         }
@@ -60,7 +60,7 @@
                 padding-block: $padding-block-success-stories-tablet;
 
                 & .title {
-                    margin-block-end: get-map-value($margin-block-end-map, "48");
+                    margin-block-end: get-map-value($map-margin-block-end, "48px");
                 }
 
                 & .success-story-list {
@@ -69,11 +69,11 @@
 
                     & .success-story-preview {
                         & p {
-                            margin-block-end: get-map-value($margin-block-end-map, "16");
+                            margin-block-end: get-map-value($map-margin-block-end, "16px");
                         }
 
                         & h4 {
-                            margin-block-end: get-map-value($margin-block-end-map, "14");
+                            margin-block-end: get-map-value($map-margin-block-end, "14px");
                         }
                     }
                 }
@@ -83,8 +83,8 @@
 
     .about-page {
         & .about-intro-container {
-            padding-block-start: get-map-value($padding-block-start-map, "48");
-            padding-block-end: get-map-value($padding-block-end-map, "112");
+            padding-block-start: get-map-value($map-padding-block-start, "48px");
+            padding-block-end: get-map-value($map-padding-block-end, "112px");
 
             & .about-intro {
                 & h1 {
@@ -100,7 +100,7 @@
                 text-align: center;
 
                 & h1 {
-                    margin-block-end: get-map-value($margin-block-end-map, "24");
+                    margin-block-end: get-map-value($map-margin-block-end, "24px");
                 }
             }
         }
@@ -116,7 +116,7 @@
 
             & .meet-directors {
                 & .title {
-                    margin-block-end: get-map-value($margin-block-end-map, "48");
+                    margin-block-end: get-map-value($map-margin-block-end, "48px");
                 }
             }
         }
@@ -135,7 +135,7 @@
             & .client-examples {
                 & .client-list {
                     gap: $gap-client-example-list-tablet;
-                    margin-block-start: get-map-value($margin-block-start-map, "48");
+                    margin-block-start: get-map-value($map-margin-block-start, "48px");
                 }
             }
         }
@@ -205,11 +205,11 @@
 
     .home-page {
         & .find-talent-container .find-talent {
-            padding-block-start: get-map-value($padding-block-start-map, "32");
-            padding-block-end: get-map-value($padding-block-end-map, "197");
+            padding-block-start: get-map-value($map-padding-block-start, "32px");
+            padding-block-end: get-map-value($map-padding-block-end, "197px");
 
             & .title {
-                margin-block-end: get-map-value($margin-block-end-map, "18");
+                margin-block-end: get-map-value($map-margin-block-end, "18px");
                 width: 225px;
 
                 & h1 {
@@ -224,7 +224,7 @@
             & .manage-teams {
                 & .title {
                     margin-inline-end: 110px;
-                    padding-block-end: get-map-value($padding-block-end-map, "56");
+                    padding-block-end: get-map-value($map-padding-block-end, "56px");
                 }
 
                 & .team-quality-list {
@@ -251,8 +251,8 @@
 
     .about-page {
         & .about-intro-container {
-            padding-block-start: get-map-value($padding-block-start-map, "32");
-            padding-block-end: get-map-value($padding-block-end-map, "108");
+            padding-block-start: get-map-value($map-padding-block-start, "32px");
+            padding-block-end: get-map-value($map-padding-block-end, "108px");
 
             & .about-intro h1 {
                 @include typography(7);
@@ -263,7 +263,7 @@
             }
 
             & .about-intro h1 {
-                margin-block-end: get-map-value($margin-block-end-map, "16");
+                margin-block-end: get-map-value($map-margin-block-end, "16px");
             }
         }
 
@@ -276,7 +276,7 @@
 
             & .director-list {
                 & > *:not(:first-child) {
-                    margin-block-start: get-map-value($margin-block-start-map, "52");
+                    margin-block-start: get-map-value($map-margin-block-start, "52px");
                 }
             }
         }
@@ -297,7 +297,7 @@
                     flex-direction: column;
                     align-items: center;
                     gap: $gap-client-example-list-mobile;
-                    margin-block-start: get-map-value($margin-block-start-map, "64");
+                    margin-block-start: get-map-value($map-margin-block-start, "64px");
                     height: 360px;
                     margin-inline: auto;
 
@@ -511,8 +511,8 @@
 
     .home-page {
         & .find-talent-container {
-            padding-block-start: get-map-value($padding-block-start-map, "56");
-            padding-block-end: get-map-value($padding-block-end-map, "250");
+            padding-block-start: get-map-value($map-padding-block-start, "56px");
+            padding-block-end: get-map-value($map-padding-block-end, "250px");
 
             & .find-talent {
                 & .title h1 {
@@ -568,7 +568,7 @@
 
                 & .title {
                     align-self: flex-start;
-                    padding-block-start: get-map-value($padding-block-start-map, "58");
+                    padding-block-start: get-map-value($map-padding-block-start, "58px");
                 }
 
                 & .team-quality-list {
@@ -586,7 +586,7 @@
                 padding-block: $padding-block-success-stories-desktop;
 
                 & .title {
-                    margin-block-end: get-map-value($margin-block-end-map, "56");
+                    margin-block-end: get-map-value($map-margin-block-end, "56px");
                 }
 
                 & .success-story-list {
@@ -594,11 +594,11 @@
 
                     & .success-story-preview {
                         & p {
-                            margin-block-end: get-map-value($margin-block-end-map, "24");
+                            margin-block-end: get-map-value($map-margin-block-end, "24px");
                         }
 
                         & h4 {
-                            margin-block-end: get-map-value($margin-block-end-map, "30");
+                            margin-block-end: get-map-value($map-margin-block-end, "30px");
                         }
                     }
                 }
@@ -608,8 +608,8 @@
 
     .about-page {
         & .about-intro-container {
-            padding-block-start: get-map-value($padding-block-start-map, "47");
-            padding-block-end: get-map-value($padding-block-end-map, "120");
+            padding-block-start: get-map-value($map-padding-block-start, "47px");
+            padding-block-end: get-map-value($map-padding-block-end, "120px");
 
             & .about-intro {
                 & h1 {
@@ -627,7 +627,7 @@
                 gap: 30px;
 
                 & p {
-                    padding-block-start: get-map-value($padding-block-start-map, "44");
+                    padding-block-start: get-map-value($map-padding-block-start, "44px");
                     @include small-upper-rectangle($main-orange-clr0);
                 }
             }
@@ -646,7 +646,7 @@
                 padding-inline: $padding-inline-null;
 
                 & .title {
-                    margin-block-end: get-map-value($margin-block-end-map, "60");
+                    margin-block-end: get-map-value($map-margin-block-end, "60px");
                 }
 
                 & .director-list {
@@ -666,7 +666,7 @@
             & .client-examples {
                 & .client-list {
                     gap: $gap-client-example-list-desktop;
-                    margin-block-start: get-map-value($margin-block-start-map, "64");
+                    margin-block-start: get-map-value($map-margin-block-start, "64px");
 
                     & .client-preview {
                         height: 45px;

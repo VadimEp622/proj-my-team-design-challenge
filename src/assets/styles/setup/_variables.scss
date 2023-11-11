@@ -137,52 +137,78 @@ $padding-block-client-examples-desktop: map-get($padding-block-map, "pd-bl-140")
 // ******* Padding-block unresponsive individual components *******
 $padding-block-btn-contact-us: map-get($padding-block-map, "pd-bl-8");
 
+// ======================== Spacing ========================:
+// ******* Spacing map *******
+$map-spacing: (
+    "2px": 2px,
+    "14px": 14px,
+    "16px": 16px,
+    "24px": 24px,
+    "30px": 30px,
+    "32px": 32px,
+    "36px": 36px,
+    "44px": 44px,
+    "47px": 47px,
+    "48px": 48px,
+    "52px": 52px,
+    "56px": 56px,
+    "58px": 58px,
+    "60px": 60px,
+    "64px": 64px,
+    "108px": 108px,
+    "112px": 112px,
+    "120px": 120px,
+    "197px": 197px,
+    "250px": 250px,
+    "256px": 256px
+);
+
 // ======================== Padding Block Start ========================:
 // ******* padding-block-start map *******
-$padding-block-start-map: (
-    "30": 30px,
-    "32": 32px,
-    "44": 44px,
-    "47": 47px,
-    "48": 48px,
-    "56": 56px,
-    "58": 58px
+$map-padding-block-start: (
+    "30px": map-get($map-spacing, "30px"),
+    "32px": map-get($map-spacing, "32px"),
+    "44px": map-get($map-spacing, "44px"),
+    "47px": map-get($map-spacing, "47px"),
+    "48px": map-get($map-spacing, "48px"),
+    "56px": map-get($map-spacing, "56px"),
+    "58px": map-get($map-spacing, "58px")
 );
 
 // ======================== Padding Block End ========================:
 // ******* padding-block-end map *******
-$padding-block-end-map: (
-    "56": 56px,
-    "64": 64px,
-    "108": 108px,
-    "112": 112px,
-    "197": 197px,
-    "120": 120px,
-    "250": 250px,
-    "256": 256px
+$map-padding-block-end: (
+    "56px": map-get($map-spacing, "56px"),
+    "64px": map-get($map-spacing, "64px"),
+    "108px": map-get($map-spacing, "108px"),
+    "112px": map-get($map-spacing, "112px"),
+    "120px": map-get($map-spacing, "120px"),
+    "197px": map-get($map-spacing, "197px"),
+    "250px": map-get($map-spacing, "250px"),
+    "256px": map-get($map-spacing, "256px")
 );
 
 // ======================== Margin-Block-Start ========================:
 // ******* margin-block-start map *******
-$margin-block-start-map: (
-    "14": 14px,
-    "36": 36px,
-    "48": 48px,
-    "52": 52px,
-    "64": 64px
+$map-margin-block-start: (
+    "14px": map-get($map-spacing, "14px"),
+    "36px": map-get($map-spacing, "36px"),
+    "48px": map-get($map-spacing, "48px"),
+    "52px": map-get($map-spacing, "52px"),
+    "64px": map-get($map-spacing, "64px")
 );
 
 // ======================== Margin-Block-End ========================:
 // ******* margin-block-end map *******
-$margin-block-end-map: (
-    "2": 2px,
-    "14": 14px,
-    "16": 16px,
-    "24": 24px,
-    "30": 30px,
-    "48": 48px,
-    "56": 56px,
-    "60": 60px
+$map-margin-block-end: (
+    "2px": map-get($map-spacing, "2px"),
+    "14px": map-get($map-spacing, "14px"),
+    "16px": map-get($map-spacing, "16px"),
+    "24px": map-get($map-spacing, "24px"),
+    "30px": map-get($map-spacing, "30px"),
+    "48px": map-get($map-spacing, "48px"),
+    "56px": map-get($map-spacing, "56px"),
+    "60px": map-get($map-spacing, "60px")
 );
 
 // ======================== Gaps ========================:

@@ -34,11 +34,11 @@
             z-index: 0;
 
             & p {
-                margin-block-start: get-map-value($margin-block-start-map, "36");
+                margin-block-start: get-map-value($map-margin-block-start, "36px");
             }
 
             & h3 {
-                margin-block-end: get-map-value($margin-block-end-map, "2");
+                margin-block-end: get-map-value($map-margin-block-end, "2px");
                 color: $main-teal-clr4;
             }
 
