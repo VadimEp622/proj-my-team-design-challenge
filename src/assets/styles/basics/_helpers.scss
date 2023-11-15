@@ -1,3 +1,16 @@
+// ============ Colors ============
+@each $colorType, $colors in $map-colors {
+    @each $colorName, $colorValue in $colors {
+        .clr-#{$colorName} {
+            color: $colorValue;
+        }
+
+        .bg-clr-#{$colorName} {
+            background-color: $colorValue;
+        }
+    }
+}
+
 // ============ Font Sizes ============
 @each $setting in $typography-settings {
     $i: index($typography-settings, $setting);
