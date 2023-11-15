@@ -1,4 +1,24 @@
 // ======================== COLORS ========================:
+// ******* Color Map (unused yet - need to implement) *******
+$map-colors: (
+    "pure": (
+        "black": rgb(0, 0, 0),
+        "white": rgb(255, 255, 255)
+    ),
+    "main-teal": (
+        "teal-0": rgb(1, 78, 86),
+        "teal-1": rgb(0, 37, 41),
+        "teal-2": rgb(1, 47, 52),
+        "teal-3": rgb(0, 64, 71),
+        "teal-4": rgb(121, 200, 199),
+        "teal-5": rgb(196, 255, 254),
+        "teal-6": rgb(44, 98, 105)
+    ),
+    "main-orange": (
+        "orange-0": rgb(246, 126, 126)
+    )
+);
+
 // ******* Main Colors Teal *******
 $main-teal-clr0: rgb(1, 78, 86);
 $main-teal-clr1: rgb(0, 37, 41);
