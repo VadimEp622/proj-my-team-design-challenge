@@ -2,7 +2,7 @@ export function ClientPreview({ client }) {
 
     return (
         <section className="client-preview">
-            <img src={client.img} alt="client" />
+            <img className="object-fit-contain" src={client.img} alt="client" />
         </section>
     )
 }

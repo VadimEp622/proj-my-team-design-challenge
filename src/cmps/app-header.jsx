@@ -17,7 +17,7 @@ export function AppHeader() {
     }
 
     return (
-        <header className="main-layout">
+        <header className="main-layout bg-clr-teal-0 clr-white">
             <section className="app-header-container flex align-center space-between gap-41px">
                 <section className="header-logo-nav">
                     <Logo />

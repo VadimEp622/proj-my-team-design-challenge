@@ -23,7 +23,7 @@ export function SideNavbar({ isSideNavbar }) {
     }
 
     return (
-        <section className={`side-navbar-wrapper${isSideNavbar ? ' active' : ''}`}>
+        <section className={`side-navbar-wrapper${isSideNavbar ? ' active' : ''} overflow-hidden`}>
             <div className="black-transparent-bg-wrapper" onClick={(ev) => onCloseSideNavbar(ev)}></div>
             <aside className="side-navbar-container pd-bl-56px pd-in-24px">
                 <section className="bg-pattern bgPatternMobileNav1">

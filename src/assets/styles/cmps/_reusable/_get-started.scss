@@ -1,15 +1,4 @@
 .get-started-container {
-    position: relative;
-    background-color: get-map-value($map-colors, "main-orange", "orange-0");
-    color: get-map-value($map-colors, "main-teal", "teal-2");
-    overflow: hidden;
-
-    & .bg-pattern.bg-pattern-home-6 {
-        position: absolute;
-        left: 0;
-        pointer-events: none;
-    }
-
     & .contact-btn-container .contact-btn {
         @include contact-btn(
             small,

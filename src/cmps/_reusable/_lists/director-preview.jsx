@@ -16,10 +16,10 @@ export function DirectorPreview({ director }) {
     }
 
     return (
-        <section className={`director-preview-container${activePreview ? ' active' : ''} pd-in-24px`}>
-            <section className="director-preview">
+        <section className={`director-preview-container${activePreview ? ' active' : ''} pd-in-24px pos-rel bg-clr-teal-2`}>
+            <section className="director-preview pos-rel">
                 <section className="avatar"><img src={director.img} alt="avatarNikita" /></section>
-                <h2 className="name typography-4">{director.name}</h2>
+                <h2 className="name typography-4 clr-teal-4">{director.name}</h2>
                 <section className="quote-share-container">
                     <p className="quote typography-5">{director.quote}</p>
                     <nav className="share justify-center">
@@ -29,7 +29,7 @@ export function DirectorPreview({ director }) {
                 </section>
                 <p className="position typography-5 italic">{director.position}</p>
             </section>
-            <section className="icon-cross-btn-container flex justify-center width-100-percent">
+            <section className="icon-cross-btn-container flex justify-center width-100-percent pos-abs left-0 bottom-neg-28px">
                 <button className="icon-cross-btn" onClick={(ev) => onClickPreview(ev)}>
                     <img src={iconCross} alt="iconCross" />
                 </button>

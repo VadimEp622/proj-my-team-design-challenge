@@ -10,7 +10,7 @@ import { MainNav } from "./_reusable/main-nav"
 export function AppFooter() {
 
     return (
-        <footer className="main-layout">
+        <footer className="main-layout bg-clr-teal-1 clr-white">
             <section className="app-footer-container flex">
 
                 <section className="nav-and-contact flex space-between">

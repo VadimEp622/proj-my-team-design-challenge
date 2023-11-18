@@ -1,24 +1,10 @@
 .meet-directors-container {
-    background-color: get-map-value($map-colors, "main-teal", "teal-3");
-    position: relative;
-    overflow: hidden;
-
-    & .bg-pattern.bgPatternAbout2 {
-        position: absolute;
-        left: -100px;
-    }
-
     & .meet-directors .director-list {
-        min-width: 270px;
-
         & .director-preview-container {
-            position: relative;
-            background-color: get-map-value($map-colors, "main-teal", "teal-2");
             padding-block-start: get-map-value($map-padding-block-start, "30px");
             padding-block-end: get-map-value($map-padding-block-end, "56px");
 
             & .director-preview {
-                position: relative;
                 transition: background-color 0.2s ease;
 
                 & .avatar {
@@ -29,7 +15,6 @@
 
                 & .name {
                     margin-block-start: get-map-value($map-margin-block-start, "14px");
-                    color: get-map-value($map-colors, "main-teal", "teal-4");
                     transition: transform 0.2s ease;
                 }
 
@@ -56,10 +41,6 @@
             }
 
             & .icon-cross-btn-container {
-                position: absolute;
-                left: 0;
-                bottom: -28px;
-
                 & .icon-cross-btn {
                     @include clean-btn;
                     background-color: get-map-value($map-colors, "main-orange", "orange-0");

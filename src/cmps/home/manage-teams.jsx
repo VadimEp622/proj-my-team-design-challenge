@@ -5,8 +5,8 @@ import { teamQualities } from "../../services/data.service"
 export function ManageTeams() {
 
     return (
-        <section className="manage-teams-container full main-layout">
-            <section className="bg-pattern bg-pattern-home-3">
+        <section className="manage-teams-container full main-layout pos-rel overflow-hidden bg-clr-teal-2">
+            <section className="bg-pattern bg-pattern-home-3 pos-abs right-neg-100px">
                 <img src={bgPatternHome3} alt="bgPatternHome3" />
             </section>
             <section className="manage-teams">

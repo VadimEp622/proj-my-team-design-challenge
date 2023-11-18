@@ -1,20 +1,3 @@
-.manage-teams-container {
-    position: relative;
-    background-color: get-map-value($map-colors, "main-teal", "teal-2");
-    overflow: hidden;
-
-    & .bg-pattern.bg-pattern-home-3 {
-        position: absolute;
-        right: -100px;
-    }
-
-    & .manage-teams {
-        & .title {
-            @include small-upper-rectangle(get-map-value($map-colors, "main-orange", "orange-0"));
-        }
-
-        & .team-quality-preview .content-container h3 {
-            color: get-map-value($map-colors, "main-orange", "orange-0");
-        }
-    }
+.manage-teams-container .title {
+    @include small-upper-rectangle(get-map-value($map-colors, "main-orange", "orange-0"));
 }
