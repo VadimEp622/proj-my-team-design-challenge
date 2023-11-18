@@ -13,8 +13,11 @@ import { SideNavbar } from './cmps/side-navbar'
 
 
 export function RootCmp() {
-    // TODO: use variables for: size values 
-    // TODO: consider using helpers.scss!!!
+    // TODO: in styling, add ALL spacing variable to helpers (padding-inline + start/end, margin, etc...) 
+    // TODO: consider adding sizes variable map
+
+    // TODO: finish contact-us page
+    // TODO: fix share links
 
     const [isSideNavbar, setIsSideNavbar] = useState(false)
     const isMobile = useIsMobile()
