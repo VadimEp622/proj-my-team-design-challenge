@@ -11,7 +11,7 @@
     }
 }
 
-// ============ Font Sizes ============
+// ============ Font Sizes & Line Heights ============
 @each $setting in $typography-settings {
     $i: index($typography-settings, $setting);
     .typography-#{$i} {
@@ -93,13 +93,89 @@
     display: grid;
 }
 
+// ============ Positioning ============
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.pos-fix {
+    position: fixed;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.right-neg-100px {
+    right: -100px;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.left-189px {
+    left: 189px;
+}
+
+.left-neg-100px {
+    left: -100px;
+}
+
 // ============ Sizing & Spacing ============
-.min-width-56px {
-    min-width: 56px;
+// ****** Width ******
+.width-0 {
+    width: 0;
 }
 
 .width-100-percent {
     width: 100%;
+}
+
+.width-100vw {
+    width: 100vw;
+}
+
+.width-auto {
+    width: auto;
+}
+
+.width-max-content {
+    width: max-content;
+}
+
+.min-width-270px {
+    min-width: 270px;
+}
+
+// ****** Height ******
+.height-100vh {
+    height: 100vh;
+}
+
+.height-max-content {
+    height: max-content;
+}
+
+// ****** Other ******
+.object-fit-contain {
+    object-fit: contain;
 }
 
 // ============ Media Ratio ============
@@ -134,4 +210,22 @@
 
 .font-weight-500 {
     font-weight: 500;
+}
+
+// ============ Opacity ============
+.opacity-1 {
+    opacity: 1;
+}
+
+.opacity-0-5 {
+    opacity: 0.5;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+// ============ Other ============
+.pointer-ev-none {
+    pointer-events: none;
 }
