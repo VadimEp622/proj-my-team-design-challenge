@@ -1,7 +1,7 @@
 .get-started-container {
     position: relative;
-    background-color: $main-orange-clr0;
-    color: $main-teal-clr2;
+    background-color: get-map-value($map-colors, "main-orange", "orange-0");
+    color: get-map-value($map-colors, "main-teal", "teal-2");
     overflow: hidden;
 
     & .bg-pattern.bg-pattern-home-6 {
@@ -11,6 +11,10 @@
     }
 
     & .contact-btn-container .contact-btn {
-        @include contact-btn(small, $main-teal-clr2, $white-clr);
+        @include contact-btn(
+            small,
+            get-map-value($map-colors, "main-teal", "teal-2"),
+            get-map-value($map-colors, "pure", "white")
+        );
     }
 }

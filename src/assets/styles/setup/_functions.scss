@@ -14,7 +14,13 @@
     @return nth($typography-settings, $index);
 }
 
-// Function to get map values
-@function get-map-value($map, $key) {
-    @return map-get($map, $key);
+// Function to get nested map values
+@function get-map-value($map, $keys...) {
+    @each $key in $keys {
+        $map: map-get($map, $key);
+        @if $map == null {
+            @return null;
+        }
+    }
+    @return $map;
 }

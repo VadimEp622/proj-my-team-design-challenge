@@ -96,7 +96,7 @@
 @mixin avatar($size: $size-pic-avatar-small) {
     height: calc($size + 4px);
     width: calc($size + 4px);
-    border: 2px solid $main-teal-clr5;
+    border: 2px solid get-map-value($map-colors, "main-teal", "teal-5");
     border-radius: $border-radius-circle;
     overflow: hidden;
     margin-inline: auto;
@@ -116,7 +116,7 @@
     }
 }
 
-@mixin small-upper-rectangle($clr: $main-orange-clr0) {
+@mixin small-upper-rectangle($clr: get-map-value($map-colors, "main-orange", "orange-0")) {
     position: relative;
 
     &::before {

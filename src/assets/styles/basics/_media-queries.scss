@@ -65,7 +65,7 @@
 
                 & .success-story-list {
                     flex-direction: column;
-                    gap: get-map-value($map-gap,"46px");
+                    gap: get-map-value($map-gap, "46px");
 
                     & .success-story-preview {
                         & p {
@@ -134,7 +134,7 @@
 
             & .client-examples {
                 & .client-list {
-                    gap: get-map-value($map-gap,"49px");
+                    gap: get-map-value($map-gap, "49px");
                     margin-block-start: get-map-value($map-margin-block-start, "48px");
                 }
             }
@@ -175,7 +175,7 @@
                     gap: 53px;
 
                     & .main-nav .nav-list {
-                        gap: get-map-value($map-gap,"25px");
+                        gap: get-map-value($map-gap, "25px");
                     }
                 }
 
@@ -228,7 +228,7 @@
                 }
 
                 & .team-quality-list {
-                    gap: get-map-value($map-gap,"48px");
+                    gap: get-map-value($map-gap, "48px");
 
                     & .team-quality-preview {
                         flex-direction: column;
@@ -296,7 +296,7 @@
                 & .client-list {
                     flex-direction: column;
                     align-items: center;
-                    gap: get-map-value($map-gap,"57px");
+                    gap: get-map-value($map-gap, "57px");
                     margin-block-start: get-map-value($map-margin-block-start, "64px");
                     height: 360px;
                     margin-inline: auto;
@@ -404,7 +404,7 @@
             margin-inline: 60px;
 
             & .team-quality-list {
-                gap: get-map-value($map-gap,"32px");
+                gap: get-map-value($map-gap, "32px");
 
                 & .team-quality-preview {
                     gap: 23px;
@@ -471,12 +471,16 @@
                 align-items: center;
 
                 & .main-nav .nav-list {
-                    gap: get-map-value($map-gap,"41px");
+                    gap: get-map-value($map-gap, "41px");
                 }
             }
 
             & .contact-btn {
-                @include contact-btn(small, $white-clr, $main-teal-clr0);
+                @include contact-btn(
+                    small,
+                    get-map-value($map-colors, "pure", "white"),
+                    get-map-value($map-colors, "main-teal", "teal-0")
+                );
             }
         }
     }
@@ -543,7 +547,7 @@
                     display: flex;
                     align-items: flex-end;
                     padding-inline: get-map-value($map-padding-inline, "0px");
-                    @include small-upper-rectangle($main-teal-clr4);
+                    @include small-upper-rectangle(get-map-value($map-colors, "main-teal", "teal-4"));
                 }
             }
         }
@@ -590,7 +594,7 @@
                 }
 
                 & .success-story-list {
-                    gap: get-map-value($map-gap,"30px");
+                    gap: get-map-value($map-gap, "30px");
 
                     & .success-story-preview {
                         & p {
@@ -628,7 +632,7 @@
 
                 & p {
                     padding-block-start: get-map-value($map-padding-block-start, "44px");
-                    @include small-upper-rectangle($main-orange-clr0);
+                    @include small-upper-rectangle(get-map-value($map-colors, "main-orange", "orange-0"));
                 }
             }
         }
@@ -665,7 +669,7 @@
 
             & .client-examples {
                 & .client-list {
-                    gap: get-map-value($map-gap,"80px");
+                    gap: get-map-value($map-gap, "80px");
                     margin-block-start: get-map-value($map-margin-block-start, "64px");
 
                     & .client-preview {
@@ -697,7 +701,7 @@
                     gap: 25px;
 
                     & .main-nav .nav-list {
-                        gap: get-map-value($map-gap,"41px");
+                        gap: get-map-value($map-gap, "41px");
                     }
                 }
             }

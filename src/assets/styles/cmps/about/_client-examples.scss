@@ -1,5 +1,5 @@
 .client-examples-container {
-    background-color: $main-teal-clr2;
+    background-color: get-map-value($map-colors, "main-teal", "teal-2");
     position: relative;
     overflow: hidden;
 

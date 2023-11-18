@@ -1,5 +1,5 @@
 .meet-directors-container {
-    background-color: $main-teal-clr3;
+    background-color: get-map-value($map-colors, "main-teal", "teal-3");
     position: relative;
     overflow: hidden;
 
@@ -13,7 +13,7 @@
 
         & .director-preview-container {
             position: relative;
-            background-color: $main-teal-clr2;
+            background-color: get-map-value($map-colors, "main-teal", "teal-2");
             padding-block-start: get-map-value($map-padding-block-start, "30px");
             padding-block-end: get-map-value($map-padding-block-end, "56px");
 
@@ -29,7 +29,7 @@
 
                 & .name {
                     margin-block-start: get-map-value($map-margin-block-start, "14px");
-                    color: $main-teal-clr4;
+                    color: get-map-value($map-colors, "main-teal", "teal-4");
                     transition: transform 0.2s ease;
                 }
 
@@ -62,7 +62,7 @@
 
                 & .icon-cross-btn {
                     @include clean-btn;
-                    background-color: $main-orange-clr0;
+                    background-color: get-map-value($map-colors, "main-orange", "orange-0");
                     padding: 20px;
                     border-radius: $border-radius-circle;
                     transition:
@@ -70,14 +70,14 @@
                         transform 0.2s ease;
 
                     &:hover {
-                        background-color: $main-teal-clr4;
+                        background-color: get-map-value($map-colors, "main-teal", "teal-4");
                         cursor: pointer;
                     }
                 }
             }
 
             &.active {
-                background-color: $main-teal-clr1;
+                background-color: get-map-value($map-colors, "main-teal", "teal-1");
 
                 & :is(.avatar, .position) {
                     opacity: 0;
@@ -93,10 +93,10 @@
 
                 & .icon-cross-btn {
                     transform: rotate(45deg);
-                    background-color: $main-teal-clr4;
+                    background-color: get-map-value($map-colors, "main-teal", "teal-4");
 
                     &:hover {
-                        background-color: $main-orange-clr0;
+                        background-color: get-map-value($map-colors, "main-orange", "orange-0");
                     }
                 }
             }

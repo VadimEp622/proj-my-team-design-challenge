@@ -1,4 +1,4 @@
 header {
-    background-color: $main-teal-clr0;
-    color: $white-clr;
+    background-color: get-map-value($map-colors, "main-teal", "teal-0");
+    color: get-map-value($map-colors, "pure", "white");
 }

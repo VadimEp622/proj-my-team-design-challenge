@@ -1,6 +1,6 @@
 .manage-teams-container {
     position: relative;
-    background-color: $main-teal-clr2;
+    background-color: get-map-value($map-colors, "main-teal", "teal-2");
     overflow: hidden;
 
     & .bg-pattern.bg-pattern-home-3 {
@@ -10,11 +10,11 @@
 
     & .manage-teams {
         & .title {
-            @include small-upper-rectangle($main-orange-clr0);
+            @include small-upper-rectangle(get-map-value($map-colors, "main-orange", "orange-0"));
         }
 
         & .team-quality-preview .content-container h3 {
-            color: $main-orange-clr0;
+            color: get-map-value($map-colors, "main-orange", "orange-0");
         }
     }
 }

@@ -10,13 +10,13 @@ html {
 
 body {
     font-size: rem(14px);
-    color: lighten($black-clr, 15%);
+    color: lighten(get-map-value($map-colors, "pure", "black"), 15%);
     margin: 0;
 }
 
 .app {
     min-height: 100vh;
-    background-color: $white-clr;
+    background-color: get-map-value($map-colors, "pure", "white");
     position: relative;
 }
 

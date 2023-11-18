@@ -1,6 +1,6 @@
 .find-talent-container {
     position: relative;
-    background-color: $main-teal-clr0;
+    background-color: get-map-value($map-colors, "main-teal", "teal-0");
     overflow: hidden;
 
     & .bg-img {
@@ -15,7 +15,7 @@
         position: relative;
 
         & .title h1 span {
-            color: $main-orange-clr0;
+            color: get-map-value($map-colors, "main-orange", "orange-0");
         }
     }
 }

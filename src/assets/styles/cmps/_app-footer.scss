@@ -1,6 +1,6 @@
 footer {
-    background-color: $main-teal-clr1;
-    color: $white-clr;
+    background-color: get-map-value($map-colors, "main-teal", "teal-1");
+    color: get-map-value($map-colors, "pure", "white");
 
     & .share-copyright-container nav {
         @include nav-share($size: $size-pic-icon-share-large);

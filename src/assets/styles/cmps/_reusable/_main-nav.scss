@@ -1,4 +1,4 @@
 nav.main-nav a:hover {
     cursor: pointer;
-    color: $main-orange-clr0;
+    color: get-map-value($map-colors, "main-orange", "orange-0");
 }
