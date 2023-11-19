@@ -5,6 +5,7 @@ import pinterestIcon from "../assets/images/icon-pinterest.svg"
 import twitterIcon from "../assets/images/icon-twitter.svg"
 import { Logo } from "./_reusable/logo"
 import { MainNav } from "./_reusable/main-nav"
+import { shareService } from "../services/share.service"
 
 
 export function AppFooter() {
@@ -28,7 +29,7 @@ export function AppFooter() {
 
                 <section className="share-copyright-container full flex">
                     <nav>
-                        <Link to={`/share`}><img src={facebookIcon} alt="facebookIcon" /></Link>
+                        <a href={shareService.getFacebookUrl()} target="_blank" rel="noopener noreferrer"><img src={facebookIcon} alt="facebookIcon" /></a>
                         <Link to={`/share`}><img src={pinterestIcon} alt="pinterestIcon" /></Link>
                         <Link to={`/share`}><img src={twitterIcon} alt="twitterIcon" /></Link>
                     </nav>
