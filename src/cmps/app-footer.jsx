@@ -30,7 +30,8 @@ export function AppFooter() {
                 <section className="share-copyright-container full flex">
                     <nav>
                         <a href={shareService.getFacebookUrl()} target="_blank" rel="noopener noreferrer"><img src={facebookIcon} alt="facebookIcon" /></a>
-                        <Link to={`/share`}><img src={pinterestIcon} alt="pinterestIcon" /></Link>
+                        <a href={shareService.getPinterestUrl()} target="_blank" rel="noopener noreferrer"><img src={pinterestIcon} alt="pinterestIcon" /></a>
+                        {/* <Link to={`/share`}><img src={pinterestIcon} alt="pinterestIcon" /></Link> */}
                         <Link to={`/share`}><img src={twitterIcon} alt="twitterIcon" /></Link>
                     </nav>
                     <section className="copyright typography-5">
