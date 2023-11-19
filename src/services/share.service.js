@@ -1,6 +1,6 @@
 const shareData = {
     url: encodeURIComponent("https://vadimep622.github.io/proj-my-team-design-challenge"),
-    img: encodeURIComponent(require('../assets/images/logo.svg').default)
+    description: encodeURIComponent("Hi, this is a private presentation project called my-team. It was made following instructions on a canvas design file using Figma & Lunacy. Project was created using React.js + SCSS")
 }
 
 export const shareService = {
@@ -15,8 +15,7 @@ function getFacebookUrl() {
 }
 
 function getPinterestUrl() {
-    // return `https://pinterest.com/pin/create/bookmarklet/?media=[post-img]&url=${shareData.url}&is_video=[is_video]&description=[post-title]`
-    return `https://pinterest.com/pin/create/bookmarklet/?media=${shareData.img}&url=${shareData.url}&is_video=false&description=no`
+    return `https://pinterest.com/pin/create/bookmarklet/?url=${shareData.url}&is_video=false&description=${shareData.description}`
 }
 
 function getTwitterUrl() {
