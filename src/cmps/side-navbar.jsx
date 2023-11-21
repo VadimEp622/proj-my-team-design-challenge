@@ -26,13 +26,13 @@ export function SideNavbar({ isSideNavbar }) {
         <section className={`side-navbar-wrapper${isSideNavbar ? ' active' : ''} overflow-hidden`}>
             <div className="black-transparent-bg-wrapper" onClick={(ev) => onCloseSideNavbar(ev)}></div>
             <aside className="side-navbar-container pd-bl-56px pd-in-24px">
-                <section className="bg-pattern bgPatternMobileNav1">
+                <section className="bg-pattern bgPatternMobileNav1 pos-abs right-neg-100px bottom-0">
                     <img src={bgPatternMobileNav1} alt="bgPatternMobileNav1" />
                 </section>
-                <section className="side-navbar">
+                <section className="side-navbar pos-rel">
                     <section className="main-nav-and-contact pd-bl-56px pd-in-24px typography-4">
                         <MainNav onLinkClick={(ev) => onCloseSideNavbar(ev)} />
-                        <section className="contact-btn-container">
+                        <section className="contact-btn-container mg-bl-st-36px">
                             <Link to={`/contact`} className="contact-btn" onClick={(ev) => onCloseSideNavbar(ev)}><p>contact us</p></Link>
                         </section>
                     </section>

@@ -26,12 +26,6 @@
         opacity: 0.5;
     }
 
-    & .bg-pattern.bgPatternMobileNav1 {
-        position: absolute;
-        right: -100px;
-        bottom: 0;
-    }
-
     & .side-navbar-container {
         max-width: calc(100vw - 50px);
         width: auto;
@@ -39,8 +33,6 @@
         color: get-map-value($map-colors, "pure", "white");
 
         & .side-navbar {
-            position: relative;
-
             & .btn-close {
                 @include clean-btn;
                 position: absolute;
@@ -51,6 +43,7 @@
 
                 &:hover {
                     cursor: pointer;
+                    filter: $clr-filter0;
                 }
             }
 
@@ -60,16 +53,12 @@
                     gap: get-map-value($map-gap, "24px");
                 }
 
-                & .contact-btn-container {
-                    margin-block-start: get-map-value($map-margin-block-start, "36px");
-
-                    & .contact-btn {
-                        @include contact-btn(
-                            big,
-                            get-map-value($map-colors, "pure", "white"),
-                            get-map-value($map-colors, "main-teal", "teal-0")
-                        );
-                    }
+                & .contact-btn-container .contact-btn {
+                    @include contact-btn(
+                        big,
+                        get-map-value($map-colors, "pure", "white"),
+                        get-map-value($map-colors, "main-teal", "teal-0")
+                    );
                 }
             }
         }
