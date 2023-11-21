@@ -34,6 +34,20 @@
     }
 }
 
+// ******** Padding Inline Start's ********
+@each $class-name, $padding-inline-start in $map-padding-inline-start {
+    .pd-in-st-#{$class-name} {
+        padding-inline-start: $padding-inline-start;
+    }
+}
+
+// ******** Padding Inline End's ********
+@each $class-name, $padding-inline-end in $map-padding-inline-end {
+    .pd-in-ed-#{$class-name} {
+        padding-inline-end: $padding-inline-end;
+    }
+}
+
 // ******** Padding Block's ********
 @each $class-name, $padding-block in $map-padding-block {
     .pd-bl-#{$class-name} {
@@ -60,6 +74,34 @@
 @each $class-name, $margin in $map-margin {
     .mg-#{$class-name} {
         margin: $margin;
+    }
+}
+
+// ******** Margin Inline's ********
+@each $class-name, $margin-inline in $map-margin-inline {
+    .mg-in-#{$class-name} {
+        margin-inline: $margin-inline;
+    }
+}
+
+// ******** Margin Inline Start's ********
+@each $class-name, $margin-inline-start in $map-margin-inline-start {
+    .mg-in-st-#{$class-name} {
+        margin-inline-start: $margin-inline-start;
+    }
+}
+
+// ******** Margin Inline End's ********
+@each $class-name, $margin-inline-end in $map-margin-inline-end {
+    .mg-in-ed-#{$class-name} {
+        margin-inline-end: $margin-inline-end;
+    }
+}
+
+// ******** Margin Block's ********
+@each $class-name, $margin-block in $map-margin-block {
+    .mg-bl-#{$class-name} {
+        margin-block: $margin-block;
     }
 }
 
@@ -137,7 +179,7 @@
     display: grid;
 }
 
-// ============ Positioning ============
+// ======================== Positioning ========================
 .pos-rel {
     position: relative;
 }
@@ -186,7 +228,7 @@
     left: -100px;
 }
 
-// ============ Sizing & Spacing ============
+// ======================== Sizing & Spacing ========================
 // ****** Width ******
 .width-0 {
     width: 0;
@@ -230,7 +272,7 @@
     object-fit: contain;
 }
 
-// ============ Media Ratio ============
+// ======================== Media Ratio ========================
 .square-ratio {
     @include aspect-ratio(1, 1);
 }
@@ -243,7 +285,7 @@
     @include aspect-ratio(9, 16);
 }
 
-// ============ Text Transformation ============
+// ======================== Text Transformation ========================
 .underline {
     text-decoration: underline;
 }
@@ -264,7 +306,7 @@
     font-weight: 500;
 }
 
-// ============ Opacity ============
+// ======================== Opacity ========================
 .opacity-1 {
     opacity: 1;
 }
@@ -277,7 +319,7 @@
     opacity: 0;
 }
 
-// ============ Other ============
+// ======================== Other ========================
 .pointer-ev-none {
     pointer-events: none;
 }

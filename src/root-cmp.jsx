@@ -13,7 +13,7 @@ import { SideNavbar } from './cmps/side-navbar'
 
 
 export function RootCmp() {
-    // TODO: in styling, add ALL spacing variable to helpers (padding-inline + start/end, margin, etc...) 
+    // TODO: if I wish to nitpick, reconsider spacing values for "meet-directors" preview
     // TODO: consider adding sizes variable map
 
     // TODO: finish contact-us page

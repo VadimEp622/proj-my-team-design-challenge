@@ -88,8 +88,10 @@ $map-spacing: (
     "88px": 88px,
     "100px": 100px,
     "108px": 108px,
+    "110px": 110px,
     "112px": 112px,
     "120px": 120px,
+    "125px": 125px,
     "140px": 140px,
     "156px": 156px,
     "197px": 197px,
@@ -97,13 +99,14 @@ $map-spacing: (
     "256px": 256px
 );
 
-// ******* Padding *******
+// ************** Padding **************
+// Padding Map
 $map-padding: (
     "0px": map-get($map-spacing, "0px"),
     "20px": map-get($map-spacing, "20px")
 );
 
-// ******* Padding-Inline Map *******
+// Padding-Inline Map
 $map-padding-inline: (
     "0px": map-get($map-spacing, "0px"),
     "24px": map-get($map-spacing, "24px"),
@@ -116,7 +119,17 @@ $map-padding-inline: (
     "156px": map-get($map-spacing, "156px")
 );
 
-// ******* Padding-Block Map *******
+// Padding-Inline-Start Map
+$map-padding-inline-start: (
+    "0px": map-get($map-spacing, "0px")
+);
+
+// Padding-Inline-End Map
+$map-padding-inline-end: (
+    "0px": map-get($map-spacing, "0px")
+);
+
+// Padding-Block Map
 $map-padding-block: (
     "0px": map-get($map-spacing, "0px"),
     "8px": map-get($map-spacing, "8px"),
@@ -131,7 +144,7 @@ $map-padding-block: (
     "140px": map-get($map-spacing, "140px")
 );
 
-// ******* Padding-Block-Start Map *******
+// Padding-Block-Start Map
 $map-padding-block-start: (
     "0px": map-get($map-spacing, "0px"),
     "30px": map-get($map-spacing, "30px"),
@@ -143,7 +156,7 @@ $map-padding-block-start: (
     "58px": map-get($map-spacing, "58px")
 );
 
-// ******* Padding-Block-End Map *******
+// Padding-Block-End Map
 $map-padding-block-end: (
     "0px": map-get($map-spacing, "0px"),
     "56px": map-get($map-spacing, "56px"),
@@ -156,12 +169,38 @@ $map-padding-block-end: (
     "256px": map-get($map-spacing, "256px")
 );
 
-// ******* Margin Map *******
+// ************** Margin **************
+// Margin Map
 $map-margin: (
     "0px": map-get($map-spacing, "0px")
 );
 
-// ******* Margin-Block-Start Map *******
+// Margin-Inline Map
+$map-margin-inline: (
+    "0px": map-get($map-spacing, "0px"),
+    "16px": map-get($map-spacing, "16px"),
+    "60px": map-get($map-spacing, "60px"),
+    "112px": map-get($map-spacing, "112px")
+);
+
+// Margin-Inline-Start Map
+$map-margin-inline-start: (
+    "0px": map-get($map-spacing, "0px")
+);
+
+// Margin-Inline-End Map
+$map-margin-inline-end: (
+    "0px": map-get($map-spacing, "0px"),
+    "110px": map-get($map-spacing, "110px"),
+    "125px": map-get($map-spacing, "125px")
+);
+
+// Margin-Block Map
+$map-margin-block: (
+    "0px": map-get($map-spacing, "0px")
+);
+
+// Margin-Block-Start Map
 $map-margin-block-start: (
     "0px": map-get($map-spacing, "0px"),
     "14px": map-get($map-spacing, "14px"),
@@ -171,7 +210,7 @@ $map-margin-block-start: (
     "64px": map-get($map-spacing, "64px")
 );
 
-// ******* Margin-Block-End Map *******
+// Margin-Block-End Map
 $map-margin-block-end: (
     "0px": map-get($map-spacing, "0px"),
     "2px": map-get($map-spacing, "2px"),
@@ -184,7 +223,8 @@ $map-margin-block-end: (
     "60px": map-get($map-spacing, "60px")
 );
 
-// ******* Gap Map *******
+// ************** Gap **************
+// Gap Map
 $map-gap: (
     "0px": map-get($map-spacing, "0px"),
     "16px": map-get($map-spacing, "16px"),

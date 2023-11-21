@@ -47,7 +47,7 @@
             & .manage-teams .title {
                 padding-block-start: get-map-value($map-padding-block-start, "32px");
                 padding-block-end: get-map-value($map-padding-block-end, "64px");
-                margin-inline-end: 125px;
+                margin-inline-end: get-map-value($map-margin-inline-end, "125px");
             }
         }
 
@@ -223,7 +223,7 @@
 
             & .manage-teams {
                 & .title {
-                    margin-inline-end: 110px;
+                    margin-inline-end: get-map-value($map-margin-inline-end, "110px");
                     padding-block-end: get-map-value($map-padding-block-end, "56px");
                 }
 
@@ -289,7 +289,7 @@
             }
 
             & .title {
-                margin-inline: 15px;
+                margin-inline: get-map-value($map-margin-inline, "16px");
             }
 
             & .client-examples {
@@ -401,7 +401,7 @@
         }
 
         & .manage-teams-container .manage-teams {
-            margin-inline: 60px;
+            margin-inline: get-map-value($map-margin-inline, "60px");
 
             & .team-quality-list {
                 gap: get-map-value($map-gap, "32px");
@@ -432,7 +432,7 @@
             }
 
             & .about-intro {
-                margin-inline: 110px;
+                margin-inline: get-map-value($map-margin-inline, "112px");
             }
         }
 
@@ -567,7 +567,7 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 125px;
-                margin-inline-end: 0;
+                margin-inline-end: get-map-value($map-margin-inline-end, "0px");
                 min-height: 400px;
 
                 & .title {
