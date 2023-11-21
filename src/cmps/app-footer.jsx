@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 import facebookIcon from "../assets/images/icon-facebook.svg"
 import pinterestIcon from "../assets/images/icon-pinterest.svg"
 import twitterIcon from "../assets/images/icon-twitter.svg"
