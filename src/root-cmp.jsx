@@ -17,7 +17,6 @@ export function RootCmp() {
     // TODO: consider adding sizes variable map
 
     // TODO: finish contact-us page
-    // TODO: fix share links
 
     const [isSideNavbar, setIsSideNavbar] = useState(false)
     const isMobile = useIsMobile()

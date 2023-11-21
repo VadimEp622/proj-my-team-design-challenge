@@ -1,4 +1,4 @@
-// ============ Colors ============
+// ======================== Colors ========================
 @each $colorType, $colors in $map-colors {
     @each $colorName, $colorValue in $colors {
         .clr-#{$colorName} {
@@ -11,7 +11,7 @@
     }
 }
 
-// ============ Font Sizes & Line Heights ============
+// ======================== Font Sizes & Line Heights ========================
 @each $setting in $typography-settings {
     $i: index($typography-settings, $setting);
     .typography-#{$i} {
@@ -19,17 +19,47 @@
     }
 }
 
-// ============ Padding Inline's ============
+// ======================== Padding ========================
+// ******** Padding Inline's ********
 @each $class-name, $padding-inline in $map-padding-inline {
     .pd-in-#{$class-name} {
         padding-inline: $padding-inline;
     }
 }
 
-// ============ Padding Blocks ============
+// ******** Padding Block's ********
 @each $class-name, $padding-block in $map-padding-block {
     .pd-bl-#{$class-name} {
         padding-block: $padding-block;
+    }
+}
+
+// ******** Padding Block Start's ********
+@each $class-name, $padding-block-start in $map-padding-block-start {
+    .pd-bl-st-#{$class-name} {
+        padding-block-start: $padding-block-start;
+    }
+}
+
+// ******** Padding Block End's ********
+@each $class-name, $padding-block-end in $map-padding-block-end {
+    .pd-bl-ed-#{$class-name} {
+        padding-block-end: $padding-block-end;
+    }
+}
+
+// ======================== Margin ========================
+// ******** Margin Block Start's ********
+@each $class-name, $margin-block-start in $map-margin-block-start {
+    .mg-bl-st-#{$class-name} {
+        margin-block-start: $margin-block-start;
+    }
+}
+
+// ******** Margin Block End's ********
+@each $class-name, $margin-block-end in $map-margin-block-end {
+    .mg-bl-ed-#{$class-name} {
+        margin-block-end: $margin-block-end;
     }
 }
 
