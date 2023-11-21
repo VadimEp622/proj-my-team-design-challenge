@@ -81,12 +81,12 @@
 /* =================== Reset =================== */
 @mixin clean-list {
     list-style: none;
-    padding: 0;
+    padding: get-map-value($map-padding, "0px");
     margin: 0;
 }
 
 @mixin clean-btn {
-    padding: 0;
+    padding: get-map-value($map-padding, "0px");
     margin: 0;
     background-color: inherit;
     border: none;

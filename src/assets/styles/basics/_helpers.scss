@@ -20,6 +20,13 @@
 }
 
 // ======================== Padding ========================
+// ******** Padding's ********
+@each $class-name, $padding in $map-padding {
+    .pd-#{$class-name} {
+        padding: $padding;
+    }
+}
+
 // ******** Padding Inline's ********
 @each $class-name, $padding-inline in $map-padding-inline {
     .pd-in-#{$class-name} {

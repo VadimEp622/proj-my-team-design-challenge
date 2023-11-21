@@ -60,6 +60,7 @@ $map-spacing: (
     "8px": 8px,
     "14px": 14px,
     "16px": 16px,
+    "20px": 20px,
     "24px": 24px,
     "25px": 25px,
     "30px": 30px,
@@ -94,6 +95,12 @@ $map-spacing: (
     "197px": 197px,
     "250px": 250px,
     "256px": 256px
+);
+
+// ******* Padding *******
+$map-padding: (
+    "0px": map-get($map-spacing, "0px"),
+    "20px": map-get($map-spacing, "20px")
 );
 
 // ******* Padding-Inline Map *******

@@ -44,7 +44,7 @@
                 & .icon-cross-btn {
                     @include clean-btn;
                     background-color: get-map-value($map-colors, "main-orange", "orange-0");
-                    padding: 20px;
+                    padding: get-map-value($map-padding, "20px");
                     border-radius: $border-radius-circle;
                     transition:
                         background-color 0.2s ease-out,
