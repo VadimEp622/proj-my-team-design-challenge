@@ -156,6 +156,11 @@ $map-padding-block-end: (
     "256px": map-get($map-spacing, "256px")
 );
 
+// ******* Margin Map *******
+$map-margin: (
+    "0px": map-get($map-spacing, "0px")
+);
+
 // ******* Margin-Block-Start Map *******
 $map-margin-block-start: (
     "0px": map-get($map-spacing, "0px"),

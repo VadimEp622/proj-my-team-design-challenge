@@ -11,7 +11,7 @@ html {
 body {
     font-size: rem(14px);
     color: lighten(get-map-value($map-colors, "pure", "black"), 15%);
-    margin: 0;
+    margin: get-map-value($map-margin, "0px");
 }
 
 .app {
@@ -32,18 +32,18 @@ h4,
 h5,
 h6 {
     font-weight: 700;
-    margin: 0;
+    margin: get-map-value($map-margin, "0px");
 }
 
 p {
     font-weight: 600;
-    margin: 0;
+    margin: get-map-value($map-margin, "0px");
     padding: get-map-value($map-padding, "0px");
 }
 
 pre {
     font-family: Livvic;
-    margin: 0;
+    margin: get-map-value($map-margin, "0px");
 }
 
 a {

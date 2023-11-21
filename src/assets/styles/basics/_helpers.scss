@@ -56,6 +56,13 @@
 }
 
 // ======================== Margin ========================
+// ******** Margin's ********
+@each $class-name, $margin in $map-margin {
+    .mg-#{$class-name} {
+        margin: $margin;
+    }
+}
+
 // ******** Margin Block Start's ********
 @each $class-name, $margin-block-start in $map-margin-block-start {
     .mg-bl-st-#{$class-name} {
