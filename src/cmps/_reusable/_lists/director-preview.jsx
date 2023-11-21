@@ -16,13 +16,13 @@ export function DirectorPreview({ director }) {
     }
 
     return (
-        <section className={`director-preview-container${activePreview ? ' active' : ''} pd-in-24px pos-rel bg-clr-teal-2`}>
+        <section className={`director-preview-container${activePreview ? ' active' : ''} pd-in-24px pd-bl-st-30px pd-bl-ed-56px pos-rel bg-clr-teal-2`}>
             <section className="director-preview pos-rel">
                 <section className="avatar"><img src={director.img} alt="avatarNikita" /></section>
-                <h2 className="name typography-4 clr-teal-4">{director.name}</h2>
-                <section className="quote-share-container">
+                <h2 className="name typography-4 clr-teal-4 mg-bl-st-14px">{director.name}</h2>
+                <section className="quote-share-container mg-bl-st-8px">
                     <p className="quote typography-5">{director.quote}</p>
-                    <nav className="share justify-center">
+                    <nav className="share justify-center mg-bl-st-24px">
                         <a href={shareService.getTwitterUrl()} target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="twitterIcon" /></a>
                         <a href={shareService.getLinkedinUrl()} target="_blank" rel="noopener noreferrer"><img src={linkedInIcon} alt="linkedInIcon" /></a>
                     </nav>

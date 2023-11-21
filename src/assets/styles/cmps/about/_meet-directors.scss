@@ -1,84 +1,76 @@
 .meet-directors-container {
-    & .meet-directors .director-list {
-        & .director-preview-container {
-            padding-block-start: get-map-value($map-padding-block-start, "30px");
-            padding-block-end: get-map-value($map-padding-block-end, "56px");
+    & .director-preview-container {
+        & .director-preview {
+            transition: background-color 0.2s ease;
 
-            & .director-preview {
-                transition: background-color 0.2s ease;
+            & .avatar {
+                @include avatar($size-pic-avatar-large);
+                opacity: 1;
+                transition: opacity 0.2s ease;
+            }
 
-                & .avatar {
-                    @include avatar($size-pic-avatar-large);
-                    opacity: 1;
-                    transition: opacity 0.2s ease;
-                }
+            & .name {
+                transition: transform 0.2s ease;
+            }
 
-                & .name {
-                    margin-block-start: get-map-value($map-margin-block-start, "14px");
-                    transition: transform 0.2s ease;
-                }
+            & .quote-share-container {
+                position: absolute;
+                opacity: 0;
+                transition:
+                    opacity 0.2s ease,
+                    transform 0.2s ease;
 
-                & .quote-share-container {
-                    position: absolute;
-                    margin-block-start: 8px;
-                    opacity: 0;
-                    transition:
-                        opacity 0.2s ease,
-                        transform 0.2s ease;
-
-                    & .share {
-                        @include nav-share($size: $size-pic-icon-share-small);
-                        justify-content: center;
-                        margin-block-start: 24px;
-                    }
-                }
-
-                & .position {
-                    opacity: 1;
-                    transition: opacity 0.2s ease;
-                    pointer-events: none;
+                & .share {
+                    @include nav-share($size: $size-pic-icon-share-small);
+                    justify-content: center;
                 }
             }
 
-            & .icon-cross-btn-container {
-                & .icon-cross-btn {
-                    @include clean-btn;
-                    background-color: get-map-value($map-colors, "main-orange", "orange-0");
-                    padding: get-map-value($map-padding, "20px");
-                    border-radius: $border-radius-circle;
-                    transition:
-                        background-color 0.2s ease-out,
-                        transform 0.2s ease;
-
-                    &:hover {
-                        background-color: get-map-value($map-colors, "main-teal", "teal-4");
-                        cursor: pointer;
-                    }
-                }
+            & .position {
+                opacity: 1;
+                transition: opacity 0.2s ease;
+                pointer-events: none;
             }
+        }
 
-            &.active {
-                background-color: get-map-value($map-colors, "main-teal", "teal-1");
+        & .icon-cross-btn-container {
+            & .icon-cross-btn {
+                @include clean-btn;
+                background-color: get-map-value($map-colors, "main-orange", "orange-0");
+                padding: get-map-value($map-padding, "20px");
+                border-radius: $border-radius-circle;
+                transition:
+                    background-color 0.2s ease-out,
+                    transform 0.2s ease;
 
-                & :is(.avatar, .position) {
-                    opacity: 0;
-                }
-
-                & :is(.name, .quote-share-container) {
-                    transform: translateY(-105px);
-                }
-
-                & .quote-share-container {
-                    opacity: 1;
-                }
-
-                & .icon-cross-btn {
-                    transform: rotate(45deg);
+                &:hover {
                     background-color: get-map-value($map-colors, "main-teal", "teal-4");
+                    cursor: pointer;
+                }
+            }
+        }
 
-                    &:hover {
-                        background-color: get-map-value($map-colors, "main-orange", "orange-0");
-                    }
+        &.active {
+            background-color: get-map-value($map-colors, "main-teal", "teal-1");
+
+            & :is(.avatar, .position) {
+                opacity: 0;
+            }
+
+            & :is(.name, .quote-share-container) {
+                transform: translateY(-109px);
+            }
+
+            & .quote-share-container {
+                opacity: 1;
+            }
+
+            & .icon-cross-btn {
+                transform: rotate(45deg);
+                background-color: get-map-value($map-colors, "main-teal", "teal-4");
+
+                &:hover {
+                    background-color: get-map-value($map-colors, "main-orange", "orange-0");
                 }
             }
         }

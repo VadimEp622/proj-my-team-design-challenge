@@ -203,7 +203,9 @@ $map-margin-block: (
 // Margin-Block-Start Map
 $map-margin-block-start: (
     "0px": map-get($map-spacing, "0px"),
+    "8px": map-get($map-spacing, "8px"),
     "14px": map-get($map-spacing, "14px"),
+    "24px": map-get($map-spacing, "24px"),
     "36px": map-get($map-spacing, "36px"),
     "48px": map-get($map-spacing, "48px"),
     "52px": map-get($map-spacing, "52px"),
