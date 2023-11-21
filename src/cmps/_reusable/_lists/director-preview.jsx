@@ -20,14 +20,14 @@ export function DirectorPreview({ director }) {
             <section className="director-preview pos-rel">
                 <section className="avatar"><img src={director.img} alt="avatarNikita" /></section>
                 <h2 className="name typography-4 clr-teal-4 mg-bl-st-14px">{director.name}</h2>
-                <section className="quote-share-container mg-bl-st-8px">
+                <section className="quote-share-container pos-abs mg-bl-st-8px">
                     <p className="quote typography-5">{director.quote}</p>
                     <nav className="share justify-center mg-bl-st-24px">
                         <a href={shareService.getTwitterUrl()} target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="twitterIcon" /></a>
                         <a href={shareService.getLinkedinUrl()} target="_blank" rel="noopener noreferrer"><img src={linkedInIcon} alt="linkedInIcon" /></a>
                     </nav>
                 </section>
-                <p className="position typography-5 italic">{director.position}</p>
+                <p className="position typography-5 italic pointer-ev-none">{director.position}</p>
             </section>
             <section className="icon-cross-btn-container flex justify-center width-100-percent pos-abs left-0 bottom-neg-28px">
                 <button className="icon-cross-btn" onClick={(ev) => onClickPreview(ev)}>
