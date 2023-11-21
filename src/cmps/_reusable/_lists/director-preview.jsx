@@ -1,9 +1,9 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
 
 import iconCross from "../../../assets/images/icon-cross.svg"
 import twitterIcon from "../../../assets/images/icon-twitter.svg"
 import linkedInIcon from "../../../assets/images/icon-linkedin.svg"
+import { shareService } from "../../../services/share.service"
 
 
 export function DirectorPreview({ director }) {
@@ -23,8 +23,8 @@ export function DirectorPreview({ director }) {
                 <section className="quote-share-container">
                     <p className="quote typography-5">{director.quote}</p>
                     <nav className="share justify-center">
-                        <Link to={`/share`}><img src={twitterIcon} alt="twitterIcon" /></Link>
-                        <Link to={`/share`}><img src={linkedInIcon} alt="linkedInIcon" /></Link>
+                        <a href={shareService.getTwitterUrl()} target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="twitterIcon" /></a>
+                        <a href={shareService.getLinkedinUrl()} target="_blank" rel="noopener noreferrer"><img src={linkedInIcon} alt="linkedInIcon" /></a>
                     </nav>
                 </section>
                 <p className="position typography-5 italic">{director.position}</p>

@@ -31,8 +31,7 @@ export function AppFooter() {
                     <nav>
                         <a href={shareService.getFacebookUrl()} target="_blank" rel="noopener noreferrer"><img src={facebookIcon} alt="facebookIcon" /></a>
                         <a href={shareService.getPinterestUrl()} target="_blank" rel="noopener noreferrer"><img src={pinterestIcon} alt="pinterestIcon" /></a>
-                        {/* <Link to={`/share`}><img src={pinterestIcon} alt="pinterestIcon" /></Link> */}
-                        <Link to={`/share`}><img src={twitterIcon} alt="twitterIcon" /></Link>
+                        <a href={shareService.getTwitterUrl()} target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="twitterIcon" /></a>
                     </nav>
                     <section className="copyright typography-5">
                         <p>Copyright 2023. All Rights Reserved</p>

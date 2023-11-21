@@ -1,6 +1,8 @@
 const shareData = {
     url: encodeURIComponent("https://vadimep622.github.io/proj-my-team-design-challenge"),
-    description: encodeURIComponent("Hi, this is a private presentation project called my-team. It was made following instructions on a canvas design file using Figma & Lunacy. Project was created using React.js + SCSS")
+    title: encodeURIComponent("my-team"),
+    description: encodeURIComponent("Hi, this is a private presentation project called my-team. It was made following instructions on a canvas design file using Figma & Lunacy. Project was created using React.js + SCSS"),
+    hashtags: 'myteam,display_project,react,figma,lunacy'
 }
 
 export const shareService = {
@@ -19,11 +21,11 @@ function getPinterestUrl() {
 }
 
 function getTwitterUrl() {
-    return `https://twitter.com/share?url=${shareData.url}&text=[post-title]&via=[via]&hashtags=[hashtags]`
+    return `https://twitter.com/share?url=${shareData.url}&text=${shareData.description}&hashtags=${shareData.hashtags}`
 }
 
 function getLinkedinUrl() {
-    return `https://www.linkedin.com/shareArticle?url=${shareData.url}&title=[post-title]`
+    return `https://www.linkedin.com/shareArticle?url=${shareData.url}&title=${shareData.title}`
 }
 
 
