@@ -9,21 +9,11 @@
         }
     }
 
-    & .success-stories {
-        & .success-story-preview {
-            z-index: 0;
+    & .success-story-preview {
+        z-index: 0;
 
-            & p {
-                margin-block-start: get-map-value($map-margin-block-start, "36px");
-            }
-
-            & h3 {
-                margin-block-end: get-map-value($map-margin-block-end, "2px");
-            }
-
-            & .avatar-pic {
-                @include avatar($size-pic-avatar-small);
-            }
+        & .avatar-pic {
+            @include avatar($size-pic-avatar-small);
         }
     }
 }
