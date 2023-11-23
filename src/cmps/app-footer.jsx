@@ -27,9 +27,9 @@ export function AppFooter() {
 
                 <section className="share-copyright-container full flex">
                     <nav>
-                        <a href={shareService.getFacebookUrl()} target="_blank" rel="noopener noreferrer"><img src={facebookIcon} alt="facebookIcon" /></a>
-                        <a href={shareService.getPinterestUrl()} target="_blank" rel="noopener noreferrer"><img src={pinterestIcon} alt="pinterestIcon" /></a>
-                        <a href={shareService.getTwitterUrl()} target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="twitterIcon" /></a>
+                        <a href={shareService.getFacebookUrl()} data-testid="link-facebook" target="_blank" rel="noopener noreferrer"><img src={facebookIcon} alt="facebookIcon" /></a>
+                        <a href={shareService.getPinterestUrl()} data-testid="link-pinterest" target="_blank" rel="noopener noreferrer"><img src={pinterestIcon} alt="pinterestIcon" /></a>
+                        <a href={shareService.getTwitterUrl()} data-testid="link-twitter" target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="twitterIcon" /></a>
                     </nav>
                     <section className="copyright typography-5">
                         <p>Copyright 2023. All Rights Reserved</p>

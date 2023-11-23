@@ -2,7 +2,7 @@ const shareData = {
     url: encodeURIComponent("https://vadimep622.github.io/proj-my-team-design-challenge"),
     title: encodeURIComponent("my-team"),
     description: encodeURIComponent("Hi, this is a private presentation project called my-team. It was made following instructions on a canvas design file using Figma & Lunacy. Project was created using React.js + SCSS"),
-    hashtags: 'myteam,display_project,react,figma,lunacy'
+    hashtags: encodeURIComponent('myteam,display_project,react,figma,lunacy')
 }
 
 export const shareService = {
