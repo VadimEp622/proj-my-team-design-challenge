@@ -99,3 +99,21 @@ export const successStories = [
         imgName: 'avatar-arthur'
     }
 ]
+
+export const askUsItems = [
+    {
+        img: require('../assets/images/icon-person.svg').default,
+        imgAlt: 'icon-person',
+        text: 'The quality of our talent network'
+    },
+    {
+        img: require('../assets/images/icon-cog.svg').default,
+        imgAlt: 'icon-cog',
+        text: 'Usage & implementation of our software'
+    },
+    {
+        img: require('../assets/images/icon-chart.svg').default,
+        imgAlt: 'icon-chart',
+        text: 'How we help drive innovation'
+    }
+]
