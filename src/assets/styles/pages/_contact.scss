@@ -1,3 +1,7 @@
 .contact-page {
-    color: get-map-value($map-colors, "pure", "black");
+    color: get-map-value($map-colors, "pure", "white");
+
+    & .contact-container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
