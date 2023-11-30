@@ -62,6 +62,7 @@ $map-spacing: (
     "14px": 14px,
     "16px": 16px,
     "20px": 20px,
+    "23px": 23px,
     "24px": 24px,
     "25px": 25px,
     "30px": 30px,
@@ -69,6 +70,7 @@ $map-spacing: (
     "31-5px": 31.5px,
     "32px": 32px,
     "36px": 36px,
+    "40px": 40px,
     "41px": 41px,
     "44px": 44px,
     "46px": 46px,
@@ -91,6 +93,7 @@ $map-spacing: (
     "108px": 108px,
     "110px": 110px,
     "112px": 112px,
+    "113px": 113px,
     "120px": 120px,
     "125px": 125px,
     "140px": 140px,
@@ -162,6 +165,7 @@ $map-padding-block-end: (
     "0px": map-get($map-spacing, "0px"),
     "56px": map-get($map-spacing, "56px"),
     "64px": map-get($map-spacing, "64px"),
+    "88px": map-get($map-spacing, "88px"),
     "108px": map-get($map-spacing, "108px"),
     "112px": map-get($map-spacing, "112px"),
     "120px": map-get($map-spacing, "120px"),
@@ -179,9 +183,11 @@ $map-margin: (
 // Margin-Inline Map
 $map-margin-inline: (
     "0px": map-get($map-spacing, "0px"),
+    "14px": map-get($map-spacing, "14px"),
     "16px": map-get($map-spacing, "16px"),
     "60px": map-get($map-spacing, "60px"),
-    "112px": map-get($map-spacing, "112px")
+    "112px": map-get($map-spacing, "112px"),
+    "113px": map-get($map-spacing, "113px")
 );
 
 // Margin-Inline-Start Map
@@ -221,6 +227,8 @@ $map-margin-block-end: (
     "16px": map-get($map-spacing, "16px"),
     "24px": map-get($map-spacing, "24px"),
     "30px": map-get($map-spacing, "30px"),
+    "32px": map-get($map-spacing, "32px"),
+    "40px": map-get($map-spacing, "40px"),
     "48px": map-get($map-spacing, "48px"),
     "56px": map-get($map-spacing, "56px"),
     "60px": map-get($map-spacing, "60px")
@@ -230,7 +238,9 @@ $map-margin-block-end: (
 // Gap Map
 $map-gap: (
     "0px": map-get($map-spacing, "0px"),
+    "8px": map-get($map-spacing, "8px"),
     "16px": map-get($map-spacing, "16px"),
+    "23px": map-get($map-spacing, "23px"),
     "24px": map-get($map-spacing, "24px"),
     "25px": map-get($map-spacing, "25px"),
     "30px": map-get($map-spacing, "30px"),
@@ -239,7 +249,9 @@ $map-gap: (
     "46px": map-get($map-spacing, "46px"),
     "48px": map-get($map-spacing, "48px"),
     "49px": map-get($map-spacing, "49px"),
+    "56px": map-get($map-spacing, "56px"),
     "57px": map-get($map-spacing, "57px"),
+    "64px": map-get($map-spacing, "64px"),
     "80px": map-get($map-spacing, "80px")
 );
 
