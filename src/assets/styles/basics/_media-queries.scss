@@ -141,6 +141,16 @@
         }
     }
 
+    .contact-page {
+        & .contact-container {
+            & .ask-us-container {
+                & h1 {
+                    @include typography(2);
+                }
+            }
+        }
+    }
+
     header {
         & .app-header-container {
             padding-block: get-map-value($map-padding-block, "64px");
@@ -305,6 +315,16 @@
                         flex: 1 1 auto;
                         min-height: 0;
                     }
+                }
+            }
+        }
+    }
+
+    .contact-page {
+        & .contact-container {
+            & .ask-us-container {
+                & h1 {
+                    @include typography(7);
                 }
             }
         }
@@ -675,6 +695,16 @@
                     & .client-preview {
                         height: 45px;
                     }
+                }
+            }
+        }
+    }
+
+    .contact-page {
+        & .contact-container {
+            & .ask-us-container {
+                & h1 {
+                    @include typography(10);
                 }
             }
         }

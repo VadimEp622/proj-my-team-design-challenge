@@ -7,7 +7,7 @@ export function Contact() {
             <section className="contact-container grid">
                 <section className="ask-us-container">
                     <h1>Contact</h1>
-                    <h2 className="clr-orange-0">Ask us about</h2>
+                    <h2 className="clr-orange-0 typography-11">Ask us about</h2>
                     <AskUsList />
                 </section>
 
