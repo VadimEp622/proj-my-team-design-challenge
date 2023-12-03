@@ -6,6 +6,13 @@
     }
 
     & .contact-us-field {
+        &.error {
+            & input {
+                color: get-map-value($map-colors, "main-orange", "orange-0");
+                border-bottom-color: get-map-value($map-colors, "main-orange", "orange-0");
+            }
+        }
+
         & input {
             @include clean-btn;
             outline: none;
@@ -32,16 +39,9 @@
                 border-bottom-color: get-map-value($map-colors, "main-teal", "teal-4");
             }
         }
-        
+
         & span {
             color: get-map-value($map-colors, "main-orange", "orange-0");
-        }
-
-        &.error {
-            & input {
-                color: get-map-value($map-colors, "main-orange", "orange-0");
-                border-bottom-color: get-map-value($map-colors, "main-orange", "orange-0");
-            }
         }
     }
 }
