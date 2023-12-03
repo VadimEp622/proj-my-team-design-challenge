@@ -1,0 +1,47 @@
+.contact-us-form {
+    & .contact-us-field input {
+        @include typography(5);
+        font-weight: 600;
+        font-family: Livvic;
+    }
+
+    & .contact-us-field {
+        & input {
+            @include clean-btn;
+            outline: none;
+            color: get-map-value($map-colors, "pure", "white");
+            width: 100%;
+            border-bottom: 1px solid get-map-value($map-colors, "pure", "white");
+            padding-inline-start: 14px;
+            padding-block-end: 16px;
+
+            &::placeholder {
+                opacity: 1;
+            }
+
+            &:focus {
+                &::placeholder {
+                    opacity: 0;
+                }
+
+                border-bottom-color: get-map-value($map-colors, "main-teal", "teal-4");
+            }
+
+            &:hover {
+                cursor: pointer;
+                border-bottom-color: get-map-value($map-colors, "main-teal", "teal-4");
+            }
+        }
+        
+        & span {
+            color: get-map-value($map-colors, "main-orange", "orange-0");
+        }
+
+        &.error {
+            & input {
+                color: get-map-value($map-colors, "main-orange", "orange-0");
+                border-bottom-color: get-map-value($map-colors, "main-orange", "orange-0");
+            }
+        }
+    }
+}

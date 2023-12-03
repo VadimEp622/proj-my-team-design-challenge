@@ -1,4 +1,4 @@
-import { FormContactUs } from "../_reusable/_forms/form-contact-us"
+import { ContactUsForm } from "../_reusable/_forms/contact-us-form"
 import { AskUsList } from "../_reusable/_lists/ask-us-list"
 
 export function ContactUs() {
@@ -12,7 +12,7 @@ export function ContactUs() {
                     <AskUsList />
                 </section>
 
-                <FormContactUs />
+                <ContactUsForm />
             </section>
         </section>
     )

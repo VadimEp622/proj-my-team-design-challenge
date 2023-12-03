@@ -192,7 +192,8 @@ $map-margin-inline: (
 
 // Margin-Inline-Start Map
 $map-margin-inline-start: (
-    "0px": map-get($map-spacing, "0px")
+    "0px": map-get($map-spacing, "0px"),
+    "14px": map-get($map-spacing, "14px")
 );
 
 // Margin-Inline-End Map
