@@ -142,24 +142,28 @@
     }
 
     .contact-page {
-        padding-block-start: get-map-value($map-padding-block-start, "48px");
-        padding-block-end: get-map-value($map-padding-block-end, "112px");
+        & .contact-us-container {
+            padding-block-start: get-map-value($map-padding-block-start, "48px");
+            padding-block-end: get-map-value($map-padding-block-end, "112px");
 
-        & .contact-container {
-            & .ask-us-container {
-                & h1 {
-                    @include typography(2);
+            & .contact-us {
+                & .ask-us-container {
+                    & h1 {
+                        @include typography(2);
+                    }
                 }
             }
         }
 
-        & .contact-container {
-            gap: get-map-value($map-gap, "64px");
+        & .contact-us-container {
+            & .contact-us {
+                gap: get-map-value($map-gap, "64px");
 
-            & .ask-us-container {
-                & :is(h1, h2) {
-                    margin-block-end: get-map-value($map-margin-block-end, "24px");
-                    text-align: center;
+                & .ask-us-container {
+                    & :is(h1, h2) {
+                        margin-block-end: get-map-value($map-margin-block-end, "24px");
+                        text-align: center;
+                    }
                 }
             }
         }
@@ -203,7 +207,7 @@
                     }
                 }
 
-                & .contact-container {
+                & .contact-us-container .contact-us {
                     align-items: flex-end;
                 }
             }
@@ -335,31 +339,33 @@
     }
 
     .contact-page {
-        padding-block-start: get-map-value($map-padding-block-start, "32px");
-        padding-block-end: get-map-value($map-padding-block-end, "88px");
+        & .contact-us-container {
+            padding-block-start: get-map-value($map-padding-block-start, "32px");
+            padding-block-end: get-map-value($map-padding-block-end, "88px");
 
-        & .contact-container {
-            & .ask-us-container {
-                & h1 {
-                    @include typography(7);
+            & .contact-us {
+                & .ask-us-container {
+                    & h1 {
+                        @include typography(7);
+                    }
                 }
             }
-        }
 
-        & .contact-container {
-            gap: get-map-value($map-gap, "56px");
+            & .contact-us {
+                gap: get-map-value($map-gap, "56px");
 
-            & .ask-us-container {
-                & h1 {
-                    margin-block-end: get-map-value($map-margin-block-end, "16px");
-                }
+                & .ask-us-container {
+                    & h1 {
+                        margin-block-end: get-map-value($map-margin-block-end, "16px");
+                    }
 
-                & h2 {
-                    margin-block-end: get-map-value($map-margin-block-end, "40px");
-                }
+                    & h2 {
+                        margin-block-end: get-map-value($map-margin-block-end, "40px");
+                    }
 
-                & .ask-us-list {
-                    gap: get-map-value($map-gap, "24px");
+                    & .ask-us-list {
+                        gap: get-map-value($map-gap, "24px");
+                    }
                 }
             }
         }
@@ -399,7 +405,7 @@
                     gap: 24px;
                 }
 
-                & .contact-container {
+                & .contact-us-container {
                     align-items: center;
                 }
             }
@@ -511,14 +517,16 @@
     }
 
     .contact-page {
-        & .contact-container {
-            margin-inline: get-map-value($map-margin-inline, "113px");
+        & .contact-us-container {
+            & .contact-us {
+                margin-inline: get-map-value($map-margin-inline, "113px");
 
-            & .ask-us-container {
-                margin-inline: get-map-value($map-margin-inline, "14px");
+                & .ask-us-container {
+                    margin-inline: get-map-value($map-margin-inline, "14px");
 
-                & .ask-us-list {
-                    gap: get-map-value($map-gap, "8px");
+                    & .ask-us-list {
+                        gap: get-map-value($map-gap, "8px");
+                    }
                 }
             }
         }
@@ -750,31 +758,33 @@
     }
 
     .contact-page {
-        padding-block-start: get-map-value($map-padding-block-start, "47px");
-        padding-block-end: get-map-value($map-padding-block-end, "120px");
+        & .contact-us-container {
+            padding-block-start: get-map-value($map-padding-block-start, "47px");
+            padding-block-end: get-map-value($map-padding-block-end, "120px");
 
-        & .contact-container {
-            & .ask-us-container {
-                & h1 {
-                    @include typography(10);
+            & .contact-us {
+                & .ask-us-container {
+                    & h1 {
+                        @include typography(10);
+                    }
                 }
             }
-        }
 
-        & .contact-container {
-            grid-template-columns: 1fr 1fr;
-            gap: get-map-value($map-gap, "30px");
-            margin-inline: get-map-value($map-margin-inline, "0px");
-
-            & .ask-us-container {
+            & .contact-us {
+                grid-template-columns: 1fr 1fr;
+                gap: get-map-value($map-gap, "30px");
                 margin-inline: get-map-value($map-margin-inline, "0px");
 
-                & h1 {
-                    margin-block-end: get-map-value($map-margin-block-end, "16px");
-                }
+                & .ask-us-container {
+                    margin-inline: get-map-value($map-margin-inline, "0px");
 
-                & h2 {
-                    margin-block-end: get-map-value($map-margin-block-end, "32px");
+                    & h1 {
+                        margin-block-end: get-map-value($map-margin-block-end, "16px");
+                    }
+
+                    & h2 {
+                        margin-block-end: get-map-value($map-margin-block-end, "32px");
+                    }
                 }
             }
         }
