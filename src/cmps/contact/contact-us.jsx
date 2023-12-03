@@ -1,3 +1,4 @@
+import { FormContactUs } from "../_reusable/_forms/form-contact-us"
 import { AskUsList } from "../_reusable/_lists/ask-us-list"
 
 export function ContactUs() {
@@ -11,10 +12,7 @@ export function ContactUs() {
                     <AskUsList />
                 </section>
 
-                <section className="contact-form">
-                    <label className="display-block" htmlFor="name">Name</label>
-                    <input className="width-100-percent" type="text" id="name" />
-                </section>
+                <FormContactUs />
             </section>
         </section>
     )
