@@ -11,12 +11,9 @@ import { AppFooter } from './cmps/app-footer'
 import { SideNavbar } from './cmps/side-navbar'
 
 
-
 export function RootCmp() {
-    // TODO: if I wish to nitpick, reconsider spacing values for "meet-directors" preview
-    // TODO: consider adding sizes variable map
-
-    // TODO: finish contact-us page
+    // TODO: make reusable cmp for background-pattern
+    // TODO: make variables for left: -100px, etc.. spacings, and width/height sizes
 
     const [isSideNavbar, setIsSideNavbar] = useState(false)
     const isMobile = useIsMobile()
