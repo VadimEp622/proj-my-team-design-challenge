@@ -771,7 +771,7 @@
             }
 
             & .contact-us {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 50% 50%;
                 gap: get-map-value($map-gap, "30px");
                 margin-inline: get-map-value($map-margin-inline, "0px");
 

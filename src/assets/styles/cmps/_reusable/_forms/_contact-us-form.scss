@@ -1,5 +1,5 @@
 .contact-us-form {
-    & .contact-us-field input {
+    & .contact-us-field :is(input, textarea) {
         @include typography(5);
         font-weight: 600;
         font-family: Livvic;
@@ -7,16 +7,18 @@
 
     & .contact-us-field {
         &.error {
-            & input {
+            & :is(input, textarea) {
                 color: get-map-value($map-colors, "main-orange", "orange-0");
                 border-bottom-color: get-map-value($map-colors, "main-orange", "orange-0");
             }
         }
 
-        & input {
+        & :is(input, textarea) {
             @include clean-btn;
+            display: block;
             outline: none;
             color: get-map-value($map-colors, "pure", "white");
+            min-width: 0;
             width: 100%;
             border-bottom: 1px solid get-map-value($map-colors, "pure", "white");
             padding-inline-start: 14px;
@@ -40,8 +42,24 @@
             }
         }
 
-        & span {
+        & .err-msg {
             color: get-map-value($map-colors, "main-orange", "orange-0");
+        }
+    }
+
+    & .submit-btn {
+        @include clean-btn;
+        background-color: get-map-value($map-colors, "pure", "white");
+        border-radius: $border-radius-0;
+        color: get-map-value($map-colors, "main-teal", "teal-3");
+        transition: background-color .2s ease-in-out;
+
+        &:not(:disabled):hover {
+            background-color: get-map-value($map-colors, "main-teal", "teal-4");
+        }
+
+        &:disabled{
+            opacity: 0.25;
         }
     }
 }

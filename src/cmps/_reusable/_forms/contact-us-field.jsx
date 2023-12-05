@@ -4,8 +4,9 @@ export function ContactUsField({ input, meta, ...rest }) {
 
     return (
         <section className={`contact-us-field${isError} mg-bl-ed-24px`}>
-            <input {...input} type="text" placeholder={rest.placeholder} />
-            {meta.error && meta.touched && <span className="display-block mg-in-st-14px mg-bl-st-8px italic">{meta.error}</span>}
+            {rest.componentType === 'input' && <input {...input} placeholder={rest.placeholder} />}
+            {rest.componentType === 'textarea' && <textarea {...input} placeholder={rest.placeholder} />}
+            {meta.error && meta.touched && <span className="err-msg display-block mg-in-st-14px mg-bl-st-8px italic">{meta.error}</span>}
         </section>
     )
 }

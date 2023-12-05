@@ -59,6 +59,7 @@ $map-spacing: (
     "0px": 0px,
     "2px": 2px,
     "8px": 8px,
+    "10px": 10px,
     "14px": 14px,
     "16px": 16px,
     "20px": 20px,
@@ -116,6 +117,7 @@ $map-padding-inline: (
     "24px": map-get($map-spacing, "24px"),
     "30-5px": map-get($map-spacing, "30-5px"),
     "31-5px": map-get($map-spacing, "31-5px"),
+    "32px": map-get($map-spacing, "32px"),
     "50px": map-get($map-spacing, "50px"),
     "60px": map-get($map-spacing, "60px"),
     "80px": map-get($map-spacing, "80px"),
@@ -137,6 +139,7 @@ $map-padding-inline-end: (
 $map-padding-block: (
     "0px": map-get($map-spacing, "0px"),
     "8px": map-get($map-spacing, "8px"),
+    "10px": map-get($map-spacing, "10px"),
     "48px": map-get($map-spacing, "48px"),
     "56px": map-get($map-spacing, "56px"),
     "64px": map-get($map-spacing, "64px"),
