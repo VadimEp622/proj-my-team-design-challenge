@@ -1,10 +1,11 @@
 import { useContext } from "react"
-import { Link } from "react-router-dom/dist"
+
 
 import iconHamburger from "../assets/images/icon-hamburger.svg"
 import { Context } from "../context"
 import { Logo } from "./_reusable/logo"
 import { MainNav } from "./_reusable/main-nav"
+import { Link } from "react-router-dom"
 
 
 export function AppHeader() {
