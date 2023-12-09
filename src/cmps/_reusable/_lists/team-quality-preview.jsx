@@ -1,3 +1,18 @@
+/**
+ * @typedef {object} TeamQuality
+ * @property {string} title - A team quality's title
+ * @property {string} content - A team quality's content
+ * @property {string} img - A team quality's picture
+ * @property {string} imgName - A team quality's picture name
+ */
+
+/**
+ * Component for previewing a director
+ * 
+ * @component
+ * @param {{teamQuality:TeamQuality }} props - The props for the component.
+ */
+
 export function TeamQualityPreview({ teamQuality }) {
 
     return (

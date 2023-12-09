@@ -5,7 +5,20 @@ import twitterIcon from "../../../assets/images/icon-twitter.svg"
 import linkedInIcon from "../../../assets/images/icon-linkedin.svg"
 import { shareService } from "../../../services/share.service"
 
+/**
+ * @typedef {object} Director
+ * @property {string} name - name of director
+ * @property {string} position - official position of director in company
+ * @property {string} quote - a quote from the director
+ * @property {string} img - the director's picture
+ */
 
+/**
+ * Component for previewing a director
+ * 
+ * @component
+ * @param {{director:Director }} props - The props for the component.
+ */
 export function DirectorPreview({ director }) {
     const [activePreview, setActivePreview] = useState(false)
 
